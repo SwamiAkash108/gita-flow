@@ -1,3 +1,7 @@
 {
-  "beats": []
+ "beats": [
+  { "name": "Midnight Boom Bap · 76", "synth": "boombap76", "bpm": 76 },
+  { "name": "Vrindavan Nights · 88", "synth": "trap88", "bpm": 88 },
+  { "name": "Seva Step · 100", "synth": "step100", "bpm": 100 }
+ ]
 }
