@@ -59,7 +59,7 @@ function nextUnplayed(fromId) {
 const AE = {
   ctx: null, playing: false, timer: null,
   bpm: 84, startTime: 0, nextBeat: 0, beatIdx: 0,
-  musicBuf: null, musicSrc: null,
+  musicBuf: null, musicSrc: null, pattern: null,
 
   ensure() {
     if (!this.ctx) {
@@ -107,7 +107,13 @@ const AE = {
   scheduler() {
     const spb = 60 / this.bpm;
     while (this.nextBeat < this.ctx.currentTime + 0.25) {
-      this.click(this.nextBeat, this.beatIdx % 4 === 0);
+      const gb = this.beatIdx - 4;              // content beat index; negative = count-in
+      if (gb < 0 || !this.pattern && !this.musicBuf) this.click(this.nextBeat, this.beatIdx % 4 === 0);
+      if (this.pattern && gb >= 0) {
+        const p = gb % 16;
+        for (const e of this.pattern.events)
+          if (Math.floor(e.t) === p) Drums.play(e, this.nextBeat + (e.t - p) * spb, this);
+      }
       this.beatIdx++; this.nextBeat += spb;
     }
   },
@@ -134,6 +140,93 @@ const AE = {
     }
     if (this.musicSrc) { try { this.musicSrc.stop(); } catch (e) {} this.musicSrc = null; }
   },
+};
+
+/* ---------------- built-in drum machine (live-synthesized beats) ---------------- */
+const Drums = {
+  _noise: null,
+  noise(ctx) {
+    if (!this._noise) {
+      const b = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
+      const d = b.getChannelData(0);
+      for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+      this._noise = b;
+    }
+    return this._noise;
+  },
+  _noiseHit(ctx, out, t, hpFreq, dur, gain) {
+    const s = ctx.createBufferSource(); s.buffer = this.noise(ctx);
+    const f = ctx.createBiquadFilter(); f.type = "highpass"; f.frequency.value = hpFreq;
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(gain, t);
+    g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+    s.connect(f); f.connect(g); g.connect(out);
+    s.start(t); s.stop(t + dur + 0.02);
+  },
+  _tone(ctx, out, t, f0, f1, pitchT, dur, gain) {
+    const o = ctx.createOscillator(), g = ctx.createGain();
+    o.frequency.setValueAtTime(f0, t);
+    if (f1 !== f0) o.frequency.exponentialRampToValueAtTime(f1, t + pitchT);
+    g.gain.setValueAtTime(gain, t);
+    g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+    o.connect(g); g.connect(out); o.start(t); o.stop(t + dur + 0.02);
+  },
+  play(e, t, AE) {
+    const ctx = AE.ctx, out = AE.master, v = e.vel == null ? 1 : e.vel;
+    const spb = 60 / AE.bpm;
+    if (e.type === "kick") {
+      this._tone(ctx, out, t, 150, 45, 0.055, 0.24, 0.95 * v);
+      this._noiseHit(ctx, out, t, 4000, 0.018, 0.22 * v);
+    } else if (e.type === "snare") {
+      this._noiseHit(ctx, out, t, 1800, 0.09, 0.7 * v);
+      this._tone(ctx, out, t, 190, 190, 0, 0.06, 0.38 * v);
+    } else if (e.type === "hat") {
+      this._noiseHit(ctx, out, t, 7500, 0.018, 0.24 * v);
+    } else if (e.type === "ohat") {
+      this._noiseHit(ctx, out, t, 7000, 0.22, 0.28 * v);
+    } else if (e.type === "sub") {
+      const o = ctx.createOscillator(), g = ctx.createGain(), dur = (e.d || 1.3) * spb;
+      o.frequency.value = e.f;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.55 * v, t + 0.01);
+      g.gain.setValueAtTime(0.55 * v, t + Math.max(0.02, dur - 0.09));
+      g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+      o.connect(g); g.connect(out); o.start(t); o.stop(t + dur + 0.02);
+    }
+  },
+};
+
+function buildPattern(kind) {
+  const ev = [];
+  const add = (t, type, extra) => ev.push(Object.assign({ t, type }, extra));
+  for (let b = 0; b < 4; b++) {
+    const B = b * 4;
+    if (kind === "boombap76") {
+      add(B, "kick"); add(B + 1.5, "kick");
+      if (b % 2 === 1) add(B + 2.75, "kick");
+      add(B + 1, "snare"); add(B + 3, "snare");
+      for (let k = 0; k < 8; k++) add(B + k / 2 + (k % 2 ? 0.06 : 0), "hat", { vel: k % 2 ? 0.7 : 1 });
+      add(B, "sub", { f: [55, 55, 43.65, 49][b], d: 1.4 });
+    } else if (kind === "trap88") {
+      add(B, "kick"); add(B + 2.5, "kick");
+      add(B + 2, "snare");
+      for (let k = 0; k < 16; k++) add(B + k / 4, "hat", { vel: k % 4 === 0 ? 1 : 0.55 });
+      add(B + 3.5, "ohat");
+      add(B, "sub", { f: [73.42, 58.27, 87.31, 65.41][b], d: 3.6 });
+    } else { // step100
+      add(B, "kick"); add(B + 1.5, "kick"); add(B + 2.75, "kick");
+      add(B + 1, "snare"); add(B + 3, "snare");
+      const steps = b === 3 ? 16 : 8;
+      for (let k = 0; k < steps; k++) add(B + k / (b === 3 ? 4 : 2), "hat", { vel: k % 2 ? 0.65 : 1 });
+      add(B, "sub", { f: [41.2, 41.2, 65.41, 73.42][b], d: 1.3 });
+    }
+  }
+  return { events: ev.sort((a, b2) => a.t - b2.t) };
+}
+const PATTERNS = {
+  boombap76: buildPattern("boombap76"),
+  trap88: buildPattern("trap88"),
+  step100: buildPattern("step100"),
 };
 
 /* ---------------- router ---------------- */
@@ -339,12 +432,17 @@ function addBeatPicker() {
     BEATS.beats.map((b, i) => `<option value="${i}">${esc(b.name)}</option>`).join("");
   sel.onchange = async () => {
     const wasPlaying = AE.playing; AE.stop(); $("#playbtn").textContent = "▶";
+    AE.musicBuf = null; AE.pattern = null;
     if (sel.value === "metronome") {
-      AE.musicBuf = null; setBpm(S.settings.bpm);
+      setBpm(S.settings.bpm);
     } else {
       const b = BEATS.beats[+sel.value];
-      try { await AE.loadMusic(b.file); setBpm(b.bpm || S.settings.bpm); toast(b.name + " loaded"); }
-      catch (e) { toast("could not load beat"); AE.musicBuf = null; }
+      if (b.synth) {
+        AE.pattern = PATTERNS[b.synth]; setBpm(b.bpm || S.settings.bpm); toast(b.name);
+      } else {
+        try { await AE.loadMusic(b.file); setBpm(b.bpm || S.settings.bpm); toast(b.name + " loaded"); }
+        catch (e) { toast("could not load beat"); }
+      }
     }
     if (wasPlaying) startPlay();
   };
