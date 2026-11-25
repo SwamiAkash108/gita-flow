@@ -1,7 +1,11 @@
 # Beats
 
-Drop your own loopable instrumental mp3s into this folder (Artlist tracks work great),
-then list them in `manifest.json` like this:
+Three built-in practice beats ship with the app (Midnight Boom Bap 76,
+Vrindavan Nights 88, Seva Step 100) — synthesized live in your browser by the
+app's drum machine, no files, zero download, always in perfect sync with the ball.
+
+To use your own loopable instrumentals instead (Artlist tracks work great),
+drop the files into this folder and list them in `manifest.json` like this:
 
 ```json
 {
@@ -17,4 +21,7 @@ then list them in `manifest.json` like this:
   If you don't know the BPM, set it to 0: the beat plays but the ball
   follows your manual BPM instead (use the TAP button).
 - Pick the beat in the trainer with the little selector next to the BPM.
-- Until you add beats, the built-in metronome click keeps time.
+- WAV loops seamlessly; mp3/ogg can add a tiny gap at the loop point.
+- The metronome click is always available as the first option.
+- `make_beats.py` (not shipped) can render the built-in patterns to WAV if you
+  ever want them as files.
