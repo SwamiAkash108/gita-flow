@@ -12,22 +12,25 @@ const store = {
   },
   save(s) { localStorage.setItem(LS_KEY, JSON.stringify(s)); },
 };
-let S = Object.assign({ verses: {}, settings: { bpm: 84, fill: "all", scheme: "off", beat: "metronome" } }, store.load());
-S.settings = Object.assign({ bpm: 84, fill: "all", scheme: "off", beat: "metronome" }, S.settings);
+let S = Object.assign({ verses: {}, settings: { bpm: 84, fill: "all", scheme: "off", beat: "metronome", flowLang: "en", flowFill: "all", flowScheme: "off" } }, store.load());
+S.settings = Object.assign({ bpm: 84, fill: "all", scheme: "off", beat: "metronome", flowLang: "en", flowFill: "all", flowScheme: "off" }, S.settings);
 const persist = () => store.save(S);
 const todayNum = () => Math.floor(Date.now() / 86400000);
 const INTERVALS = { 1: 1, 2: 2, 3: 4, 4: 7, 5: 15 }; // days until due, by new level
 
 /* ---------------- data ---------------- */
-let DATA = null, VERSES = [], BY_ID = {}, BEATS = { beats: [] };
+let DATA = null, VERSES = [], BY_ID = {}, BEATS = { beats: [] }, WORDS = { en: [], it: [] }, WORDIDX = { en: {}, it: {} };
 async function loadData() {
-  const [v, b] = await Promise.all([
+  const [v, b, w] = await Promise.all([
     fetch("verses.json").then(r => r.json()),
     fetch("beats/manifest.json").then(r => r.json()).catch(() => ({ beats: [] })),
+    fetch("words.json").then(r => r.json()).catch(() => ({ en: [], it: [] })),
   ]);
   DATA = v; VERSES = v.verses;
   VERSES.forEach(x => BY_ID[x.id] = x);
   BEATS = b || { beats: [] };
+  WORDS = w || { en: [], it: [] };
+  for (const lg of ["en", "it"]) (WORDS[lg] || []).forEach(e => WORDIDX[lg][e[0]] = e[1]);
 }
 
 /* ---------------- utils ---------------- */
@@ -213,6 +216,32 @@ function buildPattern(kind) {
       for (let k = 0; k < 16; k++) add(B + k / 4, "hat", { vel: k % 4 === 0 ? 1 : 0.55 });
       add(B + 3.5, "ohat");
       add(B, "sub", { f: [73.42, 58.27, 87.31, 65.41][b], d: 3.6 });
+    } else if (kind === "lofi70") {
+      add(B, "kick"); add(B + 2, "kick");
+      add(B + 1, "snare", { vel: 0.85 }); add(B + 3, "snare", { vel: 0.85 });
+      for (let k = 0; k < 8; k++) add(B + k / 2 + (k % 2 ? 0.07 : 0), "hat", { vel: k % 2 ? 0.5 : 0.8 });
+      if (b % 2 === 0) add(B + 3.5, "ohat", { vel: 0.5 });
+      add(B, "sub", { f: [65.41, 55, 43.65, 49][b], d: 1.6 });
+    } else if (kind === "stepper82") {
+      add(B, "kick"); add(B + 1.75, "kick");
+      if (b === 3) add(B + 2.5, "kick");
+      add(B + 1, "snare"); add(B + 3, "snare");
+      for (let k = 0; k < 8; k++) add(B + k / 2 + (k % 2 ? 0.06 : 0), "hat", { vel: k % 2 ? 0.6 : 0.95 });
+      add(B, "sub", { f: [73.42, 73.42, 58.27, 65.41][b], d: 1.2 });
+    } else if (kind === "mantra92") {
+      add(B, "kick"); add(B + 2.5, "kick");
+      if (b % 2 === 1) add(B + 3.75, "kick");
+      add(B + 2, "snare");
+      for (let k = 0; k < 16; k++) add(B + k / 4, "hat", { vel: k % 4 === 0 ? 1 : 0.5 });
+      if (b === 3) { add(B + 3.5, "hat", { vel: 0.7 }); add(B + 3.75, "hat", { vel: 0.8 }); }
+      add(B + 3.5, "ohat", { vel: 0.6 });
+      add(B, "sub", { f: [55, 49, 43.65, 41.2][b], d: 3.6 });
+    } else if (kind === "drill142") {
+      add(B, "kick"); add(B + 2.5, "kick");
+      if (b % 2 === 1) add(B + 1.75, "kick");
+      add(B + 2, "snare");
+      [0, 0.5, 1, 1.75, 2, 2.5, 3, 3.75].forEach((h, k) => add(B + h, "hat", { vel: k % 2 ? 0.55 : 0.95 }));
+      add(B, "sub", { f: [65.41, 65.41, 51.91, 58.27][b], d: 2.2 });
     } else { // step100
       add(B, "kick"); add(B + 1.5, "kick"); add(B + 2.75, "kick");
       add(B + 1, "snare"); add(B + 3, "snare");
@@ -227,6 +256,10 @@ const PATTERNS = {
   boombap76: buildPattern("boombap76"),
   trap88: buildPattern("trap88"),
   step100: buildPattern("step100"),
+  lofi70: buildPattern("lofi70"),
+  stepper82: buildPattern("stepper82"),
+  mantra92: buildPattern("mantra92"),
+  drill142: buildPattern("drill142"),
 };
 
 /* ---------------- router ---------------- */
@@ -235,11 +268,14 @@ function route() {
   AE.stop(); T = null;
   const h = location.hash || "#/";
   if (h.startsWith("#/verse/")) renderTrainer(decodeURIComponent(h.slice(8)));
+  else if (h.startsWith("#/flow")) renderFlow();
   else if (h.startsWith("#/review")) renderReview();
   else if (h.startsWith("#/progress")) renderProgress();
   else renderHome();
 }
 window.addEventListener("hashchange", route);
+window.addEventListener("resize", () => { if (T) measureSlots(); });
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (T) measureSlots(); });
 
 /* ---------------- home ---------------- */
 function renderHome() {
@@ -311,6 +347,7 @@ function renderProgress() {
 function nav(act) {
   return `<nav>
     <button data-act="home" class="${act === "learn" ? "act" : ""}">Learn</button>
+    <button data-act="flow" class="${act === "flow" ? "act" : ""}">Flow</button>
     <button data-act="review" class="${act === "review" ? "act" : ""}">Review</button>
     <button data-act="progress" class="${act === "progress" ? "act" : ""}">Progress</button>
   </nav>`;
@@ -346,7 +383,7 @@ function renderTrainer(id, reviewQueue) {
     fill === "first" ? bar === 0 :
     fill === "last" ? bar === 3 : false;
 
-  T = { v, land, peeks: 0, reviewQueue: reviewQueue || null, raf: null, sel: null };
+  T = { v, land, peeks: 0, reviewQueue: reviewQueue || null, raf: null, sel: null, taps: [] };
 
   const kwSet = (v.keywords || []).map(k => k.word);
   const enHtml = esc(v.translation).replace(/\b([a-z][a-z'-]*)\b/gi, m =>
@@ -380,15 +417,15 @@ function renderTrainer(id, reviewQueue) {
 
     <div class="bars">
       ${land.map((L, b) => `
-        <div class="barlbl">BAR ${b + 1}${b === 0 ? " · land on the gold word" : ""}</div>
+        <div class="barlbl" id="barlbl${b}">BAR ${b + 1}${b === 0 ? " · land on the gold word" : ""}</div>
         <div class="bar" id="bar${b}">
-          <div class="balltrack"><div class="ball" id="ball${b}"></div></div>
           <div class="slots">
-            ${[0, 1, 2].map(() => `<div class="s"></div>`).join("")}
+            ${[0, 1, 2].map(s => `<div class="s" id="s${b}_${s}"></div>`).join("")}
             <button class="s key ${showKey(b) ? "" : "blank"} ${L.rhymeOf ? "rhy" : ""}" data-act="${showKey(b) ? "word" : "peek"}" data-bar="${b}" id="key${b}">
               ${showKey(b) ? esc(L.word) : ""}
             </button>
           </div>
+          <div class="ball" id="ball${b}"></div>
         </div>`).join("")}
     </div>
 
@@ -422,6 +459,7 @@ function renderTrainer(id, reviewQueue) {
 
   T.loop = true; T.endless = false; T.taps = [];
   if (BEATS.beats.length) addBeatPicker();
+  measureSlots();
   startRaf();
 }
 
@@ -465,10 +503,25 @@ function stopPlay() {
   AE.stop();
   const b = $("#playbtn"); if (b) b.textContent = "▶";
 }
+function measureSlots() {
+  if (!T) return;
+  T.centers = []; T.ballY = []; T.slotEls = [];
+  for (let b = 0; b < 4; b++) {
+    const els = [$("#s" + b + "_0"), $("#s" + b + "_1"), $("#s" + b + "_2"), $("#key" + b)];
+    if (els.some(e => !e)) continue;
+    T.slotEls[b] = els;
+    T.centers[b] = els.map(e => e.offsetLeft + e.offsetWidth / 2);
+    T.ballY[b] = els[0].offsetTop - 12; // ball rests on the top edge of the slot row
+  }
+}
+
+const RAF = { id: 0, gen: 0 };
 function startRaf() {
-  cancelAnimationFrame(T && T.raf);
+  const gen = ++RAF.gen;
+  cancelAnimationFrame(RAF.id);
+  let lastBar = -1;
   const step = () => {
-    if (!T) return;
+    if (!T || gen !== RAF.gen) return;
     const pos = AE.pos();
     if (pos && AE.playing) {
       const contentBar = pos.bar - 1;            // -1 during the one-time count-in
@@ -476,25 +529,54 @@ function startRaf() {
       document.querySelectorAll(".dots i").forEach((d, i) => {
         d.className = i < pos.beat ? "on" : i === pos.beat ? (pos.bar >= 1 ? "on" : "next") : "";
       });
-      // bars + ball
+      // bar switch: in flow mode, refresh the bar that just finished
+      if (contentBar !== lastBar) {
+        if (T.flow && lastBar >= 0) refreshFlowBar(lastBar);
+        lastBar = contentBar;
+      }
+      // bars + bouncing ball + slot pulses
       for (let b = 0; b < 4; b++) {
         const bar = $("#bar" + b), ball = $("#ball" + b), key = $("#key" + b);
         if (!bar) continue;
         const active = b === contentBar;
         bar.classList.toggle("now", !!active);
+        const lbl = $("#barlbl" + b);
+        if (lbl) lbl.classList.toggle("now", !!active);
         if (ball) {
-          ball.classList.toggle("on", !!active);
-          if (active) ball.style.left = (pos.frac * 100) + "%";
+          if (!active) { ball.classList.remove("on"); }
+          else {
+            ball.classList.add("on");
+            const cs = (T.centers || [])[b];
+            if (cs) {
+              const beatF = pos.frac * 4;
+              const bi = Math.min(3, Math.floor(beatF));
+              const f = beatF - bi;
+              const x0 = cs[bi], x1 = bi < 3 ? cs[bi + 1] : cs[3] + (cs[3] - cs[2] || 60);
+              const hop = (bi === 3 ? 30 : 17) * 4 * f * (1 - f);
+              const sq = f < 0.15 ? 1 - 0.4 * (1 - f / 0.15) : 1;
+              ball.style.left = x + "px";
+              ball.style.top = (T.ballY[b] || 0) + "px";
+              ball.style.transform = `translateX(-50%) translateY(${-hop}px) scaleY(${sq.toFixed(3)})`;
+            }
+          }
         }
-        if (key) key.classList.toggle("hit", !!active && pos.beat === 3);
+        // current slot pulse
+        if (T.slotEls && T.slotEls[b])
+          T.slotEls[b].forEach((el, i) => el.classList.toggle("cur", !!active && i === pos.beat));
+        if (key) {
+          const hit = !!active && pos.beat === 3;
+          if (hit && !key.classList.contains("hit")) {
+            key.classList.add("hit"); key.classList.remove("pop"); void key.offsetWidth; key.classList.add("pop");
+          } else if (!hit) key.classList.remove("hit");
+        }
       }
       // sequence end (count-in 4 beats + 4 content bars) when not looping
-      if (pos.total >= 20 && !T.loop) {
+      if (!T.flow && pos.total >= 20 && !T.loop) {
         if (T.endless) { advanceVerse(); return; }
         stopPlay();
       }
     }
-    T.raf = requestAnimationFrame(step);
+    RAF.id = requestAnimationFrame(step);
   };
   step();
 }
@@ -541,6 +623,121 @@ function showWord(k, rhymeOf) {
     <div class="rh"><b>rhymes:</b> ${(k.rhymes && k.rhymes.length) ? k.rhymes.map(esc).join(" · ") : "hard word, no easy rhymes, slant it"}</div>`;
 }
 
+/* ---------------- flow: freestyle trainer (EN / IT) ---------------- */
+function flowRhymeOf(b) {
+  const s = S.settings.flowScheme, g = i => (T.flowBars[i] || ["", "", "", ""])[3];
+  if (s === "AABB") return b === 1 ? g(0) : b === 3 ? g(2) : null;
+  if (s === "ABAB") return b === 2 ? g(0) : b === 3 ? g(1) : null;
+  if (s === "AAAA") return b > 0 ? g(0) : null;
+  return null;
+}
+function flowShown() {
+  const out = new Set();
+  (T.flowBars || []).forEach(bar => bar.forEach(w => w && out.add(w)));
+  return out;
+}
+function pickFlowWord(lang, rhymeOf) {
+  const shown = flowShown(), L = WORDS[lang] || [];
+  if (!L.length) return "…";
+  if (rhymeOf) {
+    const all = WORDIDX[lang][rhymeOf] || [];
+    const fresh = all.filter(r => !shown.has(r));
+    const pool = fresh.length ? fresh : all;
+    if (pool.length) return pool[Math.floor(Math.random() * pool.length)];
+  }
+  for (let n = 0; n < 40; n++) {
+    const e = L[Math.floor(Math.random() * L.length)];
+    if (e && !shown.has(e[0])) return e[0];
+  }
+  return L[Math.floor(Math.random() * L.length)][0];
+}
+function flowFillBar(b) {
+  const fill = S.settings.flowFill;
+  const idxs = fill === "all" ? [0, 1, 2, 3] : fill === "first" ? [0] : fill === "last" ? [3] : [];
+  const words = ["", "", "", ""];
+  idxs.forEach(i => { words[i] = pickFlowWord(S.settings.flowLang, i === 3 ? flowRhymeOf(b) : null); });
+  T.flowBars[b] = words;
+}
+function refreshFlowBar(b) {
+  flowFillBar(b);
+  T.flowBars[b].forEach((w, i) => {
+    const el = i === 3 ? $("#key" + b) : $("#s" + b + "_" + i);
+    if (!el) return;
+    el.textContent = w;
+    el.classList.toggle("blank", !w);
+    el.classList.remove("swap"); void el.offsetWidth; el.classList.add("swap");
+  });
+}
+function showFlowWord(b, i) {
+  const w = (T.flowBars[b] || [])[i];
+  if (!w) return;
+  T.sel = [b, i];
+  const rs = WORDIDX[S.settings.flowLang][w] || [];
+  $("#wordcard").innerHTML = `
+    <b>${esc(w)}</b>
+    <div class="rh"><b>rhymes:</b> ${rs.length ? "" : "slant it, no easy rhymes"}</div>
+    <div class="chips">${rs.map(r => `<button data-act="frhy" data-bar="${b}" data-slot="${i}" data-w="${esc(r)}">${esc(r)}</button>`).join("")}</div>
+    <div class="gl">tap a rhyme to swap it in</div>`;
+}
+function renderFlow() {
+  const lang = S.settings.flowLang, fill = S.settings.flowFill, scheme = S.settings.flowScheme;
+  T = { flow: true, flowBars: [], taps: [], raf: null, sel: null };
+  for (let b = 0; b < 4; b++) flowFillBar(b);
+  app.innerHTML = `
+  <div class="view">
+    <div class="tbar">
+      <button class="back" data-act="home">‹</button>
+      <div class="t">
+        <div class="eyebrow">Flow · ${lang === "it" ? "freestyle italiano" : "english freestyle"}</div>
+        <h1>flow trainer</h1>
+      </div>
+      <div class="lang">
+        <button data-act="flang" data-v="en" class="${lang === "en" ? "act" : ""}">EN</button>
+        <button data-act="flang" data-v="it" class="${lang === "it" ? "act" : ""}">IT</button>
+      </div>
+    </div>
+    <div class="beat">
+      <div class="dots">${[0, 1, 2, 3].map(() => "<i></i>").join("")}</div>
+      <div class="bpm">
+        <button class="pill" data-act="bpm-">−</button>
+        <span class="pill" id="bpmval">${S.settings.bpm} BPM</span>
+        <button class="pill" data-act="bpm+">+</button>
+        <button class="pill tap" data-act="tap">TAP</button>
+      </div>
+    </div>
+    <div class="bars">
+      ${T.flowBars.map((words, b) => `
+        <div class="barlbl" id="barlbl${b}">BAR ${b + 1}${b === 0 ? " · bounce on every word" : ""}</div>
+        <div class="bar" id="bar${b}">
+          <div class="slots">
+            ${words.map((w, i) => i === 3
+              ? `<button class="s key fw ${w ? "" : "blank"}" data-act="fslot" data-bar="${b}" data-slot="3" id="key${b}">${esc(w)}</button>`
+              : `<button class="s fw ${w ? "" : "blank"}" data-act="fslot" data-bar="${b}" data-slot="${i}" id="s${b}_${i}">${esc(w)}</button>`).join("")}
+          </div>
+          <div class="ball" id="ball${b}"></div>
+        </div>`).join("")}
+    </div>
+    <div class="modes">
+      ${[["all", "All words"], ["first", "First only"], ["last", "Last only"], ["free", "No words"]]
+        .map(([k, l]) => `<button data-act="ffill" data-v="${k}" class="${fill === k ? "act" : ""}">${l}</button>`).join("")}
+    </div>
+    <div class="modes">
+      ${[["off", "Rhymes off"], ["AABB", "AABB"], ["ABAB", "ABAB"], ["AAAA", "AAAA"]]
+        .map(([k, l]) => `<button data-act="fscheme" data-v="${k}" class="${scheme === k ? "act" : ""}">${l}</button>`).join("")}
+    </div>
+    <div class="word" id="wordcard"><span class="empty">tap a word for rhymes · fresh words every bar</span></div>
+    <div class="controls">
+      <span class="toghint">words change as the ball passes</span>
+      <button class="play" id="playbtn" data-act="play">▶</button>
+      <span class="toghint">${(WORDS[lang] || []).length} words · ${lang.toUpperCase()}</span>
+    </div>
+  </div>
+  ${nav("flow")}`;
+  if (BEATS.beats.length) addBeatPicker();
+  measureSlots();
+  startRaf();
+}
+
 /* ---------------- review ---------------- */
 function renderReview() {
   const due = dueList();
@@ -557,6 +754,7 @@ app.addEventListener("click", e => {
   if (act === "home") location.hash = "#/";
   else if (act === "progress") location.hash = "#/progress";
   else if (act === "review") location.hash = "#/review";
+  else if (act === "flow") location.hash = "#/flow";
   else if (act === "open") location.hash = "#/verse/" + encodeURIComponent(t.dataset.id);
   else if (act === "reset") {
     if (confirm("Reset all progress?")) { S.verses = {}; persist(); renderProgress(); }
@@ -594,6 +792,18 @@ app.addEventListener("click", e => {
   else if (act === "bankword") {
     const k = (T.v.keywords || []).find(x => x.word === t.dataset.w);
     showWord(k);
+  }
+  else if (act === "flang") { S.settings.flowLang = t.dataset.v; persist(); renderFlow(); }
+  else if (act === "ffill") { S.settings.flowFill = t.dataset.v; persist(); renderFlow(); }
+  else if (act === "fscheme") { S.settings.flowScheme = t.dataset.v; persist(); renderFlow(); }
+  else if (act === "fslot") showFlowWord(+t.dataset.bar, +t.dataset.slot);
+  else if (act === "frhy") {
+    const b = +t.dataset.bar, i = +t.dataset.slot;
+    T.flowBars[b][i] = t.dataset.w;
+    const el = i === 3 ? $("#key" + b) : $("#s" + b + "_" + i);
+    el.textContent = t.dataset.w;
+    el.classList.remove("swap"); void el.offsetWidth; el.classList.add("swap");
+    showFlowWord(b, i);
   }
 });
 
