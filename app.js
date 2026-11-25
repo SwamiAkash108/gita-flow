@@ -59,9 +59,7 @@ function nextUnplayed(fromId) {
 const AE = {
   ctx: null, playing: false, timer: null,
   bpm: 84, startTime: 0, nextBeat: 0, beatIdx: 0,
-  beatTimes: [], // {time, beat(0-3), bar(0=count-in,1..4)}
-  loopBars: 4, onTick: null,
-  musicBuf: null, musicSrc: null, musicBpm: 0,
+  musicBuf: null, musicSrc: null,
 
   ensure() {
     if (!this.ctx) {
@@ -71,7 +69,6 @@ const AE = {
       this.clickGain = this.ctx.createGain(); this.clickGain.gain.value = 1;
       this.clickGain.connect(this.master);
     }
-    if (this.ctx.state === "suspended") this.ctx.resume();
   },
   async loadMusic(file) {
     const res = await fetch("beats/" + file);
@@ -86,48 +83,55 @@ const AE = {
     o.connect(g); g.connect(this.clickGain);
     o.start(time); o.stop(time + 0.05);
   },
-  start() {
+  async start() {
     this.ensure();
+    await this.ctx.resume(); // iOS: must complete before reading currentTime
+    const spb = 60 / this.bpm;
+    const t0 = this.ctx.currentTime + 0.1;
     this.playing = true;
     this.beatIdx = 0;
-    this.startTime = this.ctx.currentTime + 0.08;
-    this.nextBeat = this.startTime;
-    this.beatTimes = [];
-    this.clickGain.gain.value = this.musicBuf ? 0 : 1;
+    this.startTime = t0;
+    this.nextBeat = t0;
+    this.clickGain.gain.cancelScheduledValues(0);
+    this.clickGain.gain.setValueAtTime(1, t0);
     if (this.musicBuf) {
+      // clicks only during the 4-beat count-in, then the loop takes over
+      this.clickGain.gain.setValueAtTime(0, t0 + 4 * spb);
       const src = this.ctx.createBufferSource();
       src.buffer = this.musicBuf; src.loop = true;
-      src.connect(this.master); src.start(this.startTime);
+      src.connect(this.master); src.start(t0 + 4 * spb); // music bar 1 = content bar 1
       this.musicSrc = src;
     }
     this.timer = setInterval(() => this.scheduler(), 25);
   },
   scheduler() {
     const spb = 60 / this.bpm;
-    while (this.nextBeat < this.ctx.currentTime + 0.12) {
-      const beat = this.beatIdx % 4, bar = Math.floor(this.beatIdx / 4);
-      this.click(this.nextBeat, beat === 0);
-      this.beatTimes.push({ time: this.nextBeat, beat, bar });
-      if (this.beatTimes.length > 64) this.beatTimes.shift();
+    while (this.nextBeat < this.ctx.currentTime + 0.25) {
+      this.click(this.nextBeat, this.beatIdx % 4 === 0);
       this.beatIdx++; this.nextBeat += spb;
     }
   },
   pos() {
-    // -> {bar, beat, frac} from the audio clock; bar 0 = count-in
+    // timeline: one 4-beat count-in, then content bars 1..4 cycling
+    // -> {bar: 0 = count-in / 1..4 = content, beat: 0..3, frac: 0..1 through bar, total: beats}
     if (!this.playing || !this.ctx) return null;
-    const now = this.ctx.currentTime;
     const spb = 60 / this.bpm;
-    const el = now - this.startTime;
-    if (el < 0) return { bar: 0, beat: 0, frac: 0 };
+    const el = this.ctx.currentTime - this.startTime;
+    if (el < 0) return { bar: 0, beat: 0, frac: 0, total: 0 };
     const total = el / spb;
-    const bar = Math.floor(total / 4);
-    const beat = Math.floor(total % 4);
+    const beat = Math.floor(total) % 4;
     const frac = (total % 4) / 4;
+    if (total < 4) return { bar: 0, beat: Math.floor(total), frac, total };
+    const bar = (Math.floor((total - 4) / 4) % 4) + 1;
     return { bar, beat, frac, total };
   },
   stop() {
     this.playing = false;
     clearInterval(this.timer);
+    if (this.ctx) {
+      this.clickGain.gain.cancelScheduledValues(this.ctx.currentTime);
+      this.clickGain.gain.setValueAtTime(1, this.ctx.currentTime);
+    }
     if (this.musicSrc) { try { this.musicSrc.stop(); } catch (e) {} this.musicSrc = null; }
   },
 };
@@ -369,8 +373,7 @@ function startRaf() {
     if (!T) return;
     const pos = AE.pos();
     if (pos && AE.playing) {
-      const barInSeq = pos.bar % 5;            // 0 = count-in, 1..4 = content bars
-      const contentBar = barInSeq - 1;
+      const contentBar = pos.bar - 1;            // -1 during the one-time count-in
       // beat dots
       document.querySelectorAll(".dots i").forEach((d, i) => {
         d.className = i < pos.beat ? "on" : i === pos.beat ? (pos.bar >= 1 ? "on" : "next") : "";
@@ -387,12 +390,10 @@ function startRaf() {
         }
         if (key) key.classList.toggle("hit", !!active && pos.beat === 3);
       }
-      // loop / endless at sequence end
-      if (barInSeq === 0 && pos.bar > 0) {
-        if (!T.loop) {
-          if (T.endless) { advanceVerse(); return; }
-          stopPlay();
-        }
+      // sequence end (count-in 4 beats + 4 content bars) when not looping
+      if (pos.total >= 20 && !T.loop) {
+        if (T.endless) { advanceVerse(); return; }
+        stopPlay();
       }
     }
     T.raf = requestAnimationFrame(step);
