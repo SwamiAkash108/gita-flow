@@ -59,9 +59,7 @@ function nextUnplayed(fromId) {
 const AE = {
   ctx: null, playing: false, timer: null,
   bpm: 84, startTime: 0, nextBeat: 0, beatIdx: 0,
-  beatTimes: [], // {time, beat(0-3), bar(0=count-in,1..4)}
-  loopBars: 4, onTick: null,
-  musicBuf: null, musicSrc: null, musicBpm: 0,
+  musicBuf: null, musicSrc: null, pattern: null,
 
   ensure() {
     if (!this.ctx) {
@@ -71,7 +69,6 @@ const AE = {
       this.clickGain = this.ctx.createGain(); this.clickGain.gain.value = 1;
       this.clickGain.connect(this.master);
     }
-    if (this.ctx.state === "suspended") this.ctx.resume();
   },
   async loadMusic(file) {
     const res = await fetch("beats/" + file);
@@ -86,50 +83,150 @@ const AE = {
     o.connect(g); g.connect(this.clickGain);
     o.start(time); o.stop(time + 0.05);
   },
-  start() {
+  async start() {
     this.ensure();
+    await this.ctx.resume(); // iOS: must complete before reading currentTime
+    const spb = 60 / this.bpm;
+    const t0 = this.ctx.currentTime + 0.1;
     this.playing = true;
     this.beatIdx = 0;
-    this.startTime = this.ctx.currentTime + 0.08;
-    this.nextBeat = this.startTime;
-    this.beatTimes = [];
-    this.clickGain.gain.value = this.musicBuf ? 0 : 1;
+    this.startTime = t0;
+    this.nextBeat = t0;
+    this.clickGain.gain.cancelScheduledValues(0);
+    this.clickGain.gain.setValueAtTime(1, t0);
     if (this.musicBuf) {
+      // clicks only during the 4-beat count-in, then the loop takes over
+      this.clickGain.gain.setValueAtTime(0, t0 + 4 * spb);
       const src = this.ctx.createBufferSource();
       src.buffer = this.musicBuf; src.loop = true;
-      src.connect(this.master); src.start(this.startTime);
+      src.connect(this.master); src.start(t0 + 4 * spb); // music bar 1 = content bar 1
       this.musicSrc = src;
     }
     this.timer = setInterval(() => this.scheduler(), 25);
   },
   scheduler() {
     const spb = 60 / this.bpm;
-    while (this.nextBeat < this.ctx.currentTime + 0.12) {
-      const beat = this.beatIdx % 4, bar = Math.floor(this.beatIdx / 4);
-      this.click(this.nextBeat, beat === 0);
-      this.beatTimes.push({ time: this.nextBeat, beat, bar });
-      if (this.beatTimes.length > 64) this.beatTimes.shift();
+    while (this.nextBeat < this.ctx.currentTime + 0.25) {
+      const gb = this.beatIdx - 4;              // content beat index; negative = count-in
+      if (gb < 0 || !this.pattern && !this.musicBuf) this.click(this.nextBeat, this.beatIdx % 4 === 0);
+      if (this.pattern && gb >= 0) {
+        const p = gb % 16;
+        for (const e of this.pattern.events)
+          if (Math.floor(e.t) === p) Drums.play(e, this.nextBeat + (e.t - p) * spb, this);
+      }
       this.beatIdx++; this.nextBeat += spb;
     }
   },
   pos() {
-    // -> {bar, beat, frac} from the audio clock; bar 0 = count-in
+    // timeline: one 4-beat count-in, then content bars 1..4 cycling
+    // -> {bar: 0 = count-in / 1..4 = content, beat: 0..3, frac: 0..1 through bar, total: beats}
     if (!this.playing || !this.ctx) return null;
-    const now = this.ctx.currentTime;
     const spb = 60 / this.bpm;
-    const el = now - this.startTime;
-    if (el < 0) return { bar: 0, beat: 0, frac: 0 };
+    const el = this.ctx.currentTime - this.startTime;
+    if (el < 0) return { bar: 0, beat: 0, frac: 0, total: 0 };
     const total = el / spb;
-    const bar = Math.floor(total / 4);
-    const beat = Math.floor(total % 4);
+    const beat = Math.floor(total) % 4;
     const frac = (total % 4) / 4;
+    if (total < 4) return { bar: 0, beat: Math.floor(total), frac, total };
+    const bar = (Math.floor((total - 4) / 4) % 4) + 1;
     return { bar, beat, frac, total };
   },
   stop() {
     this.playing = false;
     clearInterval(this.timer);
+    if (this.ctx) {
+      this.clickGain.gain.cancelScheduledValues(this.ctx.currentTime);
+      this.clickGain.gain.setValueAtTime(1, this.ctx.currentTime);
+    }
     if (this.musicSrc) { try { this.musicSrc.stop(); } catch (e) {} this.musicSrc = null; }
   },
+};
+
+/* ---------------- built-in drum machine (live-synthesized beats) ---------------- */
+const Drums = {
+  _noise: null,
+  noise(ctx) {
+    if (!this._noise) {
+      const b = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
+      const d = b.getChannelData(0);
+      for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+      this._noise = b;
+    }
+    return this._noise;
+  },
+  _noiseHit(ctx, out, t, hpFreq, dur, gain) {
+    const s = ctx.createBufferSource(); s.buffer = this.noise(ctx);
+    const f = ctx.createBiquadFilter(); f.type = "highpass"; f.frequency.value = hpFreq;
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(gain, t);
+    g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+    s.connect(f); f.connect(g); g.connect(out);
+    s.start(t); s.stop(t + dur + 0.02);
+  },
+  _tone(ctx, out, t, f0, f1, pitchT, dur, gain) {
+    const o = ctx.createOscillator(), g = ctx.createGain();
+    o.frequency.setValueAtTime(f0, t);
+    if (f1 !== f0) o.frequency.exponentialRampToValueAtTime(f1, t + pitchT);
+    g.gain.setValueAtTime(gain, t);
+    g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+    o.connect(g); g.connect(out); o.start(t); o.stop(t + dur + 0.02);
+  },
+  play(e, t, AE) {
+    const ctx = AE.ctx, out = AE.master, v = e.vel == null ? 1 : e.vel;
+    const spb = 60 / AE.bpm;
+    if (e.type === "kick") {
+      this._tone(ctx, out, t, 150, 45, 0.055, 0.24, 0.95 * v);
+      this._noiseHit(ctx, out, t, 4000, 0.018, 0.22 * v);
+    } else if (e.type === "snare") {
+      this._noiseHit(ctx, out, t, 1800, 0.09, 0.7 * v);
+      this._tone(ctx, out, t, 190, 190, 0, 0.06, 0.38 * v);
+    } else if (e.type === "hat") {
+      this._noiseHit(ctx, out, t, 7500, 0.018, 0.24 * v);
+    } else if (e.type === "ohat") {
+      this._noiseHit(ctx, out, t, 7000, 0.22, 0.28 * v);
+    } else if (e.type === "sub") {
+      const o = ctx.createOscillator(), g = ctx.createGain(), dur = (e.d || 1.3) * spb;
+      o.frequency.value = e.f;
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.55 * v, t + 0.01);
+      g.gain.setValueAtTime(0.55 * v, t + Math.max(0.02, dur - 0.09));
+      g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+      o.connect(g); g.connect(out); o.start(t); o.stop(t + dur + 0.02);
+    }
+  },
+};
+
+function buildPattern(kind) {
+  const ev = [];
+  const add = (t, type, extra) => ev.push(Object.assign({ t, type }, extra));
+  for (let b = 0; b < 4; b++) {
+    const B = b * 4;
+    if (kind === "boombap76") {
+      add(B, "kick"); add(B + 1.5, "kick");
+      if (b % 2 === 1) add(B + 2.75, "kick");
+      add(B + 1, "snare"); add(B + 3, "snare");
+      for (let k = 0; k < 8; k++) add(B + k / 2 + (k % 2 ? 0.06 : 0), "hat", { vel: k % 2 ? 0.7 : 1 });
+      add(B, "sub", { f: [55, 55, 43.65, 49][b], d: 1.4 });
+    } else if (kind === "trap88") {
+      add(B, "kick"); add(B + 2.5, "kick");
+      add(B + 2, "snare");
+      for (let k = 0; k < 16; k++) add(B + k / 4, "hat", { vel: k % 4 === 0 ? 1 : 0.55 });
+      add(B + 3.5, "ohat");
+      add(B, "sub", { f: [73.42, 58.27, 87.31, 65.41][b], d: 3.6 });
+    } else { // step100
+      add(B, "kick"); add(B + 1.5, "kick"); add(B + 2.75, "kick");
+      add(B + 1, "snare"); add(B + 3, "snare");
+      const steps = b === 3 ? 16 : 8;
+      for (let k = 0; k < steps; k++) add(B + k / (b === 3 ? 4 : 2), "hat", { vel: k % 2 ? 0.65 : 1 });
+      add(B, "sub", { f: [41.2, 41.2, 65.41, 73.42][b], d: 1.3 });
+    }
+  }
+  return { events: ev.sort((a, b2) => a.t - b2.t) };
+}
+const PATTERNS = {
+  boombap76: buildPattern("boombap76"),
+  trap88: buildPattern("trap88"),
+  step100: buildPattern("step100"),
 };
 
 /* ---------------- router ---------------- */
@@ -335,12 +432,17 @@ function addBeatPicker() {
     BEATS.beats.map((b, i) => `<option value="${i}">${esc(b.name)}</option>`).join("");
   sel.onchange = async () => {
     const wasPlaying = AE.playing; AE.stop(); $("#playbtn").textContent = "▶";
+    AE.musicBuf = null; AE.pattern = null;
     if (sel.value === "metronome") {
-      AE.musicBuf = null; setBpm(S.settings.bpm);
+      setBpm(S.settings.bpm);
     } else {
       const b = BEATS.beats[+sel.value];
-      try { await AE.loadMusic(b.file); setBpm(b.bpm || S.settings.bpm); toast(b.name + " loaded"); }
-      catch (e) { toast("could not load beat"); AE.musicBuf = null; }
+      if (b.synth) {
+        AE.pattern = PATTERNS[b.synth]; setBpm(b.bpm || S.settings.bpm); toast(b.name);
+      } else {
+        try { await AE.loadMusic(b.file); setBpm(b.bpm || S.settings.bpm); toast(b.name + " loaded"); }
+        catch (e) { toast("could not load beat"); }
+      }
     }
     if (wasPlaying) startPlay();
   };
@@ -369,8 +471,7 @@ function startRaf() {
     if (!T) return;
     const pos = AE.pos();
     if (pos && AE.playing) {
-      const barInSeq = pos.bar % 5;            // 0 = count-in, 1..4 = content bars
-      const contentBar = barInSeq - 1;
+      const contentBar = pos.bar - 1;            // -1 during the one-time count-in
       // beat dots
       document.querySelectorAll(".dots i").forEach((d, i) => {
         d.className = i < pos.beat ? "on" : i === pos.beat ? (pos.bar >= 1 ? "on" : "next") : "";
@@ -387,12 +488,10 @@ function startRaf() {
         }
         if (key) key.classList.toggle("hit", !!active && pos.beat === 3);
       }
-      // loop / endless at sequence end
-      if (barInSeq === 0 && pos.bar > 0) {
-        if (!T.loop) {
-          if (T.endless) { advanceVerse(); return; }
-          stopPlay();
-        }
+      // sequence end (count-in 4 beats + 4 content bars) when not looping
+      if (pos.total >= 20 && !T.loop) {
+        if (T.endless) { advanceVerse(); return; }
+        stopPlay();
       }
     }
     T.raf = requestAnimationFrame(step);
