@@ -1,3 +1,19 @@
 {
-  "beats": []
+ "beats": [
+  {
+   "name": "Midnight Boom Bap \u00b7 76",
+   "file": "midnight-boom-bap-76.wav",
+   "bpm": 76
+  },
+  {
+   "name": "Vrindavan Nights \u00b7 88",
+   "file": "vrindavan-nights-88.wav",
+   "bpm": 88
+  },
+  {
+   "name": "Seva Step \u00b7 100",
+   "file": "seva-step-100.wav",
+   "bpm": 100
+  }
+ ]
 }
