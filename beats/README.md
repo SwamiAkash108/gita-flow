@@ -1,8 +1,9 @@
 # Beats
 
-Three built-in practice beats ship with the app (Midnight Boom Bap 76,
-Vrindavan Nights 88, Seva Step 100) — synthesized live in your browser by the
-app's drum machine, no files, zero download, always in perfect sync with the ball.
+Seven built-in practice beats ship with the app (Prasad Lo-Fi 70,
+Midnight Boom Bap 76, Kirtan Stepper 82, Vrindavan Nights 88, Mantra Trap 92,
+Seva Step 100, Rasa Drill 142) — synthesized live in your browser by the app's
+drum machine, no files, zero download, always in perfect sync with the ball.
 
 To use your own loopable instrumentals instead (Artlist tracks work great),
 drop the files into this folder and list them in `manifest.json` like this:
