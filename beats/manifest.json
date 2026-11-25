@@ -1,7 +1,11 @@
 {
  "beats": [
+  { "name": "Prasad Lo-Fi · 70", "synth": "lofi70", "bpm": 70 },
   { "name": "Midnight Boom Bap · 76", "synth": "boombap76", "bpm": 76 },
+  { "name": "Kirtan Stepper · 82", "synth": "stepper82", "bpm": 82 },
   { "name": "Vrindavan Nights · 88", "synth": "trap88", "bpm": 88 },
-  { "name": "Seva Step · 100", "synth": "step100", "bpm": 100 }
+  { "name": "Mantra Trap · 92", "synth": "mantra92", "bpm": 92 },
+  { "name": "Seva Step · 100", "synth": "step100", "bpm": 100 },
+  { "name": "Rasa Drill · 142", "synth": "drill142", "bpm": 142 }
  ]
 }
