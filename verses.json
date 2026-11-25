@@ -1,0 +1,9066 @@
+{
+ "chapters": {
+  "2": {
+   "name": "Sāṅkhya-yoga",
+   "subtitle": "The Eternal Nature of the Self"
+  },
+  "3": {
+   "name": "Karma-yoga",
+   "subtitle": "Understanding the Nature of Action"
+  },
+  "4": {
+   "name": "Jñāna-vibhāga-yoga",
+   "subtitle": "The Path of Knowledge"
+  },
+  "5": {
+   "name": "Karma-sannyāsa-yoga",
+   "subtitle": "True Renunciation"
+  },
+  "6": {
+   "name": "Dhyāna-yoga",
+   "subtitle": "The Process of Meditation"
+  },
+  "7": {
+   "name": "Jñāna-vijñāna-yoga",
+   "subtitle": "Knowledge of Kṛṣṇa"
+  },
+  "8": {
+   "name": "Akṣara-brahma-yoga",
+   "subtitle": "The Eternal Abode"
+  },
+  "9": {
+   "name": "Rāja-vidyā-guhya-yoga",
+   "subtitle": "The Secret of Devotion"
+  },
+  "10": {
+   "name": "Vibhūti-yoga",
+   "subtitle": "The Glories of Kṛṣṇa"
+  },
+  "11": {
+   "name": "Viśvarūpa-darśana-yoga",
+   "subtitle": "The Cosmic Form"
+  },
+  "12": {
+   "name": "Bhakti-yoga",
+   "subtitle": "The Yoga of Love"
+  },
+  "13": {
+   "name": "Kṣetra-kṣetrajña-vibhāga-yoga",
+   "subtitle": "The Distinction of Matter and Spirit"
+  },
+  "14": {
+   "name": "Guṇa-traya-vibhāga-yoga",
+   "subtitle": "The Three Modes of Nature"
+  },
+  "15": {
+   "name": "Puruṣottama-yoga",
+   "subtitle": "Knowing the Supreme Person"
+  },
+  "16": {
+   "name": "Daivāsura-sampad-vibhāga-yoga",
+   "subtitle": "The Divine and Demonic Qualities"
+  },
+  "17": {
+   "name": "Śraddhā-traya-vibhāga-yoga",
+   "subtitle": "The Three Divisions of Faith"
+  },
+  "18": {
+   "name": "Mokṣa-sannyāsa-yoga",
+   "subtitle": "The Path to Liberation"
+  }
+ },
+ "verses": [
+  {
+   "id": "2.1",
+   "chapter": 2,
+   "verse": "1",
+   "padas": [
+    "sañjaya uvāca",
+    "taṁ tathā kṛpayāviṣṭam",
+    "aśru-pūrṇākulekṣaṇam",
+    "viṣīdantam idaṁ vākyam",
+    "uvāca madhusūdanaḥ"
+   ],
+   "meanings": [
+    [
+     "sañjaya uvāca",
+     "Sañjaya said"
+    ],
+    [
+     "tam",
+     "to him (Arjuna) [who was]"
+    ],
+    [
+     "tathā",
+     "thus"
+    ],
+    [
+     "viṣīdan\u0002tam",
+     "despondent"
+    ],
+    [
+     "kṛpayā-āviṣṭam",
+     "[and] overwhelmed with pity"
+    ],
+    [
+     "ākula-īkṣaṇam",
+     "[his] eyes full of confusion"
+    ],
+    [
+     "aśru-pūrṇa",
+     "[and] filled with tears"
+    ],
+    [
+     "madhusūdanaḥ",
+     "Madhusūdana (Kṛṣṇa)"
+    ],
+    [
+     "uvāca",
+     "spoke"
+    ],
+    [
+     "idam",
+     "these"
+    ],
+    [
+     "vākyam",
+     "words"
+    ]
+   ],
+   "translation": "Sañjaya said: To Arjuna, who was thus despondent and overwhelmed with pity, his eyes filled with confusion and tears, Madhusūdana spoke these words:",
+   "keywords": [
+    {
+     "word": "arjuna",
+     "sanskrit": "tam",
+     "context": "Sañjaya said: To Arjuna, who was thus despondent an…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "despondent",
+     "sanskrit": "viṣīdan\u0002tam",
+     "context": "…id: To Arjuna, who was thus despondent and overwhelmed with pity,…",
+     "new": true,
+     "rhymes": [
+      "respondent"
+     ]
+    },
+    {
+     "word": "overwhelmed",
+     "sanskrit": "kṛpayā-āviṣṭam",
+     "context": "…who was thus despondent and overwhelmed with pity, his eyes filled…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "pity",
+     "sanskrit": "kṛpayā-āviṣṭam",
+     "context": "…ondent and overwhelmed with pity, his eyes filled with confu…",
+     "new": true,
+     "rhymes": [
+      "city",
+      "committee",
+      "pretty",
+      "subcommittee",
+      "kitty"
+     ]
+    },
+    {
+     "word": "eyes",
+     "sanskrit": "ākula-īkṣaṇam",
+     "context": "…overwhelmed with pity, his eyes filled with confusion and t…",
+     "new": false,
+     "rhymes": [
+      "size",
+      "supplies",
+      "replies",
+      "guys",
+      "rise"
+     ]
+    },
+    {
+     "word": "confusion",
+     "sanskrit": "ākula-īkṣaṇam",
+     "context": "…pity, his eyes filled with confusion and tears, Madhusūdana spok…",
+     "new": true,
+     "rhymes": [
+      "conclusion",
+      "fusion",
+      "inclusion",
+      "exclusion"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "chapter": 2,
+   "verse": "2",
+   "padas": [
+    "śrī-bhagavān uvāca",
+    "kutas tvā kaśmalam idaṁ",
+    "viṣame samupasthitam",
+    "anārya-juṣṭam asvargyam",
+    "akīrti-karam arjuna"
+   ],
+   "meanings": [
+    [
+     "śrī-bhagavān uvāca",
+     "Bhagavān Kṛṣṇa said"
+    ],
+    [
+     "arjuna",
+     "O Arjuna"
+    ],
+    [
+     "kutaḥ",
+     "from where"
+    ],
+    [
+     "samupasthitam",
+     "has come"
+    ],
+    [
+     "tvā",
+     "to you"
+    ],
+    [
+     "idam",
+     "this"
+    ],
+    [
+     "kaśmalam",
+     "weakness"
+    ],
+    [
+     "viṣame",
+     "in this hour of danger"
+    ],
+    [
+     "anārya-juṣṭam",
+     "[it is] unworthy of noble men"
+    ],
+    [
+     "asvargyam",
+     "not leading to Heaven"
+    ],
+    [
+     "akīrti-karam",
+     "causing dishonor"
+    ]
+   ],
+   "translation": "Bhagavān Kṛṣṇa said: O Arjuna, from where has this weakness come in this hour of danger? It is unworthy of noble persons and will not lead to the attainment of Heaven. Instead, it causes dishonor.",
+   "keywords": [
+    {
+     "word": "bhagav",
+     "sanskrit": "śrī-bhagavān uvāca",
+     "context": "Bhagavān Kṛṣṇa said: O Arjuna, fro…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "arjuna",
+     "sanskrit": "arjuna",
+     "context": "Bhagavān Kṛṣṇa said: O Arjuna, from where has this weakne…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "weakness",
+     "sanskrit": "kaśmalam",
+     "context": "…Arjuna, from where has this weakness come in this hour of danger…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "danger",
+     "sanskrit": "viṣame",
+     "context": "…akness come in this hour of danger? It is unworthy of noble pe…",
+     "new": true,
+     "rhymes": [
+      "stranger",
+      "ranger"
+     ]
+    },
+    {
+     "word": "unworthy",
+     "sanskrit": "anārya-juṣṭam",
+     "context": "…this hour of danger? It is unworthy of noble persons and will n…",
+     "new": true,
+     "rhymes": [
+      "worthy"
+     ]
+    },
+    {
+     "word": "dishonor",
+     "sanskrit": "akīrti-karam",
+     "context": "…Heaven. Instead, it causes dishonor.",
+     "new": true,
+     "rhymes": [
+      "honor"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "chapter": 2,
+   "verse": "3",
+   "padas": [
+    "klaibyaṁ mā sma gamaḥ pārtha",
+    "naitat tvayy upapadyate",
+    "kṣudraṁ hṛdaya-daurbalyaṁ",
+    "tyaktvottiṣṭha parantapa"
+   ],
+   "meanings": [
+    [
+     "mā sma",
+     "do not"
+    ],
+    [
+     "gamaḥ",
+     "go into"
+    ],
+    [
+     "klaibyam",
+     "cowardice"
+    ],
+    [
+     "etat",
+     "this"
+    ],
+    [
+     "na upapadyate",
+     "it is not befitting"
+    ],
+    [
+     "tvayi",
+     "in you"
+    ],
+    [
+     "tyaktvā",
+     "throw away"
+    ],
+    [
+     "kṣudram",
+     "[this] lowly"
+    ],
+    [
+     "hṛdaya\u0002daurbalyam",
+     "weakness of heart"
+    ],
+    [
+     "uttiṣṭha",
+     "arise"
+    ],
+    [
+     "parantapa",
+     "O vanquisher of enemies"
+    ]
+   ],
+   "translation": "Do not give in to this cowardice, O Arjuna, it does not befit you. Throw away this lowly weakness of heart and arise, O vanquisher of enemies!",
+   "keywords": [
+    {
+     "word": "cowardice",
+     "sanskrit": "klaibyam",
+     "context": "Do not give in to this cowardice, O Arjuna, it does not befi…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "befit",
+     "sanskrit": "na upapadyate",
+     "context": "…dice, O Arjuna, it does not befit you. Throw away this lowly…",
+     "new": true,
+     "rhymes": [
+      "it",
+      "submit",
+      "bit",
+      "kit",
+      "hit"
+     ]
+    },
+    {
+     "word": "throw",
+     "sanskrit": "tyaktvā",
+     "context": "…una, it does not befit you. Throw away this lowly weakness of…",
+     "new": true,
+     "rhymes": [
+      "no",
+      "so",
+      "go",
+      "know",
+      "show"
+     ]
+    },
+    {
+     "word": "lowly",
+     "sanskrit": "kṣudram",
+     "context": "…befit you. Throw away this lowly weakness of heart and arise…",
+     "new": true,
+     "rhymes": [
+      "holy",
+      "slowly"
+     ]
+    },
+    {
+     "word": "weakness",
+     "sanskrit": "hṛdaya\u0002daurbalyam",
+     "context": "…you. Throw away this lowly weakness of heart and arise, O vanqu…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "vanquisher",
+     "sanskrit": "parantapa",
+     "context": "…kness of heart and arise, O vanquisher of enemies!",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.4",
+   "chapter": 2,
+   "verse": "4",
+   "padas": [
+    "arjuna uvāca",
+    "kathaṁ bhīṣmam ahaṁ saṅkhye",
+    "droṇaṁ ca madhusūdana",
+    "iṣubhiḥ pratiyotsyāmi",
+    "pūjārhāv ari-sūdana"
+   ],
+   "meanings": [
+    [
+     "arjuna uvāca",
+     "Arjuna said"
+    ],
+    [
+     "madhusūdana",
+     "O Madhusūdana"
+    ],
+    [
+     "ari-sūdana",
+     "destroyer of enemies"
+    ],
+    [
+     "katham",
+     "how"
+    ],
+    [
+     "aham pratiyotsyāmi",
+     "shall I fire against"
+    ],
+    [
+     "iṣubhiḥ",
+     "arrows"
+    ],
+    [
+     "bhīṣmam",
+     "at Bhīṣma"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "droṇam",
+     "Droṇa"
+    ],
+    [
+     "saṅkhye",
+     "in battle"
+    ],
+    [
+     "pūjā-arhau",
+     "[who"
+    ]
+   ],
+   "translation": "are] worthy of worship Arjuna said: O Madhusūdana, destroyer of enemies, how can I fire arrows against Bhīṣma and Droṇa in battle, who are worthy of worship?",
+   "keywords": [
+    {
+     "word": "worthy",
+     "sanskrit": null,
+     "context": "are] worthy of worship Arjuna said: O M…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "worship",
+     "sanskrit": null,
+     "context": "are] worthy of worship Arjuna said: O Madhusūdana,…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "arjuna",
+     "sanskrit": "arjuna uvāca",
+     "context": "are] worthy of worship Arjuna said: O Madhusūdana, destro…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "madhus",
+     "sanskrit": "madhusūdana",
+     "context": "…y of worship Arjuna said: O Madhusūdana, destroyer of enemies,…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "destroyer",
+     "sanskrit": "ari-sūdana",
+     "context": "…Arjuna said: O Madhusūdana, destroyer of enemies, how can I fire…",
+     "new": true,
+     "rhymes": [
+      "employer"
+     ]
+    },
+    {
+     "word": "arrows",
+     "sanskrit": "iṣubhiḥ",
+     "context": "…of enemies, how can I fire arrows against Bhīṣma and Droṇa in…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.5",
+   "chapter": 2,
+   "verse": "5",
+   "padas": [
+    "gurūn ahatvā hi mahānubhāvān",
+    "śreyo bhoktuṁ bhaikṣyam apīha loke",
+    "hatvārtha-kāmāṁs tu gurūn ihaiva",
+    "bhuñjīya bhogān rudhira-pradigdhān"
+   ],
+   "meanings": [
+    [
+     "hi",
+     "indeed"
+    ],
+    [
+     "śreyaḥ",
+     "[it would be] better"
+    ],
+    [
+     "bhoktum",
+     "[and] live"
+    ],
+    [
+     "iha",
+     "in this"
+    ],
+    [
+     "loke",
+     "world"
+    ],
+    [
+     "api",
+     "even"
+    ],
+    [
+     "bhaikṣyam",
+     "by begging"
+    ],
+    [
+     "ahatvā",
+     "instead of killing"
+    ],
+    [
+     "mahā-anubhāvān",
+     "[these] noble"
+    ],
+    [
+     "gurūn",
+     "venerable elders"
+    ],
+    [
+     "tu",
+     "but"
+    ],
+    [
+     "bhuñjīya",
+     "our enjoying"
+    ],
+    [
+     "artha-kāmān",
+     "[of] avaricious"
+    ],
+    [
+     "bhogān",
+     "pleasures"
+    ],
+    [
+     "eva",
+     "indeed"
+    ],
+    [
+     "hatvā",
+     "after killing"
+    ],
+    [
+     "gurūn",
+     "the elders"
+    ],
+    [
+     "iha",
+     "here"
+    ],
+    [
+     "rudhira-pradigdhān",
+     "stained with blood"
+    ]
+   ],
+   "translation": "It would be better to live in this world, even by begging, than to kill these noble, venerable elders. Our enjoyment of avaricious pleasures, after killing them here, would certainly be stained with blood.",
+   "keywords": [
+    {
+     "word": "begging",
+     "sanskrit": "bhaikṣyam",
+     "context": "…live in this world, even by begging, than to kill these noble,…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "kill",
+     "sanskrit": "ahatvā",
+     "context": "…d, even by begging, than to kill these noble, venerable elde…",
+     "new": true,
+     "rhymes": [
+      "will",
+      "still",
+      "until",
+      "bill",
+      "hill"
+     ]
+    },
+    {
+     "word": "venerable",
+     "sanskrit": "gurūn",
+     "context": "…, than to kill these noble, venerable elders. Our enjoyment of av…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "enjoyment",
+     "sanskrit": "bhuñjīya",
+     "context": "…oble, venerable elders. Our enjoyment of avaricious pleasures, af…",
+     "new": true,
+     "rhymes": [
+      "employment",
+      "deployment",
+      "unemployment"
+     ]
+    },
+    {
+     "word": "avaricious",
+     "sanskrit": "artha-kāmān",
+     "context": "…le elders. Our enjoyment of avaricious pleasures, after killing th…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "pleasures",
+     "sanskrit": "bhogān",
+     "context": "…Our enjoyment of avaricious pleasures, after killing them here, w…",
+     "new": true,
+     "rhymes": [
+      "measures",
+      "treasures"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.6",
+   "chapter": 2,
+   "verse": "6",
+   "padas": [
+    "na caitad vidmaḥ kataran no garīyo",
+    "yad vā jayema yadi vā no jayeyuḥ",
+    "yān eva hatvā na jijīviṣāmas",
+    "te ’vasthitāḥ pramukhe dhārtarāṣṭrāḥ"
+   ],
+   "meanings": [
+    [
+     "na vidmaḥ",
+     "we don’t know"
+    ],
+    [
+     "etat",
+     "this"
+    ],
+    [
+     "ca",
+     "as well"
+    ],
+    [
+     "katarat",
+     "which of the two"
+    ],
+    [
+     "garīyaḥ",
+     "[would be] better"
+    ],
+    [
+     "naḥ",
+     "for us"
+    ],
+    [
+     "yat vā",
+     "whether"
+    ],
+    [
+     "jayema",
+     "we should defeat them"
+    ],
+    [
+     "yadi vā",
+     "or whether"
+    ],
+    [
+     "jayeyuḥ",
+     "they should conquer"
+    ],
+    [
+     "naḥ",
+     "us"
+    ],
+    [
+     "yān",
+     "those"
+    ],
+    [
+     "dhārtarāṣṭrāḥ",
+     "sons of Dhṛtarāṣṭra"
+    ],
+    [
+     "hatvā",
+     "after killing [whom]"
+    ],
+    [
+     "na jijīviṣāmaḥ",
+     "we would no longer wish to live"
+    ],
+    [
+     "te",
+     "they"
+    ],
+    [
+     "avasthitāḥ",
+     "are standing"
+    ],
+    [
+     "eva",
+     "verily"
+    ],
+    [
+     "pramukhe",
+     "before us"
+    ]
+   ],
+   "translation": "We do not know which of the two is better for us—defeating them or being conquered by them. Those sons of Dhṛtarāṣṭra after killing whom we would no longer wish to live, are verily standing here be\u0002fore us.",
+   "keywords": [
+    {
+     "word": "defeating",
+     "sanskrit": "jayema",
+     "context": "…of the two is better for us—defeating them or being conquered by…",
+     "new": true,
+     "rhymes": [
+      "meeting",
+      "eating",
+      "heating",
+      "greeting",
+      "seating"
+     ]
+    },
+    {
+     "word": "conquered",
+     "sanskrit": "jayeyuḥ",
+     "context": "…us—defeating them or being conquered by them. Those sons of Dhṛt…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "sons",
+     "sanskrit": "dhārtarāṣṭrāḥ",
+     "context": "…ng conquered by them. Those sons of Dhṛtarāṣṭra after killin…",
+     "new": true,
+     "rhymes": [
+      "ones",
+      "runs",
+      "guns",
+      "tons"
+     ]
+    },
+    {
+     "word": "killing",
+     "sanskrit": "hatvā",
+     "context": "…e sons of Dhṛtarāṣṭra after killing whom we would no longer wis…",
+     "new": true,
+     "rhymes": [
+      "willing",
+      "billing",
+      "filling",
+      "drilling"
+     ]
+    },
+    {
+     "word": "longer",
+     "sanskrit": "na jijīviṣāmaḥ",
+     "context": "…er killing whom we would no longer wish to live, are verily st…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "standing",
+     "sanskrit": "avasthitāḥ",
+     "context": "…er wish to live, are verily standing here be\u0002fore us.",
+     "new": true,
+     "rhymes": [
+      "understanding",
+      "outstanding",
+      "expanding",
+      "landing",
+      "demanding"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.7",
+   "chapter": 2,
+   "verse": "7",
+   "padas": [
+    "kārpaṇya-doṣopahata-svabhāvaḥ",
+    "pṛcchāmi tvāṁ dharma-sammūḍha-cetāḥ",
+    "yac chreyaḥ syān niścitaṁ brūhi tan me",
+    "śiṣyas te ’haṁ śādhi māṁ tvāṁ prapannam"
+   ],
+   "meanings": [
+    [
+     "kārpaṇya-doṣa-upahata-svabhāvaḥ",
+     "with my nature overcome by the stain of weakness"
+    ],
+    [
+     "dharma-sammūḍha-cetāḥ",
+     "[and] my mind confused about my duty"
+    ],
+    [
+     "pṛcchāmi",
+     "I urge"
+    ],
+    [
+     "tvām",
+     "You"
+    ],
+    [
+     "brūhi",
+     "[to] tell [me]"
+    ],
+    [
+     "niścitam",
+     "clearly"
+    ],
+    [
+     "tat",
+     "that"
+    ],
+    [
+     "yat",
+     "which"
+    ],
+    [
+     "syāt",
+     "would be"
+    ],
+    [
+     "śreyaḥ",
+     "better"
+    ],
+    [
+     "me",
+     "for me"
+    ],
+    [
+     "aham",
+     "I [am]"
+    ],
+    [
+     "te",
+     "Your"
+    ],
+    [
+     "śiṣyaḥ",
+     "disciple"
+    ],
+    [
+     "tvām prapannam",
+     "who has taken refuge in You"
+    ],
+    [
+     "śādhi",
+     "[please] instruct"
+    ],
+    [
+     "mām",
+     "me"
+    ]
+   ],
+   "translation": "With my nature overcome by the stain of weakness and my mind confused about my duty, I urge You to tell me clearly what would be better for me. I am Your disciple who has taken refuge in You. Please instruct me.",
+   "keywords": [
+    {
+     "word": "overcome",
+     "sanskrit": "kārpaṇya-doṣa-upahata-svabhāvaḥ",
+     "context": "With my nature overcome by the stain of weakness an…",
+     "new": true,
+     "rhymes": [
+      "income",
+      "outcome"
+     ]
+    },
+    {
+     "word": "weakness",
+     "sanskrit": "kārpaṇya-doṣa-upahata-svabhāvaḥ",
+     "context": "…re overcome by the stain of weakness and my mind confused about…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "confused",
+     "sanskrit": "dharma-sammūḍha-cetāḥ",
+     "context": "…ain of weakness and my mind confused about my duty, I urge You t…",
+     "new": true,
+     "rhymes": [
+      "used",
+      "refused",
+      "accused"
+     ]
+    },
+    {
+     "word": "clearly",
+     "sanskrit": "niścitam",
+     "context": "…duty, I urge You to tell me clearly what would be better for me…",
+     "new": false,
+     "rhymes": [
+      "nearly",
+      "merely",
+      "yearly"
+     ]
+    },
+    {
+     "word": "disciple",
+     "sanskrit": "śiṣyaḥ",
+     "context": "…be better for me. I am Your disciple who has taken refuge in You…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "instruct",
+     "sanskrit": "śādhi",
+     "context": "…taken refuge in You. Please instruct me.",
+     "new": true,
+     "rhymes": [
+      "fucked",
+      "construct"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.8",
+   "chapter": 2,
+   "verse": "8",
+   "padas": [
+    "na hi prapaśyāmi mamāpanudyād",
+    "yac chokam ucchoṣaṇam indriyāṇām",
+    "avāpya bhūmāv asapatnam ṛddhaṁ",
+    "rājyaṁ surāṇām api cādhipatyam"
+   ],
+   "meanings": [
+    [
+     "api",
+     "even"
+    ],
+    [
+     "avāpya",
+     "upon attaining"
+    ],
+    [
+     "ṛddhaṁ",
+     "a prosperous"
+    ],
+    [
+     "rājyaṁ",
+     "kingdom"
+    ],
+    [
+     "as\u0002apatnam",
+     "unchallenged"
+    ],
+    [
+     "bhūmāv",
+     "on this Earth"
+    ],
+    [
+     "vā",
+     "or"
+    ],
+    [
+     "cādhipatyam",
+     "lordship"
+    ],
+    [
+     "surāṇām",
+     "over the gods"
+    ],
+    [
+     "aham",
+     "I"
+    ],
+    [
+     "na hi",
+     "cannot"
+    ],
+    [
+     "prapaśyāmi",
+     "see"
+    ],
+    [
+     "yac",
+     "what"
+    ],
+    [
+     "apanudyād",
+     "could remove"
+    ],
+    [
+     "idam",
+     "this"
+    ],
+    [
+     "chokam",
+     "grief"
+    ],
+    [
+     "ucchoṣaṇam",
+     "drying up"
+    ],
+    [
+     "mama",
+     "my"
+    ],
+    [
+     "indriyāṇām",
+     "senses"
+    ]
+   ],
+   "translation": "Even the attainment of a prosperous, unchallenged kingdom on this Earth—or lordship over the gods—I cannot see what could remove this grief that dries up my senses.",
+   "keywords": [
+    {
+     "word": "attainment",
+     "sanskrit": "avāpya",
+     "context": "Even the attainment of a prosperous, unchalleng…",
+     "new": true,
+     "rhymes": [
+      "entertainment"
+     ]
+    },
+    {
+     "word": "prosperous",
+     "sanskrit": "ṛddhaṁ",
+     "context": "Even the attainment of a prosperous, unchallenged kingdom on th…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "unchallenged",
+     "sanskrit": "as\u0002apatnam",
+     "context": "…attainment of a prosperous, unchallenged kingdom on this Earth—or lo…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "kingdom",
+     "sanskrit": "rājyaṁ",
+     "context": "…a prosperous, unchallenged kingdom on this Earth—or lordship o…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "earth",
+     "sanskrit": "bhūmāv",
+     "context": "…nchallenged kingdom on this Earth—or lordship over the gods—I…",
+     "new": false,
+     "rhymes": [
+      "worth",
+      "birth",
+      "perth"
+     ]
+    },
+    {
+     "word": "lordship",
+     "sanskrit": "cādhipatyam",
+     "context": "…ed kingdom on this Earth—or lordship over the gods—I cannot see…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.9",
+   "chapter": 2,
+   "verse": "9",
+   "padas": [
+    "sañjaya uvāca",
+    "evam uktvā hṛṣīkeśaṁ",
+    "guḍākeśaḥ parantapaḥ",
+    "na yotsya iti govindam",
+    "uktvā tūṣṇīṁ babhūva ha"
+   ],
+   "meanings": [
+    [
+     "sañjaya uvāca",
+     "Sañjaya said"
+    ],
+    [
+     "evam",
+     "having thus"
+    ],
+    [
+     "uktvā",
+     "spoken"
+    ],
+    [
+     "hṛṣīkeśam",
+     "to Hṛṣīkeśa"
+    ],
+    [
+     "guḍākeśaḥ",
+     "Arjuna, the conqueror of sleep"
+    ],
+    [
+     "parantapaḥ",
+     "[and] vanquisher of enemies"
+    ],
+    [
+     "uktvā",
+     "said"
+    ],
+    [
+     "iti",
+     "thus"
+    ],
+    [
+     "govindam",
+     "to Govinda"
+    ],
+    [
+     "na yotsya",
+     "“I will not fight”"
+    ],
+    [
+     "ha",
+     "[and] indeed"
+    ],
+    [
+     "babhūva",
+     "became"
+    ],
+    [
+     "tūṣṇim",
+     "silent"
+    ]
+   ],
+   "translation": "Sañjaya said: Having thus spoken to Hṛṣīkeśa, Arjuna, the conqueror of sleep and vanquisher of enemies, said to Govinda, “I will not fight” and became silent.",
+   "keywords": [
+    {
+     "word": "said",
+     "sanskrit": "sañjaya uvāca",
+     "context": "Sañjaya said: Having thus spoken to Hṛṣī…",
+     "new": false,
+     "rhymes": [
+      "read",
+      "thread",
+      "red",
+      "head",
+      "lead"
+     ]
+    },
+    {
+     "word": "spoken",
+     "sanskrit": "uktvā",
+     "context": "Sañjaya said: Having thus spoken to Hṛṣīkeśa, Arjuna, the co…",
+     "new": true,
+     "rhymes": [
+      "broken",
+      "token"
+     ]
+    },
+    {
+     "word": "arjuna",
+     "sanskrit": "guḍākeśaḥ",
+     "context": "…ng thus spoken to Hṛṣīkeśa, Arjuna, the conqueror of sleep and…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "conqueror",
+     "sanskrit": "guḍākeśaḥ",
+     "context": "…en to Hṛṣīkeśa, Arjuna, the conqueror of sleep and vanquisher of…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "vanquisher",
+     "sanskrit": "parantapaḥ",
+     "context": "…the conqueror of sleep and vanquisher of enemies, said to Govinda…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "govinda",
+     "sanskrit": "govindam",
+     "context": "…quisher of enemies, said to Govinda, “I will not fight” and bec…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.10",
+   "chapter": 2,
+   "verse": "10",
+   "padas": [
+    "tam uvāca hṛṣīkeśaḥ",
+    "prahasann iva bhārata",
+    "senayor ubhayor madhye",
+    "viṣīdantam idaṁ vacaḥ"
+   ],
+   "meanings": [
+    [
+     "bhārata",
+     "O descendant of Bharata"
+    ],
+    [
+     "viṣīdantam",
+     "as he was grieving"
+    ],
+    [
+     "madhye",
+     "between"
+    ],
+    [
+     "ubhayoḥ",
+     "the two"
+    ],
+    [
+     "senayoḥ",
+     "armies"
+    ],
+    [
+     "hṛṣīkeśaḥ",
+     "Kṛṣṇa"
+    ],
+    [
+     "iva",
+     "slightly"
+    ],
+    [
+     "prahāsann",
+     "smiling"
+    ],
+    [
+     "uvāca",
+     "spoke"
+    ],
+    [
+     "idam",
+     "the following words"
+    ],
+    [
+     "tam",
+     "to him"
+    ]
+   ],
+   "translation": "O descendant of Bharata, as he was grieving between the two armies, Hṛṣīkeśa, slightly smiling, spoke the following words to him.",
+   "keywords": [
+    {
+     "word": "descendant",
+     "sanskrit": "bhārata",
+     "context": "O descendant of Bharata, as he was griev…",
+     "new": true,
+     "rhymes": [
+      "independent",
+      "dependent",
+      "defendant",
+      "pendant",
+      "superintendent"
+     ]
+    },
+    {
+     "word": "bharata",
+     "sanskrit": "bhārata",
+     "context": "O descendant of Bharata, as he was grieving between…",
+     "new": true,
+     "rhymes": [
+      "gotta",
+      "ata"
+     ]
+    },
+    {
+     "word": "grieving",
+     "sanskrit": "viṣīdantam",
+     "context": "…ndant of Bharata, as he was grieving between the two armies, Hṛṣ…",
+     "new": true,
+     "rhymes": [
+      "receiving",
+      "leaving",
+      "achieving"
+     ]
+    },
+    {
+     "word": "slightly",
+     "sanskrit": "iva",
+     "context": "…n the two armies, Hṛṣīkeśa, slightly smiling, spoke the followin…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "smiling",
+     "sanskrit": "prahāsann",
+     "context": "…armies, Hṛṣīkeśa, slightly smiling, spoke the following words…",
+     "new": true,
+     "rhymes": [
+      "filing"
+     ]
+    },
+    {
+     "word": "spoke",
+     "sanskrit": "uvāca",
+     "context": "…Hṛṣīkeśa, slightly smiling, spoke the following words to him.",
+     "new": true,
+     "rhymes": [
+      "oak",
+      "smoke",
+      "folk",
+      "stroke",
+      "broke"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.11",
+   "chapter": 2,
+   "verse": "11",
+   "padas": [
+    "śrī-bhagavān uvāca",
+    "aśocyān anvaśocas tvaṁ",
+    "prajñā-vādāṁś ca bhāṣase",
+    "gatāsūn agatāsūṁś ca",
+    "nānuśocanti paṇḍitāḥ"
+   ],
+   "meanings": [
+    [
+     "tvaṁ",
+     "you"
+    ],
+    [
+     "anvaśocas",
+     "grieved [for]"
+    ],
+    [
+     "aśocyān",
+     "those who should not be grieved for"
+    ],
+    [
+     "ca",
+     "yet"
+    ],
+    [
+     "tvaṁ",
+     "you"
+    ],
+    [
+     "bhāṣase",
+     "speak"
+    ],
+    [
+     "prajñā-vādān",
+     "words of wisdom"
+    ],
+    [
+     "paṇḍitāḥ",
+     "the learned"
+    ],
+    [
+     "nānuśocanti",
+     "lament"
+    ],
+    [
+     "ca",
+     "neither"
+    ],
+    [
+     "gatāsūn",
+     "for the dead"
+    ],
+    [
+     "ca",
+     "nor"
+    ],
+    [
+     "agatāsūṁś",
+     "for the living"
+    ]
+   ],
+   "translation": "Bhagavān Kṛṣṇa said: You are grieving for those who should not be grieved for, yet you speak words of wisdom. The truly wise ones lament neither for the dead nor for the living.",
+   "keywords": [
+    {
+     "word": "grieving",
+     "sanskrit": "anvaśocas",
+     "context": "…hagavān Kṛṣṇa said: You are grieving for those who should not be…",
+     "new": true,
+     "rhymes": [
+      "receiving",
+      "leaving",
+      "achieving"
+     ]
+    },
+    {
+     "word": "yet",
+     "sanskrit": "ca",
+     "context": "…should not be grieved for, yet you speak words of wisdom.…",
+     "new": false,
+     "rhymes": [
+      "get",
+      "set",
+      "let",
+      "net",
+      "et"
+     ]
+    },
+    {
+     "word": "speak",
+     "sanskrit": "bhāṣase",
+     "context": "…not be grieved for, yet you speak words of wisdom. The truly…",
+     "new": false,
+     "rhymes": [
+      "week",
+      "unique",
+      "creek",
+      "peak",
+      "greek"
+     ]
+    },
+    {
+     "word": "wisdom",
+     "sanskrit": "prajñā-vādān",
+     "context": "…for, yet you speak words of wisdom. The truly wise ones lament…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "lament",
+     "sanskrit": "nānuśocanti",
+     "context": "…wisdom. The truly wise ones lament neither for the dead nor fo…",
+     "new": true,
+     "rhymes": [
+      "event",
+      "percent",
+      "sent",
+      "went",
+      "rent"
+     ]
+    },
+    {
+     "word": "dead",
+     "sanskrit": "gatāsūn",
+     "context": "…ones lament neither for the dead nor for the living.",
+     "new": false,
+     "rhymes": [
+      "read",
+      "said",
+      "thread",
+      "red",
+      "head"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.12",
+   "chapter": 2,
+   "verse": "12",
+   "padas": [
+    "na tv evāhaṁ jātu nāsaṁ",
+    "na tvaṁ neme janādhipāḥ",
+    "na caiva na bhaviṣyāmaḥ",
+    "sarve vayam ataḥ para"
+   ],
+   "meanings": [
+    [
+     "tu",
+     "but"
+    ],
+    [
+     "eva",
+     "certainly"
+    ],
+    [
+     "na jātu",
+     "[there was] never [a time when]"
+    ],
+    [
+     "aham",
+     "I"
+    ],
+    [
+     "na āsam",
+     "didn’t exist"
+    ],
+    [
+     "na tvam",
+     "nor you"
+    ],
+    [
+     "na ime",
+     "nor these"
+    ],
+    [
+     "janādhipāḥ",
+     "kings"
+    ],
+    [
+     "na ca eva",
+     "and certainly not"
+    ],
+    [
+     "sarve",
+     "[will there be a time where] all"
+    ],
+    [
+     "vayam",
+     "[of] us"
+    ],
+    [
+     "na bhaviṣyāmaḥ",
+     ""
+    ]
+   ],
+   "translation": "will not exist Surely there has never been a time when I didn’t exist, nor you, nor any of these kings, nor will there ever be a time when we all don’t exist.",
+   "keywords": [
+    {
+     "word": "exist",
+     "sanskrit": "na āsam",
+     "context": "will not exist Surely there has never been…",
+     "new": true,
+     "rhymes": [
+      "list",
+      "assist",
+      "missed",
+      "fist",
+      "twist"
+     ]
+    },
+    {
+     "word": "surely",
+     "sanskrit": null,
+     "context": "will not exist Surely there has never been a time…",
+     "new": true,
+     "rhymes": [
+      "securely"
+     ]
+    },
+    {
+     "word": "time",
+     "sanskrit": "na jātu",
+     "context": "…rely there has never been a time when I didn’t exist, nor yo…",
+     "new": false,
+     "rhymes": [
+      "crime",
+      "prime",
+      "sublime",
+      "mime",
+      "climb"
+     ]
+    },
+    {
+     "word": "didn",
+     "sanskrit": "na āsam",
+     "context": "…as never been a time when I didn’t exist, nor you, nor any o…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "kings",
+     "sanskrit": "janādhipāḥ",
+     "context": "…, nor you, nor any of these kings, nor will there ever be a t…",
+     "new": true,
+     "rhymes": [
+      "things",
+      "springs",
+      "rings",
+      "brings",
+      "wings"
+     ]
+    },
+    {
+     "word": "don",
+     "sanskrit": null,
+     "context": "…ever be a time when we all don’t exist.",
+     "new": true,
+     "rhymes": [
+      "on",
+      "john",
+      "non",
+      "upon",
+      "con"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.13",
+   "chapter": 2,
+   "verse": "13",
+   "padas": [
+    "dehino ’smin yathā dehe",
+    "kaumāraṁ yauvanaṁ jarā",
+    "tathā dehāntara-prāptir",
+    "dhīras tatra na muhyati"
+   ],
+   "meanings": [
+    [
+     "yathā",
+     "just as"
+    ],
+    [
+     "kaumāram",
+     "childhood"
+    ],
+    [
+     "yauvanam",
+     "youth"
+    ],
+    [
+     "jarā",
+     "[and] old age"
+    ],
+    [
+     "asmin",
+     "[take place] in this"
+    ],
+    [
+     "dehe",
+     "body"
+    ],
+    [
+     "tathā",
+     "similarly"
+    ],
+    [
+     "deha-antara-prāptiḥ",
+     "[there occurs] the attainment of another body"
+    ],
+    [
+     "dehinaḥ",
+     "for the embodied ātmā"
+    ],
+    [
+     "dhīraḥ",
+     "the wise man"
+    ],
+    [
+     "na muhyati",
+     "is not bewildered"
+    ],
+    [
+     "tatra",
+     "about this"
+    ]
+   ],
+   "translation": "Just as childhood, youth, and old age take place in the body, the em\u0002bodied ātmā attains another body at death. A wise person is not bewildered about this.",
+   "keywords": [
+    {
+     "word": "childhood",
+     "sanskrit": "kaumāram",
+     "context": "Just as childhood, youth, and old age take pl…",
+     "new": true,
+     "rhymes": [
+      "neighborhood",
+      "hollywood",
+      "likelihood",
+      "hardwood"
+     ]
+    },
+    {
+     "word": "youth",
+     "sanskrit": "yauvanam",
+     "context": "Just as childhood, youth, and old age take place in…",
+     "new": false,
+     "rhymes": [
+      "truth",
+      "ruth",
+      "booth",
+      "tooth"
+     ]
+    },
+    {
+     "word": "body",
+     "sanskrit": "dehe",
+     "context": "…d old age take place in the body, the em\u0002bodied ātmā attains…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "attains",
+     "sanskrit": "deha-antara-prāptiḥ",
+     "context": "…he body, the em\u0002bodied ātmā attains another body at death. A wi…",
+     "new": true,
+     "rhymes": [
+      "contains",
+      "remains",
+      "domains",
+      "explains",
+      "gains"
+     ]
+    },
+    {
+     "word": "wise",
+     "sanskrit": "dhīraḥ",
+     "context": "…ns another body at death. A wise person is not bewildered ab…",
+     "new": false,
+     "rhymes": [
+      "size",
+      "supplies",
+      "eyes",
+      "replies",
+      "guys"
+     ]
+    },
+    {
+     "word": "bewildered",
+     "sanskrit": "na muhyati",
+     "context": "…death. A wise person is not bewildered about this.",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.14",
+   "chapter": 2,
+   "verse": "14",
+   "padas": [
+    "mātrā-sparśās tu kaunteya",
+    "śītoṣṇa-sukha-duḥkha-dāḥ",
+    "āgamāpāyino ’nityās",
+    "tāṁs titikṣasva bhārata"
+   ],
+   "meanings": [
+    [
+     "mātrā-sparśāḥ",
+     "contact of the senses [with their objects]"
+    ],
+    [
+     "tu",
+     "indeed"
+    ],
+    [
+     "kaunteya",
+     "O son of Kunti"
+    ],
+    [
+     "śīta-uṣṇa-sukha-duḥkha-dāḥ",
+     "give rise to cold and heat, pleasure and pain"
+    ],
+    [
+     "āgama-apāyinaḥ",
+     "they come and go"
+    ],
+    [
+     "anityāḥ",
+     "[and are] impermanent"
+    ],
+    [
+     "tāṁs",
+     "them"
+    ],
+    [
+     "titikṣasva",
+     "endure"
+    ],
+    [
+     "bhārata",
+     "O descendant of Bharata"
+    ]
+   ],
+   "translation": "The contact of the senses with their objects, O Kaunteya, gives rise to feelings of cold and heat, pleasure and pain. They come and go and are impermanent, so endure them without being disturbed, O descendant of Bharata.",
+   "keywords": [
+    {
+     "word": "contact",
+     "sanskrit": "mātrā-sparśāḥ",
+     "context": "The contact of the senses with their ob…",
+     "new": false,
+     "rhymes": [
+      "contract",
+      "extract"
+     ]
+    },
+    {
+     "word": "objects",
+     "sanskrit": "mātrā-sparśāḥ",
+     "context": "…ct of the senses with their objects, O Kaunteya, gives rise to…",
+     "new": false,
+     "rhymes": [
+      "effects",
+      "reflects",
+      "affects",
+      "expects"
+     ]
+    },
+    {
+     "word": "pleasure",
+     "sanskrit": "śīta-uṣṇa-sukha-duḥkha-dāḥ",
+     "context": "…feelings of cold and heat, pleasure and pain. They come and go…",
+     "new": true,
+     "rhymes": [
+      "measure",
+      "leisure",
+      "treasure"
+     ]
+    },
+    {
+     "word": "impermanent",
+     "sanskrit": "anityāḥ",
+     "context": "…n. They come and go and are impermanent, so endure them without bei…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "descendant",
+     "sanskrit": "bhārata",
+     "context": "…without being disturbed, O descendant of Bharata.",
+     "new": true,
+     "rhymes": [
+      "independent",
+      "dependent",
+      "defendant",
+      "pendant",
+      "superintendent"
+     ]
+    },
+    {
+     "word": "bharata",
+     "sanskrit": "bhārata",
+     "context": "…disturbed, O descendant of Bharata.",
+     "new": true,
+     "rhymes": [
+      "gotta",
+      "ata"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.15",
+   "chapter": 2,
+   "verse": "15",
+   "padas": [
+    "yaṁ hi na vyathayanty ete",
+    "puruṣaṁ puruṣarṣabha",
+    "sama-duḥkha-sukhaṁ dhīraṁ",
+    "so ’mṛtatvāya kalpate"
+   ],
+   "meanings": [
+    [
+     "puruṣa-ṛṣabha",
+     "O best of men"
+    ],
+    [
+     "dhīram",
+     "[the] wise"
+    ],
+    [
+     "puruṣam",
+     "person"
+    ],
+    [
+     "yam",
+     "whom"
+    ],
+    [
+     "ete",
+     "these"
+    ],
+    [
+     "na vyathayanti",
+     "do not affect"
+    ],
+    [
+     "sama-duḥkha-sukham",
+     "who equal in pain and pleasure"
+    ],
+    [
+     "saḥ",
+     "he"
+    ],
+    [
+     "hi",
+     "indeed"
+    ],
+    [
+     "kalpate",
+     "is worthy"
+    ],
+    [
+     "amṛtatvāya",
+     "of immortality"
+    ]
+   ],
+   "translation": "O best of men, the wise person who is unaffected by these, and to whom pain and pleasure are the same, is indeed worthy of immortal\u0002ity.",
+   "keywords": [
+    {
+     "word": "best",
+     "sanskrit": "puruṣa-ṛṣabha",
+     "context": "O best of men, the wise person who…",
+     "new": false,
+     "rhymes": [
+      "west",
+      "test",
+      "request",
+      "est",
+      "guest"
+     ]
+    },
+    {
+     "word": "wise",
+     "sanskrit": "dhīram",
+     "context": "O best of men, the wise person who is unaffected by…",
+     "new": false,
+     "rhymes": [
+      "size",
+      "supplies",
+      "eyes",
+      "replies",
+      "guys"
+     ]
+    },
+    {
+     "word": "pain",
+     "sanskrit": "sama-duḥkha-sukham",
+     "context": "…ected by these, and to whom pain and pleasure are the same,…",
+     "new": false,
+     "rhymes": [
+      "main",
+      "domain",
+      "spain",
+      "campaign",
+      "chain"
+     ]
+    },
+    {
+     "word": "pleasure",
+     "sanskrit": "sama-duḥkha-sukham",
+     "context": "…these, and to whom pain and pleasure are the same, is indeed wor…",
+     "new": true,
+     "rhymes": [
+      "measure",
+      "leisure",
+      "treasure"
+     ]
+    },
+    {
+     "word": "worthy",
+     "sanskrit": "kalpate",
+     "context": "…ure are the same, is indeed worthy of immortal\u0002ity.",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "immortal",
+     "sanskrit": "amṛtatvāya",
+     "context": "…e same, is indeed worthy of immortal\u0002ity.",
+     "new": true,
+     "rhymes": [
+      "portal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.16",
+   "chapter": 2,
+   "verse": "16",
+   "padas": [
+    "nāsato vidyate bhāvo",
+    "nābhāvo vidyate sataḥ",
+    "ubhayor api dṛṣṭo ’ntas",
+    "tv anayos tattva-darśibhiḥ"
+   ],
+   "meanings": [
+    [
+     "vidyate",
+     "there is"
+    ],
+    [
+     "na",
+     "no"
+    ],
+    [
+     "bhāvaḥ",
+     "existence"
+    ],
+    [
+     "asataḥ",
+     "of the unreal"
+    ],
+    [
+     "vidyate",
+     "there is"
+    ],
+    [
+     "na",
+     "not"
+    ],
+    [
+     "abhāvaḥ",
+     "non-existence"
+    ],
+    [
+     "sataḥ",
+     "of the real"
+    ],
+    [
+     "api",
+     "surely"
+    ],
+    [
+     "antaḥ",
+     "[this is the] conclusion"
+    ],
+    [
+     "anayoḥ ubhayoh",
+     "regarding the these two"
+    ],
+    [
+     "tattva-darśibhiḥ",
+     "by those who have realized the Truth"
+    ],
+    [
+     "dṛṣṭaḥ",
+     "seen"
+    ],
+    [
+     "tu",
+     "indeed"
+    ]
+   ],
+   "translation": "There is no existence of the unreal, and there is no non-existence of the real. This is the conclusion regarding these two that is perceived by those who have realized the Truth.",
+   "keywords": [
+    {
+     "word": "existence",
+     "sanskrit": "bhāvaḥ",
+     "context": "There is no existence of the unreal, and there is…",
+     "new": true,
+     "rhymes": [
+      "distance",
+      "assistance",
+      "resistance"
+     ]
+    },
+    {
+     "word": "non-existence",
+     "sanskrit": "abhāvaḥ",
+     "context": "…the unreal, and there is no non-existence of the real. This is the co…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "real",
+     "sanskrit": "sataḥ",
+     "context": "…is no non-existence of the real. This is the conclusion reg…",
+     "new": false,
+     "rhymes": [
+      "feel",
+      "deal",
+      "steel",
+      "appeal",
+      "ideal"
+     ]
+    },
+    {
+     "word": "conclusion",
+     "sanskrit": "antaḥ",
+     "context": "…ce of the real. This is the conclusion regarding these two that is…",
+     "new": true,
+     "rhymes": [
+      "fusion",
+      "inclusion",
+      "confusion",
+      "exclusion"
+     ]
+    },
+    {
+     "word": "regarding",
+     "sanskrit": "anayoḥ ubhayoh",
+     "context": "…eal. This is the conclusion regarding these two that is perceived…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "realized",
+     "sanskrit": "tattva-darśibhiḥ",
+     "context": "…perceived by those who have realized the Truth.",
+     "new": true,
+     "rhymes": [
+      "authorized",
+      "recognized",
+      "organized",
+      "personalized",
+      "customized"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.17",
+   "chapter": 2,
+   "verse": "17",
+   "padas": [
+    "avināśi tu tad viddhi",
+    "yena sarvam idaṁ tatam",
+    "vināśam avyayasyāsya",
+    "na kaścit kartum arhati"
+   ],
+   "meanings": [
+    [
+     "viddhi",
+     "know"
+    ],
+    [
+     "tat",
+     "that"
+    ],
+    [
+     "yena",
+     "by which"
+    ],
+    [
+     "idam sarvam",
+     "this entire body"
+    ],
+    [
+     "tatam",
+     "is pervaded"
+    ],
+    [
+     "tu",
+     "[to be] indeed"
+    ],
+    [
+     "avināśi",
+     "indestructible"
+    ],
+    [
+     "na kaścit",
+     "no one"
+    ],
+    [
+     "arhati",
+     "can"
+    ],
+    [
+     "kartum",
+     "cause"
+    ],
+    [
+     "vināśam",
+     "the destruction"
+    ],
+    [
+     "avyayasya",
+     "of the imperishable"
+    ],
+    [
+     "asya",
+     "of"
+    ]
+   ],
+   "translation": "this [ātmā] Know that which pervades this entire body to be indestructible. None can cause the destruction of the imperishable ātmā.",
+   "keywords": [
+    {
+     "word": "pervades",
+     "sanskrit": "tatam",
+     "context": "this [ātmā] Know that which pervades this entire body to be inde…",
+     "new": true,
+     "rhymes": [
+      "aids",
+      "grades",
+      "decades",
+      "upgrades",
+      "trades"
+     ]
+    },
+    {
+     "word": "entire",
+     "sanskrit": "idam sarvam",
+     "context": "…ow that which pervades this entire body to be indestructible.…",
+     "new": false,
+     "rhymes": [
+      "fire",
+      "higher",
+      "prior",
+      "require",
+      "buyer"
+     ]
+    },
+    {
+     "word": "indestructible",
+     "sanskrit": "avināśi",
+     "context": "…ades this entire body to be indestructible. None can cause the destruc…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "cause",
+     "sanskrit": "kartum",
+     "context": "…be indestructible. None can cause the destruction of the impe…",
+     "new": false,
+     "rhymes": [
+      "was",
+      "oz",
+      "mas",
+      "pas",
+      "spas"
+     ]
+    },
+    {
+     "word": "destruction",
+     "sanskrit": "vināśam",
+     "context": "…uctible. None can cause the destruction of the imperishable ātmā.",
+     "new": true,
+     "rhymes": [
+      "production",
+      "construction",
+      "introduction",
+      "reduction",
+      "instruction"
+     ]
+    },
+    {
+     "word": "imperishable",
+     "sanskrit": "avyayasya",
+     "context": "…ause the destruction of the imperishable ātmā.",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.18",
+   "chapter": 2,
+   "verse": "18",
+   "padas": [
+    "antavanta ime dehā",
+    "nityasyoktāḥ śarīriṇaḥ",
+    "anāśino ’prameyasya",
+    "tasmād yudhyasva bhārata"
+   ],
+   "meanings": [
+    [
+     "ime",
+     "these"
+    ],
+    [
+     "dehāḥ",
+     "bodies"
+    ],
+    [
+     "nityasya",
+     "of the eternal"
+    ],
+    [
+     "anāśinaḥ",
+     "imperishable"
+    ],
+    [
+     "aprameyasya",
+     "incomprehensible"
+    ],
+    [
+     "śarīriṇaḥ",
+     "ātmā dwelling in the body"
+    ],
+    [
+     "uktāḥ",
+     "are said to be"
+    ],
+    [
+     "antavantaḥ",
+     "perishable"
+    ],
+    [
+     "tasmāt",
+     "therefore"
+    ],
+    [
+     "yudhyasva",
+     "fight"
+    ],
+    [
+     "bhārata",
+     "O"
+    ]
+   ],
+   "translation": "descendant of Bharata (Arjuna) The bodies of the eternal, imperishable, and incomprehensible ātmā dwelling in the body are said to be perishable. Therefore fight, O descendant of Bharata.",
+   "keywords": [
+    {
+     "word": "descendant",
+     "sanskrit": null,
+     "context": "descendant of Bharata (Arjuna) The bod…",
+     "new": true,
+     "rhymes": [
+      "independent",
+      "dependent",
+      "defendant",
+      "pendant",
+      "superintendent"
+     ]
+    },
+    {
+     "word": "bharata",
+     "sanskrit": null,
+     "context": "descendant of Bharata (Arjuna) The bodies of the…",
+     "new": true,
+     "rhymes": [
+      "gotta",
+      "ata"
+     ]
+    },
+    {
+     "word": "eternal",
+     "sanskrit": "nityasya",
+     "context": "…(Arjuna) The bodies of the eternal, imperishable, and incompre…",
+     "new": true,
+     "rhymes": [
+      "journal",
+      "internal",
+      "external",
+      "kernel"
+     ]
+    },
+    {
+     "word": "imperishable",
+     "sanskrit": "anāśinaḥ",
+     "context": "…The bodies of the eternal, imperishable, and incomprehensible ātmā…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "incomprehensible",
+     "sanskrit": "aprameyasya",
+     "context": "…eternal, imperishable, and incomprehensible ātmā dwelling in the body a…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "dwelling",
+     "sanskrit": "śarīriṇaḥ",
+     "context": "…, and incomprehensible ātmā dwelling in the body are said to be…",
+     "new": true,
+     "rhymes": [
+      "selling",
+      "telling",
+      "spelling"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.19",
+   "chapter": 2,
+   "verse": "19",
+   "padas": [
+    "ya enaṁ vetti hantāraṁ",
+    "yaś cainaṁ manyate hatam",
+    "ubhau tau na vijānīto",
+    "nāyaṁ hanti na hanyate"
+   ],
+   "meanings": [
+    [
+     "yaḥ",
+     "one who"
+    ],
+    [
+     "vetti",
+     "believes"
+    ],
+    [
+     "enam",
+     "this [ātmā]"
+    ],
+    [
+     "hantāram",
+     "to be the killer"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "yaḥ",
+     "one who"
+    ],
+    [
+     "manyate",
+     "thinks"
+    ],
+    [
+     "enam",
+     "this [ātmā]"
+    ],
+    [
+     "hatam",
+     "[can be] killed"
+    ],
+    [
+     "ubhau",
+     "both"
+    ],
+    [
+     "na",
+     "[do] not"
+    ],
+    [
+     "vijānītaḥ",
+     "know"
+    ],
+    [
+     "ayam",
+     "this [ātmā]"
+    ],
+    [
+     "na hanti",
+     "does not slay"
+    ],
+    [
+     "na hanyate",
+     "nor is slain"
+    ]
+   ],
+   "translation": "One who believes the ātmā to be the killer, and one who thinks it can be killed — both do not know; for the ātmā neither slays nor is it slain.",
+   "keywords": [
+    {
+     "word": "believes",
+     "sanskrit": "vetti",
+     "context": "One who believes the ātmā to be the killer,…",
+     "new": true,
+     "rhymes": [
+      "leaves",
+      "receives"
+     ]
+    },
+    {
+     "word": "killer",
+     "sanskrit": "hantāram",
+     "context": "…believes the ātmā to be the killer, and one who thinks it can…",
+     "new": true,
+     "rhymes": [
+      "miller",
+      "thriller"
+     ]
+    },
+    {
+     "word": "thinks",
+     "sanskrit": "manyate",
+     "context": "…be the killer, and one who thinks it can be killed — both do…",
+     "new": true,
+     "rhymes": [
+      "links",
+      "drinks"
+     ]
+    },
+    {
+     "word": "killed",
+     "sanskrit": "hantāram",
+     "context": "…nd one who thinks it can be killed — both do not know; for the…",
+     "new": true,
+     "rhymes": [
+      "build",
+      "filled",
+      "guild",
+      "skilled"
+     ]
+    },
+    {
+     "word": "slays",
+     "sanskrit": "na hanti",
+     "context": "…know; for the ātmā neither slays nor is it slain.",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "slain",
+     "sanskrit": "na hanyate",
+     "context": "…tmā neither slays nor is it slain.",
+     "new": true,
+     "rhymes": [
+      "main",
+      "domain",
+      "spain",
+      "pain",
+      "campaign"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.20",
+   "chapter": 2,
+   "verse": "20",
+   "padas": [
+    "na jāyate mriyate vā kadācin",
+    "nāyaṁ bhūtvā bhavitā vā na bhūyaḥ",
+    "ajo nityaḥ śāśvato ’yaṁ purāṇo",
+    "na hanyate hanyamāne śarīre"
+   ],
+   "meanings": [
+    [
+     "na kadācit",
+     "never"
+    ],
+    [
+     "jāyate",
+     "is [the ātmā] born"
+    ],
+    [
+     "vā",
+     "nor"
+    ],
+    [
+     "mriyate",
+     "does it die"
+    ],
+    [
+     "na ayam",
+     "[nor is it the case that] this [ātmā]"
+    ],
+    [
+     "bhūtvā",
+     "having come into existence"
+    ],
+    [
+     "na bhavitā",
+     "It will not to exist"
+    ],
+    [
+     "vā",
+     "or"
+    ],
+    [
+     "bhūyaḥ",
+     "in the future"
+    ],
+    [
+     "ayam",
+     "this [ātmā is]"
+    ],
+    [
+     "ajaḥ",
+     "unborn"
+    ],
+    [
+     "nityaḥ",
+     "eternal"
+    ],
+    [
+     "śāśvataḥ",
+     "everlasting"
+    ],
+    [
+     "purāṇaḥ",
+     "most ancient"
+    ],
+    [
+     "na hanyate",
+     "[it] is not killed"
+    ],
+    [
+     "hanyamāne",
+     "upon slaying"
+    ],
+    [
+     "śarīre",
+     "of the body"
+    ]
+   ],
+   "translation": "The ātmā is never born, nor does it ever die, nor is it the case that once having come to existence it will cease to exist in the future. It is unborn, eternal, everlasting and most ancient. It is not killed when the body is slain.",
+   "keywords": [
+    {
+     "word": "ever",
+     "sanskrit": "śāśvataḥ",
+     "context": "…is never born, nor does it ever die, nor is it the case tha…",
+     "new": false,
+     "rhymes": [
+      "however",
+      "never",
+      "whatever",
+      "forever",
+      "whenever"
+     ]
+    },
+    {
+     "word": "existence",
+     "sanskrit": "bhūtvā",
+     "context": "…se that once having come to existence it will cease to exist in t…",
+     "new": true,
+     "rhymes": [
+      "distance",
+      "assistance",
+      "resistance"
+     ]
+    },
+    {
+     "word": "exist",
+     "sanskrit": "bhūtvā",
+     "context": "…se that once having come to existence it will cease to exist…",
+     "new": true,
+     "rhymes": [
+      "list",
+      "assist",
+      "missed",
+      "fist",
+      "twist"
+     ]
+    },
+    {
+     "word": "eternal",
+     "sanskrit": "nityaḥ",
+     "context": "…n the future. It is unborn, eternal, everlasting and most ancie…",
+     "new": true,
+     "rhymes": [
+      "journal",
+      "internal",
+      "external",
+      "kernel"
+     ]
+    },
+    {
+     "word": "everlasting",
+     "sanskrit": "śāśvataḥ",
+     "context": "…ure. It is unborn, eternal, everlasting and most ancient. It is not…",
+     "new": true,
+     "rhymes": [
+      "casting",
+      "lasting"
+     ]
+    },
+    {
+     "word": "ancient",
+     "sanskrit": "purāṇaḥ",
+     "context": "…ernal, everlasting and most ancient. It is not killed when the…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.21",
+   "chapter": 2,
+   "verse": "21",
+   "padas": [
+    "vedāvināśinaṁ nityaṁ",
+    "ya enam ajam avyayam",
+    "kathaṁ sa puruṣaḥ pārtha",
+    "kaṁ ghātayati hanti kam"
+   ],
+   "meanings": [
+    [
+     "pārtha",
+     "O son of Pṛthā (Arjuna)"
+    ],
+    [
+     "yaḥ",
+     "one who"
+    ],
+    [
+     "veda",
+     "knows"
+    ],
+    [
+     "enam",
+     "this [ātmā]"
+    ],
+    [
+     "avināśinam",
+     "[to be] indestructible"
+    ],
+    [
+     "nityam",
+     "eternal"
+    ],
+    [
+     "ajam",
+     "unborn"
+    ],
+    [
+     "avyayam",
+     "[and] unchanging"
+    ],
+    [
+     "katham",
+     "how"
+    ],
+    [
+     "kam",
+     "[and] whom"
+    ],
+    [
+     "saḥ puruṣaḥ",
+     "that person"
+    ],
+    [
+     "hanti",
+     "kills"
+    ],
+    [
+     "kam",
+     "whom"
+    ],
+    [
+     "ghātayati",
+     "causes to be killed"
+    ]
+   ],
+   "translation": "O son of Pṛthā, if one knows this ātmā to be indestructible, unborn, unchanging, and eternal, how and whom does that person kill or cause to be killed?",
+   "keywords": [
+    {
+     "word": "son",
+     "sanskrit": "pārtha",
+     "context": "O son of Pṛthā, if one knows this…",
+     "new": false,
+     "rhymes": [
+      "one",
+      "sun",
+      "run",
+      "fun",
+      "done"
+     ]
+    },
+    {
+     "word": "knows",
+     "sanskrit": "veda",
+     "context": "O son of Pṛthā, if one knows this ātmā to be indestructi…",
+     "new": true,
+     "rhymes": [
+      "those",
+      "shows",
+      "goes",
+      "rose",
+      "suppose"
+     ]
+    },
+    {
+     "word": "indestructible",
+     "sanskrit": "avināśinam",
+     "context": "…f one knows this ātmā to be indestructible, unborn, unchanging, and et…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "unchanging",
+     "sanskrit": "avyayam",
+     "context": "…be indestructible, unborn, unchanging, and eternal, how and whom…",
+     "new": true,
+     "rhymes": [
+      "changing",
+      "ranging"
+     ]
+    },
+    {
+     "word": "eternal",
+     "sanskrit": "nityam",
+     "context": "…le, unborn, unchanging, and eternal, how and whom does that per…",
+     "new": true,
+     "rhymes": [
+      "journal",
+      "internal",
+      "external",
+      "kernel"
+     ]
+    },
+    {
+     "word": "kill",
+     "sanskrit": "hanti",
+     "context": "…w and whom does that person kill or cause to be killed?",
+     "new": true,
+     "rhymes": [
+      "will",
+      "still",
+      "until",
+      "bill",
+      "hill"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.22",
+   "chapter": 2,
+   "verse": "22",
+   "padas": [
+    "vāsāṁsi jīrṇāni yathā vihāya",
+    "navāni gṛhṇāti naro ’parāṇi",
+    "tathā śarīrāṇi vihāya jīrṇāny",
+    "anyāni saṁyāti navāni dehī"
+   ],
+   "meanings": [
+    [
+     "yathā",
+     "just as"
+    ],
+    [
+     "naraḥ",
+     "a person [who]"
+    ],
+    [
+     "vihāya",
+     "has discarded"
+    ],
+    [
+     "jīrṇāni",
+     "worn-out"
+    ],
+    [
+     "vāsāṁsi",
+     "clothes"
+    ],
+    [
+     "gṛhṇāti",
+     "puts on"
+    ],
+    [
+     "aparāṇi",
+     "other"
+    ],
+    [
+     "navāni",
+     "new ones"
+    ],
+    [
+     "tathā",
+     "so"
+    ],
+    [
+     "dehī",
+     "the embodied ātmā"
+    ],
+    [
+     "vihāya",
+     "having discarded"
+    ],
+    [
+     "jīrṇāni",
+     "worn-out"
+    ],
+    [
+     "śarīrāṇi",
+     "bodies"
+    ],
+    [
+     "saṁyāti",
+     "enters into"
+    ],
+    [
+     "anyāni",
+     "other"
+    ],
+    [
+     "navāni",
+     "new ones"
+    ]
+   ],
+   "translation": "Just as a person who has discarded worn-out clothes puts on new ones, so the embodied ātmā, having discarded its worn-out bodies, enters into new ones.",
+   "keywords": [
+    {
+     "word": "discarded",
+     "sanskrit": "vihāya",
+     "context": "Just as a person who has discarded worn-out clothes puts on ne…",
+     "new": true,
+     "rhymes": [
+      "regarded"
+     ]
+    },
+    {
+     "word": "worn-out",
+     "sanskrit": "jīrṇāni",
+     "context": "…a person who has discarded worn-out clothes puts on new ones, s…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "clothes",
+     "sanskrit": "vāsāṁsi",
+     "context": "…who has discarded worn-out clothes puts on new ones, so the em…",
+     "new": true,
+     "rhymes": [
+      "those",
+      "shows",
+      "goes",
+      "rose",
+      "knows"
+     ]
+    },
+    {
+     "word": "puts",
+     "sanskrit": "gṛhṇāti",
+     "context": "…discarded worn-out clothes puts on new ones, so the embodie…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "new",
+     "sanskrit": "navāni",
+     "context": "…ed worn-out clothes puts on new ones, so the embodied ātmā,…",
+     "new": false,
+     "rhymes": [
+      "to",
+      "you",
+      "do",
+      "who",
+      "view"
+     ]
+    },
+    {
+     "word": "ones",
+     "sanskrit": "navāni",
+     "context": "…orn-out clothes puts on new ones, so the embodied ātmā, havi…",
+     "new": false,
+     "rhymes": [
+      "runs",
+      "sons",
+      "guns",
+      "tons"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.23",
+   "chapter": 2,
+   "verse": "23",
+   "padas": [
+    "nainaṁ chindanti śastrāṇi",
+    "nainaṁ dahati pāvakaḥ",
+    "na cainaṁ kledayanty āpo",
+    "na śoṣayati mārutaḥ"
+   ],
+   "meanings": [
+    [
+     "śastrāṇi",
+     "weapons"
+    ],
+    [
+     "na chindanti",
+     "do not cut"
+    ],
+    [
+     "enam",
+     "this [ātmā]"
+    ],
+    [
+     "pāvakaḥ",
+     "fire"
+    ],
+    [
+     "na dahati",
+     "does not burn"
+    ],
+    [
+     "enam",
+     "it"
+    ],
+    [
+     "āpaḥ",
+     "water"
+    ],
+    [
+     "na kledayanti",
+     "does not wet"
+    ],
+    [
+     "enam",
+     "it"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "mārutaḥ",
+     "wind"
+    ],
+    [
+     "na śoṣayati",
+     "does not dry [it]"
+    ]
+   ],
+   "translation": "Weapons do not cut the ātmā; fire does not burn it, water does not wet it, and wind does not dry it.",
+   "keywords": [
+    {
+     "word": "weapons",
+     "sanskrit": "śastrāṇi",
+     "context": "Weapons do not cut the ātmā; fire d…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "cut",
+     "sanskrit": "na chindanti",
+     "context": "Weapons do not cut the ātmā; fire does not bur…",
+     "new": false,
+     "rhymes": [
+      "but",
+      "what",
+      "somewhat",
+      "butt",
+      "shut"
+     ]
+    },
+    {
+     "word": "burn",
+     "sanskrit": "na dahati",
+     "context": "…cut the ātmā; fire does not burn it, water does not wet it,…",
+     "new": true,
+     "rhymes": [
+      "return",
+      "learn",
+      "turn",
+      "concern",
+      "earn"
+     ]
+    },
+    {
+     "word": "wet",
+     "sanskrit": "na kledayanti",
+     "context": "…not burn it, water does not wet it, and wind does not dry i…",
+     "new": true,
+     "rhymes": [
+      "get",
+      "set",
+      "let",
+      "yet",
+      "net"
+     ]
+    },
+    {
+     "word": "wind",
+     "sanskrit": "mārutaḥ",
+     "context": "…water does not wet it, and wind does not dry it.",
+     "new": false,
+     "rhymes": [
+      "find",
+      "designed",
+      "mind",
+      "kind",
+      "behind"
+     ]
+    },
+    {
+     "word": "dry",
+     "sanskrit": "na śoṣayati",
+     "context": "…t wet it, and wind does not dry it.",
+     "new": true,
+     "rhymes": [
+      "by",
+      "i",
+      "my",
+      "buy",
+      "high"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.24",
+   "chapter": 2,
+   "verse": "24",
+   "padas": [
+    "acchedyo ’yam adāhyo ’yam",
+    "akledyo ’śoṣya eva ca",
+    "nityaḥ sarva-gataḥ sthāṇur",
+    "acalo ’yaṁ sanātanaḥ"
+   ],
+   "meanings": [
+    [
+     "ayam",
+     "this (ātmā)"
+    ],
+    [
+     "acchedyaḥ",
+     "cannot be cut"
+    ],
+    [
+     "ayam",
+     "this (ātmā)"
+    ],
+    [
+     "adāhyaḥ",
+     "cannot be burnt"
+    ],
+    [
+     "akledyaḥ",
+     "[it] cannot be wetted"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "aśoṣyaḥ",
+     "[it] cannot be dried"
+    ],
+    [
+     "eva",
+     "indeed"
+    ],
+    [
+     "ayam",
+     "this (ātmā) [is]"
+    ],
+    [
+     "nityaḥ",
+     "eternal"
+    ],
+    [
+     "sarva-gataḥ",
+     "all-pervading"
+    ],
+    [
+     "sthāṇuḥ",
+     "changeless"
+    ],
+    [
+     "acalaḥ",
+     "immovable"
+    ],
+    [
+     "sanātanaḥ",
+     "[and] everlasting"
+    ]
+   ],
+   "translation": "It cannot be cut; it cannot be burnt; it cannot be wetted, and it can\u0002not be dried. It is eternal, all-pervading, changeless, immovable, and everlasting.",
+   "keywords": [
+    {
+     "word": "cannot",
+     "sanskrit": "acchedyaḥ",
+     "context": "It cannot be cut; it cannot be burnt;…",
+     "new": true,
+     "rhymes": [
+      "not",
+      "hot",
+      "got",
+      "lot",
+      "shot"
+     ]
+    },
+    {
+     "word": "eternal",
+     "sanskrit": "nityaḥ",
+     "context": "…it can\u0002not be dried. It is eternal, all-pervading, changeless,…",
+     "new": true,
+     "rhymes": [
+      "journal",
+      "internal",
+      "external",
+      "kernel"
+     ]
+    },
+    {
+     "word": "all-pervading",
+     "sanskrit": "sarva-gataḥ",
+     "context": "…ot be dried. It is eternal, all-pervading, changeless, immovable, and…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "changeless",
+     "sanskrit": "sthāṇuḥ",
+     "context": "…is eternal, all-pervading, changeless, immovable, and everlasting…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "immovable",
+     "sanskrit": "acalaḥ",
+     "context": "…all-pervading, changeless, immovable, and everlasting.",
+     "new": true,
+     "rhymes": [
+      "removable"
+     ]
+    },
+    {
+     "word": "everlasting",
+     "sanskrit": "sanātanaḥ",
+     "context": "…changeless, immovable, and everlasting.",
+     "new": true,
+     "rhymes": [
+      "casting",
+      "lasting"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.25",
+   "chapter": 2,
+   "verse": "25",
+   "padas": [
+    "avyakto ’yam acintyo ’yam",
+    "avikāryo ’yam ucyate",
+    "tasmād evaṁ viditvainaṁ",
+    "nānuśocitum arhasi"
+   ],
+   "meanings": [
+    [
+     "ayam",
+     "this (ātmā)"
+    ],
+    [
+     "ucyate",
+     "is said [to be]"
+    ],
+    [
+     "avyaktaḥ",
+     "unmanifest"
+    ],
+    [
+     "ayam",
+     "this (ātmā) [is]"
+    ],
+    [
+     "acintyaḥ",
+     "inconceivable"
+    ],
+    [
+     "ayam",
+     "this (ātmā) [is]"
+    ],
+    [
+     "avikāryaḥ",
+     "unchanging"
+    ],
+    [
+     "viditvā",
+     "knowing"
+    ],
+    [
+     "enam",
+     "this (ātmā) [in this way]"
+    ],
+    [
+     "arhasi",
+     "you should"
+    ],
+    [
+     "evam",
+     "thus"
+    ],
+    [
+     "tasmāt",
+     "therefore"
+    ],
+    [
+     "na anuśocitum",
+     "not grieve"
+    ]
+   ],
+   "translation": "This ātmā is said to be unmanifest, inconceivable, and unchanging. Knowing the ātmā in this way, you should therefore no longer grieve.",
+   "keywords": [
+    {
+     "word": "said",
+     "sanskrit": "ucyate",
+     "context": "This ātmā is said to be unmanifest, inconceiv…",
+     "new": false,
+     "rhymes": [
+      "read",
+      "thread",
+      "red",
+      "head",
+      "lead"
+     ]
+    },
+    {
+     "word": "unmanifest",
+     "sanskrit": "avyaktaḥ",
+     "context": "This ātmā is said to be unmanifest, inconceivable, and unchang…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "inconceivable",
+     "sanskrit": "acintyaḥ",
+     "context": "…ā is said to be unmanifest, inconceivable, and unchanging. Knowing th…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "unchanging",
+     "sanskrit": "avikāryaḥ",
+     "context": "…anifest, inconceivable, and unchanging. Knowing the ātmā in this w…",
+     "new": true,
+     "rhymes": [
+      "changing",
+      "ranging"
+     ]
+    },
+    {
+     "word": "knowing",
+     "sanskrit": "viditvā",
+     "context": "…onceivable, and unchanging. Knowing the ātmā in this way, you s…",
+     "new": true,
+     "rhymes": [
+      "going",
+      "showing",
+      "growing",
+      "sewing",
+      "blowing"
+     ]
+    },
+    {
+     "word": "grieve",
+     "sanskrit": "na anuśocitum",
+     "context": "…should therefore no longer grieve.",
+     "new": true,
+     "rhymes": [
+      "receive",
+      "believe",
+      "leave",
+      "steve",
+      "achieve"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.26",
+   "chapter": 2,
+   "verse": "26",
+   "padas": [
+    "atha cainaṁ nitya-jātaṁ",
+    "nityaṁ vā manyase mṛtam",
+    "tathāpi tvaṁ mahā-bāho",
+    "nainaṁ śocitum arhasi"
+   ],
+   "meanings": [
+    [
+     "atha ca",
+     "and even if"
+    ],
+    [
+     "manyase",
+     "you consider"
+    ],
+    [
+     "enam",
+     "this [ātmā]"
+    ],
+    [
+     "nitya-jātam",
+     "to repeatedly go through birth"
+    ],
+    [
+     "vā",
+     "and"
+    ],
+    [
+     "nityam",
+     "repeated"
+    ],
+    [
+     "mṛtam",
+     "death"
+    ],
+    [
+     "mahā-bāho",
+     "O mighty-armed one (Arjuna)"
+    ],
+    [
+     "tathāpi",
+     "even then"
+    ],
+    [
+     "tvam",
+     "you"
+    ],
+    [
+     "arhasi",
+     "should"
+    ],
+    [
+     "na śocitum",
+     "not lament"
+    ],
+    [
+     "enam",
+     "this"
+    ]
+   ],
+   "translation": "Even if you consider this ātmā to repeatedly go through birth and death, O Arjuna, even then you should not lament.",
+   "keywords": [
+    {
+     "word": "repeatedly",
+     "sanskrit": "nitya-jātam",
+     "context": "…f you consider this ātmā to repeatedly go through birth and death,…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "birth",
+     "sanskrit": "nitya-jātam",
+     "context": "…mā to repeatedly go through birth and death, O Arjuna, even t…",
+     "new": false,
+     "rhymes": [
+      "earth",
+      "worth",
+      "perth"
+     ]
+    },
+    {
+     "word": "death",
+     "sanskrit": "mṛtam",
+     "context": "…atedly go through birth and death, O Arjuna, even then you sh…",
+     "new": false,
+     "rhymes": [
+      "breath",
+      "beth"
+     ]
+    },
+    {
+     "word": "arjuna",
+     "sanskrit": "mahā-bāho",
+     "context": "…through birth and death, O Arjuna, even then you should not l…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "lament",
+     "sanskrit": "na śocitum",
+     "context": "…a, even then you should not lament.",
+     "new": true,
+     "rhymes": [
+      "event",
+      "percent",
+      "sent",
+      "went",
+      "rent"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.27",
+   "chapter": 2,
+   "verse": "27",
+   "padas": [
+    "jātasya hi dhruvo mṛtyur",
+    "dhruvaṁ janma mṛtasya ca",
+    "tasmād aparihārye ’rthe",
+    "na tvaṁ śocitum arhasi"
+   ],
+   "meanings": [
+    [
+     "mṛtyuḥ",
+     "death"
+    ],
+    [
+     "hi",
+     "[is] indeed"
+    ],
+    [
+     "dhruvaḥ",
+     "certain"
+    ],
+    [
+     "jātasya",
+     "for one who is born"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "janma",
+     "birth"
+    ],
+    [
+     "dhruvam",
+     "[is] certain"
+    ],
+    [
+     "mṛtasya",
+     "for one who has died"
+    ],
+    [
+     "tasmāt",
+     "therefore"
+    ],
+    [
+     "tvam",
+     "you"
+    ],
+    [
+     "arhasi",
+     "should"
+    ],
+    [
+     "na śocitum",
+     "not grieve"
+    ],
+    [
+     "arthe",
+     "the matter"
+    ],
+    [
+     "aparihārye",
+     "inevitable"
+    ]
+   ],
+   "translation": "Indeed, death is certain for one who is born, and rebirth is certain for one who has died; therefore do not grieve over what is inevitable.",
+   "keywords": [
+    {
+     "word": "death",
+     "sanskrit": "mṛtyuḥ",
+     "context": "Indeed, death is certain for one who is b…",
+     "new": false,
+     "rhymes": [
+      "breath",
+      "beth"
+     ]
+    },
+    {
+     "word": "certain",
+     "sanskrit": "dhruvaḥ",
+     "context": "Indeed, death is certain for one who is born, and re…",
+     "new": false,
+     "rhymes": [
+      "burton"
+     ]
+    },
+    {
+     "word": "born",
+     "sanskrit": "jātasya",
+     "context": "…h is certain for one who is born, and rebirth is certain for…",
+     "new": false,
+     "rhymes": [
+      "porn",
+      "corn",
+      "horn",
+      "worn"
+     ]
+    },
+    {
+     "word": "died",
+     "sanskrit": "mṛtasya",
+     "context": "…is certain for one who has died; therefore do not grieve ov…",
+     "new": false,
+     "rhymes": [
+      "guide",
+      "provide",
+      "side",
+      "wide",
+      "inside"
+     ]
+    },
+    {
+     "word": "grieve",
+     "sanskrit": "na śocitum",
+     "context": "…has died; therefore do not grieve over what is inevitable.",
+     "new": true,
+     "rhymes": [
+      "receive",
+      "believe",
+      "leave",
+      "steve",
+      "achieve"
+     ]
+    },
+    {
+     "word": "inevitable",
+     "sanskrit": "aparihārye",
+     "context": "…do not grieve over what is inevitable.",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.28",
+   "chapter": 2,
+   "verse": "28",
+   "padas": [
+    "avyaktādīni bhūtāni",
+    "vyakta-madhyāni bhārata",
+    "avyakta-nidhanāny eva",
+    "tatra kā paridevanā"
+   ],
+   "meanings": [
+    [
+     "bhārata",
+     "O descendant of Bharata"
+    ],
+    [
+     "bhūtāni",
+     "all beings"
+    ],
+    [
+     "avyakta-ādīni",
+     "are unmani\u0002fest in the beginning"
+    ],
+    [
+     "vyakta-madhyāni",
+     "manifest in the middle"
+    ],
+    [
+     "eva",
+     "[and] indeed"
+    ],
+    [
+     "avyakta-nidhanāni",
+     "unmanifest at death"
+    ],
+    [
+     "tatra",
+     "in that case"
+    ],
+    [
+     "kā",
+     "what [is the reason for]"
+    ],
+    [
+     "paridevanā",
+     "lamentation"
+    ]
+   ],
+   "translation": "O descendant of Bharata! All beings are unmanifest in the beginning, manifest in the middle and unmanifest at death. So why lament over this?",
+   "keywords": [
+    {
+     "word": "descendant",
+     "sanskrit": "bhārata",
+     "context": "O descendant of Bharata! All beings are…",
+     "new": true,
+     "rhymes": [
+      "independent",
+      "dependent",
+      "defendant",
+      "pendant",
+      "superintendent"
+     ]
+    },
+    {
+     "word": "bharata",
+     "sanskrit": "bhārata",
+     "context": "O descendant of Bharata! All beings are unmanifest…",
+     "new": true,
+     "rhymes": [
+      "gotta",
+      "ata"
+     ]
+    },
+    {
+     "word": "beings",
+     "sanskrit": "bhūtāni",
+     "context": "…descendant of Bharata! All beings are unmanifest in the begin…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "unmanifest",
+     "sanskrit": "avyakta-nidhanāni",
+     "context": "…of Bharata! All beings are unmanifest in the beginning, manifest…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "beginning",
+     "sanskrit": "avyakta-ādīni",
+     "context": "…eings are unmanifest in the beginning, manifest in the middle and…",
+     "new": false,
+     "rhymes": [
+      "winning"
+     ]
+    },
+    {
+     "word": "manifest",
+     "sanskrit": "vyakta-madhyāni",
+     "context": "…nmanifest in the beginning, manifest in the middle and unmanifes…",
+     "new": true,
+     "rhymes": [
+      "incest",
+      "accessed",
+      "protest",
+      "budapest"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.29",
+   "chapter": 2,
+   "verse": "29",
+   "padas": [
+    "āścarya-vat paśyati kaścid enam",
+    "āścarya-vad vadati tathaiva cānyaḥ",
+    "āścarya-vac cainam anyaḥ śṛṇoti",
+    "śrutvāpy enaṁ veda na caiva kaścit"
+   ],
+   "meanings": [
+    [
+     "kaścit",
+     "one person"
+    ],
+    [
+     "paśyati",
+     "sees"
+    ],
+    [
+     "enam",
+     "it (the ātmā)"
+    ],
+    [
+     "āścarya-vat",
+     "as a wonder"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "tathā eva",
+     "likewise"
+    ],
+    [
+     "anyaḥ",
+     "another"
+    ],
+    [
+     "vadati",
+     "speaks [of it]"
+    ],
+    [
+     "āścarya-vat",
+     "as a wonder"
+    ],
+    [
+     "ca",
+     "yet"
+    ],
+    [
+     "anyaḥ",
+     "another"
+    ],
+    [
+     "śṛṇoti",
+     "hears"
+    ],
+    [
+     "enam",
+     "[of] it"
+    ],
+    [
+     "āścarya-vat",
+     "as a wonder"
+    ],
+    [
+     "ca",
+     "but"
+    ],
+    [
+     "api",
+     "even"
+    ],
+    [
+     "śrutvā",
+     "after hearing"
+    ],
+    [
+     "enam",
+     "[about] it"
+    ],
+    [
+     "eva",
+     "indeed"
+    ],
+    [
+     "na kaścit",
+     "no one [really]"
+    ],
+    [
+     "veda",
+     "knows [it]"
+    ]
+   ],
+   "translation": "One person sees the ātmā as a wonder, likewise another speaks of it as a wonder; yet another hears of it as a wonder. But even after hearing about it, no one really knows it.",
+   "keywords": [
+    {
+     "word": "sees",
+     "sanskrit": "paśyati",
+     "context": "One person sees the ātmā as a wonder, likew…",
+     "new": true,
+     "rhymes": [
+      "these",
+      "please",
+      "disease",
+      "chinese",
+      "fees"
+     ]
+    },
+    {
+     "word": "wonder",
+     "sanskrit": "āścarya-vat",
+     "context": "…e person sees the ātmā as a wonder, likewise another speaks of…",
+     "new": true,
+     "rhymes": [
+      "under",
+      "thunder"
+     ]
+    },
+    {
+     "word": "likewise",
+     "sanskrit": "tathā eva",
+     "context": "…sees the ātmā as a wonder, likewise another speaks of it as a w…",
+     "new": true,
+     "rhymes": [
+      "advertise",
+      "enterprise",
+      "otherwise",
+      "exercise",
+      "merchandise"
+     ]
+    },
+    {
+     "word": "speaks",
+     "sanskrit": "vadati",
+     "context": "…a wonder, likewise another speaks of it as a wonder; yet anot…",
+     "new": true,
+     "rhymes": [
+      "weeks",
+      "techniques",
+      "antiques",
+      "seeks"
+     ]
+    },
+    {
+     "word": "hears",
+     "sanskrit": "śṛṇoti",
+     "context": "…it as a wonder; yet another hears of it as a wonder. But even…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "knows",
+     "sanskrit": "veda",
+     "context": "…ing about it, no one really knows it.",
+     "new": true,
+     "rhymes": [
+      "those",
+      "shows",
+      "goes",
+      "rose",
+      "suppose"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.30",
+   "chapter": 2,
+   "verse": "30",
+   "padas": [
+    "dehī nityam avadhyo ’yaṁ",
+    "dehe sarvasya bhārata",
+    "tasmāt sarvāṇi bhūtāni",
+    "na tvaṁ śocitum arhasi"
+   ],
+   "meanings": [
+    [
+     "dehī",
+     "the embodied ātmā [is]"
+    ],
+    [
+     "dehe",
+     "in the body"
+    ],
+    [
+     "sarvasya",
+     "of all"
+    ],
+    [
+     "bhārata",
+     "O de\u0002scendant of Bharata"
+    ],
+    [
+     "ayam",
+     "this (ātmā) [is]"
+    ],
+    [
+     "nityam",
+     "eternal"
+    ],
+    [
+     "avadhyaḥ",
+     "[and] inde\u0002structible"
+    ],
+    [
+     "tasmāt",
+     "therefore"
+    ],
+    [
+     "tvam",
+     "you"
+    ],
+    [
+     "arhasi",
+     "should"
+    ],
+    [
+     "na śocitum",
+     "not grieve for"
+    ],
+    [
+     "sarvāṇi",
+     "all"
+    ],
+    [
+     "bhūtāni",
+     "living beings"
+    ]
+   ],
+   "translation": "The embodied ātmā is in the bodies of all, O descendant of Bharata. It is eternal and indestructible, therefore you should not grieve for any living being.",
+   "keywords": [
+    {
+     "word": "embodied",
+     "sanskrit": null,
+     "context": "The embodied ātmā is in the bodies of al…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "bodies",
+     "sanskrit": "dehe",
+     "context": "The embodied ātmā is in the bodies of all, O descendant of Bha…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "descendant",
+     "sanskrit": null,
+     "context": "…is in the bodies of all, O descendant of Bharata. It is eternal a…",
+     "new": true,
+     "rhymes": [
+      "independent",
+      "dependent",
+      "defendant",
+      "pendant",
+      "superintendent"
+     ]
+    },
+    {
+     "word": "bharata",
+     "sanskrit": "bhārata",
+     "context": "…ies of all, O descendant of Bharata. It is eternal and indestru…",
+     "new": true,
+     "rhymes": [
+      "gotta",
+      "ata"
+     ]
+    },
+    {
+     "word": "eternal",
+     "sanskrit": "nityam",
+     "context": "…escendant of Bharata. It is eternal and indestructible, therefo…",
+     "new": true,
+     "rhymes": [
+      "journal",
+      "internal",
+      "external",
+      "kernel"
+     ]
+    },
+    {
+     "word": "grieve",
+     "sanskrit": "na śocitum",
+     "context": "…e, therefore you should not grieve for any living being.",
+     "new": true,
+     "rhymes": [
+      "receive",
+      "believe",
+      "leave",
+      "steve",
+      "achieve"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.31",
+   "chapter": 2,
+   "verse": "31",
+   "padas": [
+    "sva-dharmam api cāvekṣya",
+    "na vikampitum arhasi",
+    "dharmyād dhi yuddhāc chreyo ’nyat",
+    "kṣatriyasya na vidyate"
+   ],
+   "meanings": [
+    [
+     "api ca",
+     "additionally"
+    ],
+    [
+     "avekṣya",
+     "considering"
+    ],
+    [
+     "sva-dharmam",
+     "your personal duty"
+    ],
+    [
+     "na arhasi",
+     "you should not"
+    ],
+    [
+     "vikampitum",
+     "hesitate"
+    ],
+    [
+     "kṣatriyasya",
+     "[since] for a kṣatriya"
+    ],
+    [
+     "hi",
+     "indeed"
+    ],
+    [
+     "na vidyate",
+     "there does not exist"
+    ],
+    [
+     "anyat",
+     "anything"
+    ],
+    [
+     "śreyaḥ",
+     "more auspicious"
+    ],
+    [
+     "dharmyāt",
+     "than a righteous"
+    ],
+    [
+     "yuddhāt",
+     "war"
+    ]
+   ],
+   "translation": "Additionally, considering your personal duty, you should not hes\u0002itate, since for a kṣatriya, there is nothing more auspicious than a righteous war.",
+   "keywords": [
+    {
+     "word": "additionally",
+     "sanskrit": "api ca",
+     "context": "Additionally, considering your personal…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "considering",
+     "sanskrit": "avekṣya",
+     "context": "Additionally, considering your personal duty, you sho…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "personal",
+     "sanskrit": "sva-dharmam",
+     "context": "…itionally, considering your personal duty, you should not hes\u0002it…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "duty",
+     "sanskrit": "sva-dharmam",
+     "context": "…, considering your personal duty, you should not hes\u0002itate,…",
+     "new": false,
+     "rhymes": [
+      "beauty",
+      "booty"
+     ]
+    },
+    {
+     "word": "auspicious",
+     "sanskrit": "śreyaḥ",
+     "context": "…riya, there is nothing more auspicious than a righteous war.",
+     "new": true,
+     "rhymes": [
+      "delicious"
+     ]
+    },
+    {
+     "word": "righteous",
+     "sanskrit": "dharmyāt",
+     "context": "…hing more auspicious than a righteous war.",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.32",
+   "chapter": 2,
+   "verse": "32",
+   "padas": [
+    "yadṛcchayā copapannaṁ",
+    "svarga-dvāram apāvṛtam",
+    "sukhinaḥ kṣatriyāḥ pārtha",
+    "labhante yuddham īdṛśam"
+   ],
+   "meanings": [
+    [
+     "pārtha",
+     "O Pārtha (Arjuna)"
+    ],
+    [
+     "kṣatriyāḥ",
+     "[the] kṣatriyas"
+    ],
+    [
+     "sukhinaḥ",
+     "[are] joyous"
+    ],
+    [
+     "lab\u0002hante",
+     "[when they] get"
+    ],
+    [
+     "īdṛśam",
+     "such an"
+    ],
+    [
+     "yuddham",
+     "[opportunity for] battle"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "upapannam",
+     "that has come"
+    ],
+    [
+     "yadṛcchayā",
+     "by its own accord"
+    ],
+    [
+     "apāvṛtam",
+     "[is an] open"
+    ],
+    [
+     "svarga-dvāram",
+     "gate to Heaven"
+    ]
+   ],
+   "translation": "O Pārtha, the kṣatriyas rejoice when they get such an opportunity for battle. A war that comes of its own accord opens the gates to Heaven.",
+   "keywords": [
+    {
+     "word": "opportunity",
+     "sanskrit": "yuddham",
+     "context": "…joice when they get such an opportunity for battle. A war that come…",
+     "new": false,
+     "rhymes": [
+      "community",
+      "unity"
+     ]
+    },
+    {
+     "word": "battle",
+     "sanskrit": "yuddham",
+     "context": "…get such an opportunity for battle. A war that comes of its ow…",
+     "new": true,
+     "rhymes": [
+      "seattle",
+      "cattle"
+     ]
+    },
+    {
+     "word": "comes",
+     "sanskrit": "upapannam",
+     "context": "…nity for battle. A war that comes of its own accord opens the…",
+     "new": false,
+     "rhymes": [
+      "becomes",
+      "thumbs",
+      "drums"
+     ]
+    },
+    {
+     "word": "accord",
+     "sanskrit": "yadṛcchayā",
+     "context": "…A war that comes of its own accord opens the gates to Heaven.",
+     "new": true,
+     "rhymes": [
+      "board",
+      "record",
+      "award",
+      "lord",
+      "ford"
+     ]
+    },
+    {
+     "word": "opens",
+     "sanskrit": "apāvṛtam",
+     "context": "…hat comes of its own accord opens the gates to Heaven.",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "gates",
+     "sanskrit": "svarga-dvāram",
+     "context": "…of its own accord opens the gates to Heaven.",
+     "new": true,
+     "rhymes": [
+      "states",
+      "rates",
+      "updates",
+      "dates",
+      "creates"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.33",
+   "chapter": 2,
+   "verse": "33",
+   "padas": [
+    "atha cet tvam imaṁ dharmyaṁ",
+    "saṅgrāmaṁ na kariṣyasi",
+    "tataḥ sva-dharmaṁ kīrtiṁ ca",
+    "hitvā pāpam avāpsyasi"
+   ],
+   "meanings": [
+    [
+     "atha",
+     "but"
+    ],
+    [
+     "cet",
+     "if"
+    ],
+    [
+     "tvam",
+     "you"
+    ],
+    [
+     "na kariṣyasi",
+     "do not fight"
+    ],
+    [
+     "imam",
+     "this"
+    ],
+    [
+     "dharmyam",
+     "righteous"
+    ],
+    [
+     "saṅgrāmam",
+     "war"
+    ],
+    [
+     "tataḥ",
+     "thus"
+    ],
+    [
+     "hitvā",
+     "abandoning"
+    ],
+    [
+     "sva-dharmam",
+     "your duty"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "kīrtim",
+     "honor"
+    ],
+    [
+     "avāpsyasi",
+     "you will incur"
+    ],
+    [
+     "pāpam",
+     "sin"
+    ]
+   ],
+   "translation": "But if you do not fight this righteous war, thus turning away from personal duty and honor, you will incur sin.",
+   "keywords": [
+    {
+     "word": "fight",
+     "sanskrit": "na kariṣyasi",
+     "context": "But if you do not fight this righteous war, thus tu…",
+     "new": true,
+     "rhymes": [
+      "site",
+      "right",
+      "white",
+      "night",
+      "light"
+     ]
+    },
+    {
+     "word": "righteous",
+     "sanskrit": "dharmyam",
+     "context": "…ut if you do not fight this righteous war, thus turning away from…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "duty",
+     "sanskrit": "sva-dharmam",
+     "context": "…turning away from personal duty and honor, you will incur s…",
+     "new": false,
+     "rhymes": [
+      "beauty",
+      "booty"
+     ]
+    },
+    {
+     "word": "honor",
+     "sanskrit": "kīrtim",
+     "context": "…away from personal duty and honor, you will incur sin.",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "incur",
+     "sanskrit": "avāpsyasi",
+     "context": "…al duty and honor, you will incur sin.",
+     "new": true,
+     "rhymes": [
+      "were",
+      "her",
+      "per",
+      "transfer",
+      "refer"
+     ]
+    },
+    {
+     "word": "sin",
+     "sanskrit": "pāpam",
+     "context": "…y and honor, you will incur sin.",
+     "new": true,
+     "rhymes": [
+      "been",
+      "within",
+      "inn",
+      "win",
+      "bin"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.34",
+   "chapter": 2,
+   "verse": "34",
+   "padas": [
+    "akīrtiṁ cāpi bhūtāni",
+    "kathayiṣyanti te ’vyayām",
+    "sambhāvitasya cākīrtir",
+    "maraṇād atiricyate"
+   ],
+   "meanings": [
+    [
+     "api ca",
+     "then"
+    ],
+    [
+     "bhūtāni",
+     "people"
+    ],
+    [
+     "avyayām",
+     "forever"
+    ],
+    [
+     "kathayiṣyanti",
+     "will speak"
+    ],
+    [
+     "te",
+     "of your"
+    ],
+    [
+     "akīrtim",
+     "disgrace"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "sambhāvitasya",
+     "for an honorable man"
+    ],
+    [
+     "akīrtiḥ",
+     "dishonor"
+    ],
+    [
+     "atiricyate",
+     "is worse"
+    ],
+    [
+     "maraṇāt",
+     "than death"
+    ]
+   ],
+   "translation": "Then people will forever speak of your disgrace, and for an honorable man, dishonor is worse than death.",
+   "keywords": [
+    {
+     "word": "forever",
+     "sanskrit": "avyayām",
+     "context": "Then people will forever speak of your disgrace, and…",
+     "new": true,
+     "rhymes": [
+      "however",
+      "never",
+      "ever",
+      "whatever",
+      "whenever"
+     ]
+    },
+    {
+     "word": "speak",
+     "sanskrit": "kathayiṣyanti",
+     "context": "Then people will forever speak of your disgrace, and for a…",
+     "new": false,
+     "rhymes": [
+      "week",
+      "unique",
+      "creek",
+      "peak",
+      "greek"
+     ]
+    },
+    {
+     "word": "disgrace",
+     "sanskrit": "akīrtim",
+     "context": "…will forever speak of your disgrace, and for an honorable man,…",
+     "new": true,
+     "rhymes": [
+      "case",
+      "place",
+      "space",
+      "face",
+      "base"
+     ]
+    },
+    {
+     "word": "honorable",
+     "sanskrit": "sambhāvitasya",
+     "context": "…f your disgrace, and for an honorable man, dishonor is worse than…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "dishonor",
+     "sanskrit": "akīrtiḥ",
+     "context": "…, and for an honorable man, dishonor is worse than death.",
+     "new": true,
+     "rhymes": [
+      "honor"
+     ]
+    },
+    {
+     "word": "worse",
+     "sanskrit": "atiricyate",
+     "context": "…honorable man, dishonor is worse than death.",
+     "new": true,
+     "rhymes": [
+      "reverse",
+      "nurse",
+      "diverse",
+      "adverse",
+      "verse"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.35",
+   "chapter": 2,
+   "verse": "35",
+   "padas": [
+    "bhayād raṇād uparataṁ",
+    "maṁsyante tvāṁ mahā-rathāḥ",
+    "yeṣāṁ ca tvaṁ bahu-mato",
+    "bhūtvā yāsyasi lāghavam"
+   ],
+   "meanings": [
+    [
+     "mahā-rathāḥ",
+     "the great warriors"
+    ],
+    [
+     "maṁsyante",
+     "will think"
+    ],
+    [
+     "tvām",
+     "you"
+    ],
+    [
+     "uparatam",
+     "have withdrawn"
+    ],
+    [
+     "raṇāt",
+     "from the battlefield"
+    ],
+    [
+     "bhayāt",
+     "out of fear"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "yāsyasi",
+     "you will earn"
+    ],
+    [
+     "lāghavam",
+     "the disrespect"
+    ],
+    [
+     "yeṣām",
+     "of those [for whom]"
+    ],
+    [
+     "tvam",
+     "you"
+    ],
+    [
+     "bhūtvā",
+     "had become"
+    ],
+    [
+     "bahu-mataḥ",
+     "highly regarded"
+    ]
+   ],
+   "translation": "The great warriors will think that you have fled from the battlefield in fear and you will earn the disrespect of those who held you in high esteem.",
+   "keywords": [
+    {
+     "word": "great",
+     "sanskrit": "mahā-rathāḥ",
+     "context": "The great warriors will think that yo…",
+     "new": false,
+     "rhymes": [
+      "date",
+      "state",
+      "rate",
+      "estate",
+      "create"
+     ]
+    },
+    {
+     "word": "warriors",
+     "sanskrit": "mahā-rathāḥ",
+     "context": "The great warriors will think that you have fl…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "battlefield",
+     "sanskrit": "raṇāt",
+     "context": "…that you have fled from the battlefield in fear and you will earn t…",
+     "new": true,
+     "rhymes": [
+      "springfield",
+      "fairfield"
+     ]
+    },
+    {
+     "word": "fear",
+     "sanskrit": "bhayāt",
+     "context": "…led from the battlefield in fear and you will earn the disre…",
+     "new": true,
+     "rhymes": [
+      "year",
+      "clear",
+      "near",
+      "career",
+      "gear"
+     ]
+    },
+    {
+     "word": "earn",
+     "sanskrit": "yāsyasi",
+     "context": "…efield in fear and you will earn the disrespect of those who…",
+     "new": true,
+     "rhymes": [
+      "return",
+      "learn",
+      "turn",
+      "concern",
+      "burn"
+     ]
+    },
+    {
+     "word": "disrespect",
+     "sanskrit": "lāghavam",
+     "context": "…fear and you will earn the disrespect of those who held you in hi…",
+     "new": true,
+     "rhymes": [
+      "subject",
+      "select",
+      "direct",
+      "effect",
+      "perfect"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.36",
+   "chapter": 2,
+   "verse": "36",
+   "padas": [
+    "avācya-vādāṁś ca bahūn",
+    "vadiṣyanti tavāhitāḥ",
+    "nindantas tava sāmarthyaṁ",
+    "tato duḥkha-taraṁ nu kim"
+   ],
+   "meanings": [
+    [
+     "ca",
+     "moreover"
+    ],
+    [
+     "tava",
+     "your"
+    ],
+    [
+     "ahitāḥ",
+     "enemies"
+    ],
+    [
+     "nindantaḥ",
+     "ridiculing"
+    ],
+    [
+     "tava",
+     "your"
+    ],
+    [
+     "sāmarthyam",
+     "ability"
+    ],
+    [
+     "vadiṣyanti",
+     "will speak"
+    ],
+    [
+     "bahūn",
+     "many"
+    ],
+    [
+     "avācya-vādān",
+     "words that should not be spoken"
+    ],
+    [
+     "nu",
+     "indeed"
+    ],
+    [
+     "kim",
+     "what [could be]"
+    ],
+    [
+     "duḥkha-taram",
+     "more painful"
+    ],
+    [
+     "tataḥ",
+     "than that"
+    ]
+   ],
+   "translation": "Moreover, your enemies, ridiculing your ability, will use words which should never be uttered. Indeed what could be more painful than that?",
+   "keywords": [
+    {
+     "word": "moreover",
+     "sanskrit": "ca",
+     "context": "Moreover, your enemies, ridiculing y…",
+     "new": true,
+     "rhymes": [
+      "over",
+      "rover",
+      "dover"
+     ]
+    },
+    {
+     "word": "enemies",
+     "sanskrit": null,
+     "context": "Moreover, your enemies, ridiculing your ability, w…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "ridiculing",
+     "sanskrit": "nindantaḥ",
+     "context": "Moreover, your enemies, ridiculing your ability, will use word…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "ability",
+     "sanskrit": "sāmarthyam",
+     "context": "…ur enemies, ridiculing your ability, will use words which shoul…",
+     "new": false,
+     "rhymes": [
+      "company",
+      "library",
+      "probably",
+      "anti",
+      "llc"
+     ]
+    },
+    {
+     "word": "words",
+     "sanskrit": "avācya-vādān",
+     "context": "…ling your ability, will use words which should never be utter…",
+     "new": false,
+     "rhymes": [
+      "birds"
+     ]
+    },
+    {
+     "word": "painful",
+     "sanskrit": "duḥkha-taram",
+     "context": "…. Indeed what could be more painful than that?",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.37",
+   "chapter": 2,
+   "verse": "37",
+   "padas": [
+    "hato vā prāpsyasi svargaṁ",
+    "jitvā vā bhokṣyase mahīm",
+    "tasmād uttiṣṭha kaunteya",
+    "yuddhāya kṛta-niścayaḥ"
+   ],
+   "meanings": [
+    [
+     "vā",
+     "if"
+    ],
+    [
+     "hataḥ",
+     "slain"
+    ],
+    [
+     "prāpsyasi",
+     "you shall gain"
+    ],
+    [
+     "svargam",
+     "Heaven"
+    ],
+    [
+     "vā",
+     "if"
+    ],
+    [
+     "jitvā",
+     "victorious"
+    ],
+    [
+     "bhokṣyase",
+     "you shall enjoy"
+    ],
+    [
+     "mahīm",
+     "the Earth"
+    ],
+    [
+     "tasmāt",
+     "therefore"
+    ],
+    [
+     "ut\u0002tiṣṭha",
+     "arise"
+    ],
+    [
+     "kaunteya",
+     "O son of Kuntī (Arjuna)"
+    ],
+    [
+     "kṛta-niścayaḥ",
+     "with firm resolve"
+    ],
+    [
+     "yuddhāya",
+     "for battle"
+    ]
+   ],
+   "translation": "If slain, you shall gain Heaven; if victorious, you shall enjoy the Earth. Therefore, arise, O son of Kuntī, with firm resolve to fight.",
+   "keywords": [
+    {
+     "word": "slain",
+     "sanskrit": "hataḥ",
+     "context": "If slain, you shall gain Heaven; if…",
+     "new": true,
+     "rhymes": [
+      "main",
+      "domain",
+      "spain",
+      "pain",
+      "campaign"
+     ]
+    },
+    {
+     "word": "gain",
+     "sanskrit": "prāpsyasi",
+     "context": "If slain, you shall gain Heaven; if victorious, you…",
+     "new": false,
+     "rhymes": [
+      "main",
+      "domain",
+      "spain",
+      "pain",
+      "campaign"
+     ]
+    },
+    {
+     "word": "heaven",
+     "sanskrit": "svargam",
+     "context": "If slain, you shall gain Heaven; if victorious, you shall e…",
+     "new": true,
+     "rhymes": [
+      "seven",
+      "devon",
+      "eleven"
+     ]
+    },
+    {
+     "word": "victorious",
+     "sanskrit": "jitvā",
+     "context": "…, you shall gain Heaven; if victorious, you shall enjoy the Earth.…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "enjoy",
+     "sanskrit": "bhokṣyase",
+     "context": "…n; if victorious, you shall enjoy the Earth. Therefore, arise…",
+     "new": false,
+     "rhymes": [
+      "boy",
+      "illinois",
+      "toy",
+      "joy",
+      "roy"
+     ]
+    },
+    {
+     "word": "resolve",
+     "sanskrit": "kṛta-niścayaḥ",
+     "context": "…, O son of Kuntī, with firm resolve to fight.",
+     "new": true,
+     "rhymes": [
+      "solve",
+      "involve"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.38",
+   "chapter": 2,
+   "verse": "38",
+   "padas": [
+    "sukha-duḥkhe same kṛtvā",
+    "lābhālābhau jayājayau",
+    "tato yuddhāya yujyasva",
+    "naivaṁ pāpam avāpsyasi"
+   ],
+   "meanings": [
+    [
+     "kṛtvā",
+     "considering"
+    ],
+    [
+     "sukha-duḥkhe",
+     "pleasure and pain"
+    ],
+    [
+     "lābha-alābhau",
+     "gain and loss"
+    ],
+    [
+     "jaya-ajayau",
+     "victory and defeat"
+    ],
+    [
+     "same",
+     "[to be the] same"
+    ],
+    [
+     "tataḥ",
+     "then"
+    ],
+    [
+     "yuddhāya",
+     "for battle"
+    ],
+    [
+     "yujyasva",
+     "engage yourself"
+    ],
+    [
+     "na",
+     "not"
+    ],
+    [
+     "evam",
+     "thus"
+    ],
+    [
+     "pāpam",
+     "sin"
+    ],
+    [
+     "avāpsyasi",
+     "you"
+    ]
+   ],
+   "translation": "will incur Considering pleasure and pain, gain and loss, victory and defeat to be the same, prepare yourself for battle. In this way, you will not incur sin.",
+   "keywords": [
+    {
+     "word": "incur",
+     "sanskrit": null,
+     "context": "will incur Considering pleasure and pa…",
+     "new": true,
+     "rhymes": [
+      "were",
+      "her",
+      "per",
+      "transfer",
+      "refer"
+     ]
+    },
+    {
+     "word": "considering",
+     "sanskrit": "kṛtvā",
+     "context": "will incur Considering pleasure and pain, gain and…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "pleasure",
+     "sanskrit": "sukha-duḥkhe",
+     "context": "will incur Considering pleasure and pain, gain and loss, vi…",
+     "new": true,
+     "rhymes": [
+      "measure",
+      "leisure",
+      "treasure"
+     ]
+    },
+    {
+     "word": "pain",
+     "sanskrit": "sukha-duḥkhe",
+     "context": "…ur Considering pleasure and pain, gain and loss, victory and…",
+     "new": false,
+     "rhymes": [
+      "main",
+      "domain",
+      "spain",
+      "campaign",
+      "chain"
+     ]
+    },
+    {
+     "word": "gain",
+     "sanskrit": "lābha-alābhau",
+     "context": "…sidering pleasure and pain, gain and loss, victory and defea…",
+     "new": false,
+     "rhymes": [
+      "main",
+      "domain",
+      "spain",
+      "pain",
+      "campaign"
+     ]
+    },
+    {
+     "word": "victory",
+     "sanskrit": "jaya-ajayau",
+     "context": "…re and pain, gain and loss, victory and defeat to be the same,…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.39",
+   "chapter": 2,
+   "verse": "39",
+   "padas": [
+    "eṣā te ’bhihitā sāṅkhye",
+    "buddhir yoge tv imāṁ śṛṇu",
+    "buddhyā yukto yayā pārtha",
+    "karma-bandhaṁ prahāsyasi"
+   ],
+   "meanings": [
+    [
+     "eṣā buddhiḥ",
+     "this knowledge [which]"
+    ],
+    [
+     "abhihitā",
+     "has been taught"
+    ],
+    [
+     "te",
+     "to you [so far]"
+    ],
+    [
+     "sāṅkhye",
+     "[is based] on Sāṅkhya"
+    ],
+    [
+     "tu",
+     "but [now]"
+    ],
+    [
+     "śṛṇu",
+     "listen to"
+    ],
+    [
+     "imām",
+     "this [teach\u0002ing]"
+    ],
+    [
+     "yoge",
+     "concerning [karma]-yoga"
+    ],
+    [
+     "pārtha",
+     "O Pārtha (Arjuna)"
+    ],
+    [
+     "yuktaḥ",
+     "endowed with"
+    ],
+    [
+     "buddhyā",
+     "[this] wisdom"
+    ],
+    [
+     "yayā",
+     "by which"
+    ],
+    [
+     "prahāsyasi",
+     "you will escape"
+    ],
+    [
+     "karma\u0002bandham",
+     "the bondage of karma"
+    ]
+   ],
+   "translation": "The knowledge which I have taught to you so far is based on Sāṅkhya. Now listen to the teaching concerning karma-yoga. O Pārtha, by being endowed with this wisdom, you will escape the bondage of karma.",
+   "keywords": [
+    {
+     "word": "knowledge",
+     "sanskrit": "eṣā buddhiḥ",
+     "context": "The knowledge which I have taught to you…",
+     "new": false,
+     "rhymes": [
+      "college",
+      "acknowledge"
+     ]
+    },
+    {
+     "word": "teaching",
+     "sanskrit": "imām",
+     "context": "…Sāṅkhya. Now listen to the teaching concerning karma-yoga. O Pā…",
+     "new": false,
+     "rhymes": [
+      "reaching"
+     ]
+    },
+    {
+     "word": "concerning",
+     "sanskrit": "yoge",
+     "context": "…Now listen to the teaching concerning karma-yoga. O Pārtha, by be…",
+     "new": true,
+     "rhymes": [
+      "learning",
+      "turning",
+      "burning",
+      "returning",
+      "earning"
+     ]
+    },
+    {
+     "word": "endowed",
+     "sanskrit": "yuktaḥ",
+     "context": "…ma-yoga. O Pārtha, by being endowed with this wisdom, you will…",
+     "new": true,
+     "rhymes": [
+      "allowed",
+      "proud",
+      "crowd",
+      "cloud",
+      "loud"
+     ]
+    },
+    {
+     "word": "bondage",
+     "sanskrit": "karma\u0002bandham",
+     "context": "…wisdom, you will escape the bondage of karma.",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "karma",
+     "sanskrit": "yoge",
+     "context": "…to the teaching concerning karma-yoga. O Pārtha, by being en…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.40",
+   "chapter": 2,
+   "verse": "40",
+   "padas": [
+    "nehābhikrama-nāśo ’sti",
+    "pratyavāyo na vidyate",
+    "svalpam apy asya dharmasya",
+    "trāyate mahato bhayāt"
+   ],
+   "meanings": [
+    [
+     "iha",
+     "here [on this path]"
+    ],
+    [
+     "na asti",
+     "there is no"
+    ],
+    [
+     "abhikrama-nāśaḥ",
+     "loss of invested effort"
+    ],
+    [
+     "na",
+     "nor"
+    ],
+    [
+     "vidyate",
+     "is there"
+    ],
+    [
+     "pratyavāyaḥ",
+     "[any] failure"
+    ],
+    [
+     "api",
+     "even"
+    ],
+    [
+     "svalpam",
+     "a little"
+    ],
+    [
+     "asya",
+     "of this"
+    ],
+    [
+     "dharmasya",
+     "of this yoga"
+    ],
+    [
+     "trāyate",
+     "saves [one]"
+    ],
+    [
+     "mahataḥ",
+     "from great"
+    ],
+    [
+     "bhayāt",
+     "fear"
+    ]
+   ],
+   "translation": "On this path, there is no loss of invested efforts nor is there any fail\u0002ure. Even a little practice of this yoga saves one from great fear.",
+   "keywords": [
+    {
+     "word": "path",
+     "sanskrit": "iha",
+     "context": "On this path, there is no loss of invest…",
+     "new": false,
+     "rhymes": [
+      "bath",
+      "math"
+     ]
+    },
+    {
+     "word": "invested",
+     "sanskrit": "abhikrama-nāśaḥ",
+     "context": "…s path, there is no loss of invested efforts nor is there any fa…",
+     "new": true,
+     "rhymes": [
+      "nested",
+      "suggested",
+      "requested",
+      "tested",
+      "arrested"
+     ]
+    },
+    {
+     "word": "efforts",
+     "sanskrit": "abhikrama-nāśaḥ",
+     "context": "…here is no loss of invested efforts nor is there any fail\u0002ure.…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "fail",
+     "sanskrit": "pratyavāyaḥ",
+     "context": "…ed efforts nor is there any fail\u0002ure. Even a little practice…",
+     "new": true,
+     "rhymes": [
+      "email",
+      "mail",
+      "sale",
+      "male",
+      "scale"
+     ]
+    },
+    {
+     "word": "yoga",
+     "sanskrit": "dharmasya",
+     "context": "…n a little practice of this yoga saves one from great fear.",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "saves",
+     "sanskrit": "trāyate",
+     "context": "…ittle practice of this yoga saves one from great fear.",
+     "new": true,
+     "rhymes": [
+      "waves"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.41",
+   "chapter": 2,
+   "verse": "41",
+   "padas": [
+    "vyavasāyātmikā buddhir",
+    "ekeha kuru-nandana",
+    "bahu-śākhā hy anantāś ca",
+    "buddhayo ’vyavasāyinām"
+   ],
+   "meanings": [
+    [
+     "iha",
+     "here [on this path]"
+    ],
+    [
+     "vyavasāya-ātmikā",
+     "[the] resolute"
+    ],
+    [
+     "buddhiḥ",
+     "intellect"
+    ],
+    [
+     "ekā",
+     "[is] one-pointed"
+    ],
+    [
+     "kuru-nandana",
+     "O descendant of Kuru (Arjuna)"
+    ],
+    [
+     "hi",
+     "indeed"
+    ],
+    [
+     "bud\u0002dhayaḥ",
+     "the thoughts"
+    ],
+    [
+     "avyavasāyinām",
+     "of the irresolute"
+    ],
+    [
+     "bahu-śākhāḥ",
+     "[are] many\u0002branched"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "anantāḥ",
+     "endless"
+    ]
+   ],
+   "translation": "On this path the resolute intellect is one-pointed, O descendant of Kuru; but the thoughts of the irresolute are many-branched and endless.",
+   "keywords": [
+    {
+     "word": "resolute",
+     "sanskrit": "vyavasāya-ātmikā",
+     "context": "On this path the resolute intellect is one-pointed, O…",
+     "new": true,
+     "rhymes": [
+      "institute",
+      "absolute",
+      "attribute",
+      "substitute",
+      "constitute"
+     ]
+    },
+    {
+     "word": "intellect",
+     "sanskrit": "buddhiḥ",
+     "context": "On this path the resolute intellect is one-pointed, O descendan…",
+     "new": true,
+     "rhymes": [
+      "aspect",
+      "architect"
+     ]
+    },
+    {
+     "word": "one-pointed",
+     "sanskrit": "ekā",
+     "context": "…h the resolute intellect is one-pointed, O descendant of Kuru; but…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "descendant",
+     "sanskrit": "kuru-nandana",
+     "context": "…intellect is one-pointed, O descendant of Kuru; but the thoughts o…",
+     "new": true,
+     "rhymes": [
+      "independent",
+      "dependent",
+      "defendant",
+      "pendant",
+      "superintendent"
+     ]
+    },
+    {
+     "word": "thoughts",
+     "sanskrit": "bud\u0002dhayaḥ",
+     "context": "…descendant of Kuru; but the thoughts of the irresolute are many-…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "irresolute",
+     "sanskrit": "avyavasāyinām",
+     "context": "…ru; but the thoughts of the irresolute are many-branched and endle…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.42/43",
+   "chapter": 2,
+   "verse": "42/43",
+   "padas": [
+    "yām imāṁ puṣpitāṁ vācaṁ",
+    "pravadanty avipaścitaḥ",
+    "veda-vāda-ratāḥ pārtha",
+    "nānyad astīti vādinaḥ",
+    "kāmātmānaḥ svarga-parā",
+    "janma-karma-phala-pradām",
+    "kriyā-viśeṣa-bahulāṁ",
+    "bhogaiśvarya-gatiṁ prati"
+   ],
+   "meanings": [
+    [
+     "pārtha",
+     "O son of Pārtha (Arjuna)"
+    ],
+    [
+     "avipaścitaḥ",
+     "those who are unwise"
+    ],
+    [
+     "veda-vāda\u0002ratāḥ",
+     "delight in the words of the Vedas"
+    ],
+    [
+     "vādinaḥ",
+     "declaring"
+    ],
+    [
+     "iti",
+     "thus"
+    ],
+    [
+     "asti",
+     "there is"
+    ],
+    [
+     "na anyat",
+     "nothing [superior to this]"
+    ],
+    [
+     "kāma-ātmānaḥ",
+     "full of desires"
+    ],
+    [
+     "svarga-parāḥ",
+     "[and] with heaven as the goal"
+    ],
+    [
+     "pravadanti",
+     "[such people] utter"
+    ],
+    [
+     "puṣpitām",
+     "flowery"
+    ],
+    [
+     "vācam",
+     "speech"
+    ],
+    [
+     "kriyā-viśeṣa-bahulām",
+     "full of various specific rites"
+    ],
+    [
+     "bhoga-aiśvarya\u0002gatim",
+     "aimed at enjoyment and power"
+    ],
+    [
+     "janma-karma-phala-pradām",
+     "leading the results of birth and karma"
+    ],
+    [
+     "prati",
+     "toward"
+    ],
+    [
+     "yām",
+     "which"
+    ],
+    [
+     "imām",
+     "this"
+    ]
+   ],
+   "translation": "O Pārtha, those who are unwise delight in the words of the Vedas, declaring “there is nothing superior to this!” Full of desire and with heaven as their goal, such people utter flowery hymns about special rites to gain power and pleasure, which lead to further birth and karma.",
+   "keywords": [
+    {
+     "word": "unwise",
+     "sanskrit": "avipaścitaḥ",
+     "context": "O Pārtha, those who are unwise delight in the words of the…",
+     "new": true,
+     "rhymes": [
+      "size",
+      "supplies",
+      "eyes",
+      "replies",
+      "guys"
+     ]
+    },
+    {
+     "word": "delight",
+     "sanskrit": "veda-vāda\u0002ratāḥ",
+     "context": "…ārtha, those who are unwise delight in the words of the Vedas,…",
+     "new": true,
+     "rhymes": [
+      "site",
+      "right",
+      "white",
+      "night",
+      "light"
+     ]
+    },
+    {
+     "word": "vedas",
+     "sanskrit": "veda-vāda\u0002ratāḥ",
+     "context": "…delight in the words of the Vedas, declaring “there is nothin…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "declaring",
+     "sanskrit": "vādinaḥ",
+     "context": "…in the words of the Vedas, declaring “there is nothing superior…",
+     "new": true,
+     "rhymes": [
+      "sharing",
+      "preparing",
+      "wearing",
+      "bearing",
+      "comparing"
+     ]
+    },
+    {
+     "word": "superior",
+     "sanskrit": "na anyat",
+     "context": "…declaring “there is nothing superior to this!” Full of desire an…",
+     "new": true,
+     "rhymes": [
+      "interior",
+      "exterior"
+     ]
+    },
+    {
+     "word": "flowery",
+     "sanskrit": "puṣpitām",
+     "context": "…eir goal, such people utter flowery hymns about special rites t…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.44",
+   "chapter": 2,
+   "verse": "44",
+   "padas": [
+    "bhogaiśvarya-prasaktānāṁ",
+    "tayāpahṛta-cetasām",
+    "vyavasāyātmikā buddhiḥ",
+    "samādhau na vidhīyate"
+   ],
+   "meanings": [
+    [
+     "buddhiḥ",
+     "the intellect"
+    ],
+    [
+     "bhoga-aiśvarya-prasaktānām",
+     "of those attached to pleasure and power"
+    ],
+    [
+     "apahṛta-cetasām",
+     "[and] whose minds have been carried away"
+    ],
+    [
+     "tayā",
+     "by that (flowery speech)"
+    ],
+    [
+     "na vidhīyate",
+     "cannot be established"
+    ],
+    [
+     "vyavasāya-ātmikā",
+     "firmly"
+    ],
+    [
+     "samādhau",
+     "in single-pointed focus"
+    ]
+   ],
+   "translation": "The intellect of those who cling to pleasure and power and whose minds have been carried away by such flowery speech, cannot be firmly established in single-pointed focus.",
+   "keywords": [
+    {
+     "word": "intellect",
+     "sanskrit": "buddhiḥ",
+     "context": "The intellect of those who cling to pleas…",
+     "new": true,
+     "rhymes": [
+      "aspect",
+      "architect"
+     ]
+    },
+    {
+     "word": "pleasure",
+     "sanskrit": "bhoga-aiśvarya-prasaktānām",
+     "context": "…llect of those who cling to pleasure and power and whose minds h…",
+     "new": true,
+     "rhymes": [
+      "measure",
+      "leisure",
+      "treasure"
+     ]
+    },
+    {
+     "word": "minds",
+     "sanskrit": "apahṛta-cetasām",
+     "context": "…leasure and power and whose minds have been carried away by s…",
+     "new": true,
+     "rhymes": [
+      "kinds",
+      "finds"
+     ]
+    },
+    {
+     "word": "flowery",
+     "sanskrit": "tayā",
+     "context": "…e been carried away by such flowery speech, cannot be firmly es…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "established",
+     "sanskrit": "na vidhīyate",
+     "context": "…ry speech, cannot be firmly established in single-pointed focus.",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "single-pointed",
+     "sanskrit": "samādhau",
+     "context": "…ot be firmly established in single-pointed focus.",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.45",
+   "chapter": 2,
+   "verse": "45",
+   "padas": [
+    "trai-guṇya-viṣayā vedā",
+    "nistrai-guṇyo bhavārjuna",
+    "nirdvandvo nitya-sattva-stho",
+    "niryoga-kṣema ātmavān"
+   ],
+   "meanings": [
+    [
+     "vedāḥ",
+     "the Vedas"
+    ],
+    [
+     "trai-guṇya-viṣayāḥ",
+     "related to the three guṇas"
+    ],
+    [
+     "arjuna",
+     "O Arjuna"
+    ],
+    [
+     "bhava",
+     "[you must] become"
+    ],
+    [
+     "nistrai-guṇyaḥ",
+     "free from the three guṇas"
+    ],
+    [
+     "nirdvandvaḥ",
+     "[and] the pairs of opposites"
+    ],
+    [
+     "nitya-sattva-sthaḥ",
+     "[be] ever established in sattva-guṇa"
+    ],
+    [
+     "niryoga-kṣemaḥ",
+     "free from concerns of gain and protection"
+    ],
+    [
+     "ātmavān",
+     "[instead be]"
+    ]
+   ],
+   "translation": "established in the ātmā The Vedas deal with the three guṇas, O Arjuna. You must become free from these guṇas and the pairs of opposites. Be ever established in sattva-guṇa, free from concerns of gain and protection—instead, be established in the ātmā.",
+   "keywords": [
+    {
+     "word": "established",
+     "sanskrit": "nitya-sattva-sthaḥ",
+     "context": "established in the ātmā The Vedas deal…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "free",
+     "sanskrit": "nistrai-guṇyaḥ",
+     "context": "…, O Arjuna. You must become free from these guṇas and the pa…",
+     "new": false,
+     "rhymes": [
+      "be",
+      "we",
+      "he",
+      "see",
+      "c"
+     ]
+    },
+    {
+     "word": "opposites",
+     "sanskrit": "nirdvandvaḥ",
+     "context": "…hese guṇas and the pairs of opposites. Be ever established in sat…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "sattva-gu",
+     "sanskrit": "nitya-sattva-sthaḥ",
+     "context": "…tes. Be ever established in sattva-guṇa, free from concerns of ga…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "concerns",
+     "sanskrit": "niryoga-kṣemaḥ",
+     "context": "…d in sattva-guṇa, free from concerns of gain and protection—inst…",
+     "new": true,
+     "rhymes": [
+      "returns",
+      "turns",
+      "burns"
+     ]
+    },
+    {
+     "word": "instead",
+     "sanskrit": "ātmavān",
+     "context": "…erns of gain and protection—instead, be established in the ātmā…",
+     "new": false,
+     "rhymes": [
+      "read",
+      "said",
+      "thread",
+      "red",
+      "head"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.46",
+   "chapter": 2,
+   "verse": "46",
+   "padas": [
+    "yāvān artha udapāne",
+    "sarvataḥ samplutodake",
+    "tāvān sarveṣu vedeṣu",
+    "brāhmaṇasya vijānataḥ"
+   ],
+   "meanings": [
+    [
+     "yāvān",
+     "as much as"
+    ],
+    [
+     "arthaḥ",
+     "utility"
+    ],
+    [
+     "udapāne",
+     "[there is] in a well"
+    ],
+    [
+     "sampluta-udake",
+     "flooded by water"
+    ],
+    [
+     "sarvataḥ",
+     "from all sides"
+    ],
+    [
+     "tāvān",
+     "that much [use]"
+    ],
+    [
+     "sarveṣu",
+     "[there is] in all"
+    ],
+    [
+     "vedeṣu",
+     "the Vedas"
+    ],
+    [
+     "brāhmaṇasya",
+     "for the brāhmaṇa"
+    ],
+    [
+     "vijānataḥ",
+     "who is realized"
+    ]
+   ],
+   "translation": "As much use there is for a well when there is water everywher, that much use there is in all the Vedas for a realized brāhmaṇa.",
+   "keywords": [
+    {
+     "word": "use",
+     "sanskrit": "tāvān",
+     "context": "As much use there is for a well when th…",
+     "new": false,
+     "rhymes": [
+      "reduce",
+      "abuse",
+      "produce",
+      "bruce",
+      "introduce"
+     ]
+    },
+    {
+     "word": "well",
+     "sanskrit": "udapāne",
+     "context": "As much use there is for a well when there is water everywh…",
+     "new": false,
+     "rhymes": [
+      "hotel",
+      "l",
+      "sell",
+      "cell",
+      "tell"
+     ]
+    },
+    {
+     "word": "water",
+     "sanskrit": "sampluta-udake",
+     "context": "…is for a well when there is water everywher, that much use th…",
+     "new": false,
+     "rhymes": [
+      "daughter"
+     ]
+    },
+    {
+     "word": "everywher",
+     "sanskrit": null,
+     "context": "…a well when there is water everywher, that much use there is in…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "vedas",
+     "sanskrit": "vedeṣu",
+     "context": "…uch use there is in all the Vedas for a realized brāhmaṇa.",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "realized",
+     "sanskrit": "vijānataḥ",
+     "context": "…e is in all the Vedas for a realized brāhmaṇa.",
+     "new": true,
+     "rhymes": [
+      "authorized",
+      "recognized",
+      "organized",
+      "personalized",
+      "customized"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.47",
+   "chapter": 2,
+   "verse": "47",
+   "padas": [
+    "karmaṇy evādhikāras te",
+    "mā phaleṣu kadācana",
+    "mā karma-phala-hetur bhūr",
+    "mā te saṅgo ’stv akarmaṇi"
+   ],
+   "meanings": [
+    [
+     "te",
+     "yours"
+    ],
+    [
+     "eva",
+     "[is] only"
+    ],
+    [
+     "adhikāraḥ",
+     "the right"
+    ],
+    [
+     "karmaṇi",
+     "to action"
+    ],
+    [
+     "mā kadācana",
+     "not at any time"
+    ],
+    [
+     "phaleṣu",
+     "to the fruits"
+    ],
+    [
+     "mā",
+     "do not"
+    ],
+    [
+     "bhūḥ",
+     "become (consider yourself)"
+    ],
+    [
+     "karma-phala-hetuḥ",
+     "the cause of actions’ outcomes"
+    ],
+    [
+     "mā",
+     "nor"
+    ],
+    [
+     "astu",
+     "let there be [any]"
+    ],
+    [
+     "te",
+     "your"
+    ],
+    [
+     "saṅgaḥ",
+     "attachment"
+    ],
+    [
+     "akarmaṇi",
+     "avoiding action"
+    ]
+   ],
+   "translation": "You have only the right to act, but never to the fruits of action. Do not consider yourself the cause of actions’ outcomes, nor let there be any attachment to avoiding action.",
+   "keywords": [
+    {
+     "word": "act",
+     "sanskrit": "karmaṇi",
+     "context": "You have only the right to act, but never to the fruits of…",
+     "new": false,
+     "rhymes": [
+      "fact",
+      "impact",
+      "abstract",
+      "exact",
+      "tracked"
+     ]
+    },
+    {
+     "word": "fruits",
+     "sanskrit": "phaleṣu",
+     "context": "…ht to act, but never to the fruits of action. Do not consider…",
+     "new": true,
+     "rhymes": [
+      "boots",
+      "roots",
+      "routes",
+      "suits",
+      "disputes"
+     ]
+    },
+    {
+     "word": "cause",
+     "sanskrit": "karma-phala-hetuḥ",
+     "context": "…o not consider yourself the cause of actions’ outcomes, nor l…",
+     "new": false,
+     "rhymes": [
+      "was",
+      "oz",
+      "mas",
+      "pas",
+      "spas"
+     ]
+    },
+    {
+     "word": "outcomes",
+     "sanskrit": "karma-phala-hetuḥ",
+     "context": "…rself the cause of actions’ outcomes, nor let there be any attac…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "attachment",
+     "sanskrit": "saṅgaḥ",
+     "context": "…comes, nor let there be any attachment to avoiding action.",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "avoiding",
+     "sanskrit": "akarmaṇi",
+     "context": "…there be any attachment to avoiding action.",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.48",
+   "chapter": 2,
+   "verse": "48",
+   "padas": [
+    "yoga-sthaḥ kuru karmāṇi",
+    "saṅgaṁ tyaktvā dhanañjaya",
+    "siddhy-asiddhyoḥ samo bhūtvā",
+    "samatvaṁ yoga ucyate"
+   ],
+   "meanings": [
+    [
+     "dhanañjaya",
+     "O Dhanañjaya (Arjuna)"
+    ],
+    [
+     "yoga-sthaḥ",
+     "established in yoga"
+    ],
+    [
+     "tyaktvā",
+     "[and] abandoning"
+    ],
+    [
+     "saṅgam",
+     "attachment"
+    ],
+    [
+     "kuru",
+     "perform"
+    ],
+    [
+     "karmāṇi",
+     "actions"
+    ],
+    [
+     "bhūtvā",
+     "having become"
+    ],
+    [
+     "samaḥ",
+     "equal"
+    ],
+    [
+     "siddhi-asiddhyoḥ",
+     "in success and failure"
+    ],
+    [
+     "samatvam",
+     "[this] equanimity"
+    ],
+    [
+     "ucyate",
+     "is called"
+    ],
+    [
+     "yogaḥ",
+     "yoga"
+    ]
+   ],
+   "translation": "O Dhanañjaya, established in yoga and abandoning attachment, per\u0002form action, remaining equal in success and failure. This equanimity is called yoga.",
+   "keywords": [
+    {
+     "word": "established",
+     "sanskrit": "yoga-sthaḥ",
+     "context": "O Dhanañjaya, established in yoga and abandoning atta…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "yoga",
+     "sanskrit": "yoga-sthaḥ",
+     "context": "…Dhanañjaya, established in yoga and abandoning attachment,…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "abandoning",
+     "sanskrit": "tyaktvā",
+     "context": "…ya, established in yoga and abandoning attachment, per\u0002form action…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "attachment",
+     "sanskrit": "saṅgam",
+     "context": "…shed in yoga and abandoning attachment, per\u0002form action, remaining…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "success",
+     "sanskrit": "siddhi-asiddhyoḥ",
+     "context": "…action, remaining equal in success and failure. This equanimit…",
+     "new": false,
+     "rhymes": [
+      "s",
+      "press",
+      "yes",
+      "less",
+      "express"
+     ]
+    },
+    {
+     "word": "failure",
+     "sanskrit": "siddhi-asiddhyoḥ",
+     "context": "…aining equal in success and failure. This equanimity is called…",
+     "new": false,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.49",
+   "chapter": 2,
+   "verse": "49",
+   "padas": [
+    "dūreṇa hy avaraṁ karma",
+    "buddhi-yogād dhanañjaya",
+    "buddhau śaraṇam anviccha",
+    "kṛpaṇāḥ phala-hetavaḥ"
+   ],
+   "meanings": [
+    [
+     "dhanañjaya",
+     "O Dhanañjaya (Arjuna)"
+    ],
+    [
+     "karma",
+     "action (with attachment)"
+    ],
+    [
+     "hi",
+     "[is] indeed"
+    ],
+    [
+     "dūreṇa",
+     "by far"
+    ],
+    [
+     "avaram",
+     "inferior"
+    ],
+    [
+     "buddhi-yogāt",
+     "to [this] yoga of wisdom"
+    ],
+    [
+     "an\u0002viccha",
+     "[so] seek"
+    ],
+    [
+     "śaraṇam",
+     "refuge"
+    ],
+    [
+     "buddhau",
+     "in wisdom"
+    ],
+    [
+     "kṛpaṇāḥ",
+     "those who are the petty-minded"
+    ],
+    [
+     "phala-hetavaḥ",
+     "are motivated by the fruits of action"
+    ]
+   ],
+   "translation": "O Dhanañjaya, action done with attachment is greatly inferior to this yoga of wisdom, so seek refuge in that wisdom. The petty-minded are motivated by the fruits of action.",
+   "keywords": [
+    {
+     "word": "action",
+     "sanskrit": "karma",
+     "context": "O Dhanañjaya, action done with attachment is gre…",
+     "new": false,
+     "rhymes": [
+      "transaction",
+      "satisfaction",
+      "interaction",
+      "reaction",
+      "attraction"
+     ]
+    },
+    {
+     "word": "attachment",
+     "sanskrit": "karma",
+     "context": "…hanañjaya, action done with attachment is greatly inferior to this…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "inferior",
+     "sanskrit": "avaram",
+     "context": "…with attachment is greatly inferior to this yoga of wisdom, so…",
+     "new": true,
+     "rhymes": [
+      "interior",
+      "superior",
+      "exterior"
+     ]
+    },
+    {
+     "word": "wisdom",
+     "sanskrit": "buddhi-yogāt",
+     "context": "…ly inferior to this yoga of wisdom, so seek refuge in that wis…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "petty-minded",
+     "sanskrit": "kṛpaṇāḥ",
+     "context": "…refuge in that wisdom. The petty-minded are motivated by the fruits…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "motivated",
+     "sanskrit": "phala-hetavaḥ",
+     "context": "…isdom. The petty-minded are motivated by the fruits of action.",
+     "new": true,
+     "rhymes": [
+      "located",
+      "generated",
+      "integrated",
+      "estimated",
+      "indicated"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.50",
+   "chapter": 2,
+   "verse": "50",
+   "padas": [
+    "buddhi-yukto jahātīha",
+    "ubhe sukṛta-duṣkṛte",
+    "tasmād yogāya yujyasva",
+    "yogaḥ karmasu kauśalam"
+   ],
+   "meanings": [
+    [
+     "buddhi-yuktaḥ",
+     "united with wisdom"
+    ],
+    [
+     "jahāti",
+     "one rises above"
+    ],
+    [
+     "ubhe",
+     "both"
+    ],
+    [
+     "sukṛta\u0002duṣkṛte",
+     "righteous and unrighteous deeds"
+    ],
+    [
+     "iha",
+     "here in this life"
+    ],
+    [
+     "tasmāt",
+     "therefore"
+    ],
+    [
+     "yujyasva",
+     "engage yourself in"
+    ],
+    [
+     "yogāya",
+     "yoga"
+    ],
+    [
+     "yogaḥ",
+     "[this] yoga"
+    ],
+    [
+     "kauśalam",
+     "[is] exper\u0002tise"
+    ],
+    [
+     "karmasu",
+     "in actions"
+    ]
+   ],
+   "translation": "United with such wisdom, one rises above both righteous and un\u0002righteous deeds while living. Therefore, engage yourself in this yoga. This yoga is expertise in action.",
+   "keywords": [
+    {
+     "word": "wisdom",
+     "sanskrit": "buddhi-yuktaḥ",
+     "context": "United with such wisdom, one rises above both right…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "rises",
+     "sanskrit": "jahāti",
+     "context": "…nited with such wisdom, one rises above both righteous and un…",
+     "new": true,
+     "rhymes": [
+      "sizes",
+      "prizes"
+     ]
+    },
+    {
+     "word": "righteous",
+     "sanskrit": "sukṛta\u0002duṣkṛte",
+     "context": "…isdom, one rises above both righteous and un\u0002righteous deeds whil…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "deeds",
+     "sanskrit": "sukṛta\u0002duṣkṛte",
+     "context": "…righteous and un\u0002righteous deeds while living. Therefore, en…",
+     "new": true,
+     "rhymes": [
+      "needs",
+      "feeds",
+      "leads",
+      "reads",
+      "seeds"
+     ]
+    },
+    {
+     "word": "engage",
+     "sanskrit": "yujyasva",
+     "context": "…ds while living. Therefore, engage yourself in this yoga. This…",
+     "new": true,
+     "rhymes": [
+      "page",
+      "age",
+      "stage",
+      "wage",
+      "gauge"
+     ]
+    },
+    {
+     "word": "yoga",
+     "sanskrit": "yogāya",
+     "context": "…re, engage yourself in this yoga. This yoga is expertise in…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.51",
+   "chapter": 2,
+   "verse": "51",
+   "padas": [
+    "karma-jaṁ buddhi-yuktā hi",
+    "phalaṁ tyaktvā manīṣiṇaḥ",
+    "janma-bandha-vinirmuktāḥ",
+    "padaṁ gacchanty anāmayam"
+   ],
+   "meanings": [
+    [
+     "manīṣiṇaḥ",
+     "the sages"
+    ],
+    [
+     "buddhi-yuktāḥ",
+     "[who are] established in this wisdom"
+    ],
+    [
+     "hi",
+     "indeed"
+    ],
+    [
+     "tyaktvā",
+     "renounce"
+    ],
+    [
+     "phalam",
+     "the fruits"
+    ],
+    [
+     "karma-jam",
+     "born of actions"
+    ],
+    [
+     "gaccha\u0002nti",
+     "attain"
+    ],
+    [
+     "padam",
+     "[the] state"
+    ],
+    [
+     "anāmayam",
+     "beyond all suffering"
+    ],
+    [
+     "vinirmuktāḥ",
+     "[since they are] freed from"
+    ],
+    [
+     "janma-bandha",
+     "bondage of rebirth"
+    ]
+   ],
+   "translation": "The sages who are established in this wisdom renounce the fruits of action and attain the state beyond all suffering, and are freed from the bondage of rebirth.",
+   "keywords": [
+    {
+     "word": "sages",
+     "sanskrit": "manīṣiṇaḥ",
+     "context": "The sages who are established in this…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "established",
+     "sanskrit": "buddhi-yuktāḥ",
+     "context": "The sages who are established in this wisdom renounce the…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "renounce",
+     "sanskrit": "tyaktvā",
+     "context": "…established in this wisdom renounce the fruits of action and at…",
+     "new": true,
+     "rhymes": [
+      "announce"
+     ]
+    },
+    {
+     "word": "suffering",
+     "sanskrit": "anāmayam",
+     "context": "…attain the state beyond all suffering, and are freed from the bon…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "bondage",
+     "sanskrit": "janma-bandha",
+     "context": "…ing, and are freed from the bondage of rebirth.",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "rebirth",
+     "sanskrit": "janma-bandha",
+     "context": "…e freed from the bondage of rebirth.",
+     "new": true,
+     "rhymes": [
+      "earth",
+      "worth",
+      "birth",
+      "perth"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.52",
+   "chapter": 2,
+   "verse": "52",
+   "padas": [
+    "yadā te moha-kalilaṁ",
+    "buddhir vyatitariṣyati",
+    "tadā gantāsi nirvedaṁ",
+    "śrotavyasya śrutasya ca"
+   ],
+   "meanings": [
+    [
+     "yadā",
+     "when"
+    ],
+    [
+     "te",
+     "your"
+    ],
+    [
+     "buddhiḥ",
+     "intellect"
+    ],
+    [
+     "vyatitariṣyati",
+     "crosses beyond"
+    ],
+    [
+     "moha\u0002kalilam",
+     "[the] forest of delusion"
+    ],
+    [
+     "tadā",
+     "then"
+    ],
+    [
+     "gantāsi",
+     "you will attain"
+    ],
+    [
+     "nirvedam",
+     "indifference"
+    ],
+    [
+     "śrutasya",
+     "to what has been heard"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "śrotavyasya",
+     "to what is yet to"
+    ]
+   ],
+   "translation": "be heard When your intellect crosses beyond the forest of delusion, you will be indifferent to what you have heard and what you will hear in the future.",
+   "keywords": [
+    {
+     "word": "heard",
+     "sanskrit": "śrutasya",
+     "context": "be heard When your intellect crosses…",
+     "new": false,
+     "rhymes": [
+      "word",
+      "third",
+      "bird",
+      "referred",
+      "preferred"
+     ]
+    },
+    {
+     "word": "intellect",
+     "sanskrit": "buddhiḥ",
+     "context": "be heard When your intellect crosses beyond the forest o…",
+     "new": true,
+     "rhymes": [
+      "aspect",
+      "architect"
+     ]
+    },
+    {
+     "word": "crosses",
+     "sanskrit": "vyatitariṣyati",
+     "context": "…e heard When your intellect crosses beyond the forest of delusi…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "beyond",
+     "sanskrit": "vyatitariṣyati",
+     "context": "…When your intellect crosses beyond the forest of delusion, you…",
+     "new": false,
+     "rhymes": [
+      "blonde",
+      "respond",
+      "bond",
+      "pond",
+      "blond"
+     ]
+    },
+    {
+     "word": "delusion",
+     "sanskrit": "moha\u0002kalilam",
+     "context": "…rosses beyond the forest of delusion, you will be indifferent to…",
+     "new": true,
+     "rhymes": [
+      "conclusion",
+      "fusion",
+      "inclusion",
+      "confusion",
+      "exclusion"
+     ]
+    },
+    {
+     "word": "hear",
+     "sanskrit": "śrutasya",
+     "context": "be heard When your intellect crosse…",
+     "new": false,
+     "rhymes": [
+      "here",
+      "ear",
+      "tier"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.53",
+   "chapter": 2,
+   "verse": "53",
+   "padas": [
+    "śruti-vipratipannā te",
+    "yadā sthāsyati niścalā",
+    "samādhāv acalā buddhis",
+    "tadā yogam avāpsyasi"
+   ],
+   "meanings": [
+    [
+     "yadā",
+     "when"
+    ],
+    [
+     "te",
+     "your"
+    ],
+    [
+     "buddhiḥ",
+     "intellect"
+    ],
+    [
+     "śruti-vipratipannā",
+     "[that has been] per\u0002plexed by the words of the Vedas"
+    ],
+    [
+     "sthāsyati",
+     "remains"
+    ],
+    [
+     "acalā",
+     "motionless"
+    ],
+    [
+     "niścalā",
+     "[and] unshaken"
+    ],
+    [
+     "samādhau",
+     "in single-mindedness"
+    ],
+    [
+     "tadā",
+     "then"
+    ],
+    [
+     "avāpsyasi",
+     "you will attain"
+    ],
+    [
+     "yogam",
+     "yoga"
+    ]
+   ],
+   "translation": "When your intellect, confused by the words of the Vedas remains unshaken in single-mindedness, then you will have attained the state of yoga.",
+   "keywords": [
+    {
+     "word": "intellect",
+     "sanskrit": "buddhiḥ",
+     "context": "When your intellect, confused by the words of t…",
+     "new": true,
+     "rhymes": [
+      "aspect",
+      "architect"
+     ]
+    },
+    {
+     "word": "vedas",
+     "sanskrit": "śruti-vipratipannā",
+     "context": "…onfused by the words of the Vedas remains unshaken in single-…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "remains",
+     "sanskrit": "sthāsyati",
+     "context": "…d by the words of the Vedas remains unshaken in single-mindedne…",
+     "new": true,
+     "rhymes": [
+      "contains",
+      "domains",
+      "explains",
+      "gains",
+      "chains"
+     ]
+    },
+    {
+     "word": "unshaken",
+     "sanskrit": "niścalā",
+     "context": "…words of the Vedas remains unshaken in single-mindedness, then…",
+     "new": true,
+     "rhymes": [
+      "taken",
+      "bacon"
+     ]
+    },
+    {
+     "word": "single-mindedness",
+     "sanskrit": "samādhau",
+     "context": "…e Vedas remains unshaken in single-mindedness, then you will have attaine…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "attained",
+     "sanskrit": "avāpsyasi",
+     "context": "…dedness, then you will have attained the state of yoga.",
+     "new": true,
+     "rhymes": [
+      "obtained",
+      "contained",
+      "maintained",
+      "explained",
+      "trained"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.54",
+   "chapter": 2,
+   "verse": "54",
+   "padas": [
+    "arjuna uvāca",
+    "sthita-prajñasya kā bhāṣā",
+    "samādhi-sthasya keśava",
+    "sthita-dhīḥ kiṁ prabhāṣeta",
+    "kim āsīta vrajeta kim"
+   ],
+   "meanings": [
+    [
+     "arjuna uvāca",
+     "Arjuna said"
+    ],
+    [
+     "keśava",
+     "O Keśava"
+    ],
+    [
+     "kā",
+     "what"
+    ],
+    [
+     "bhāṣā",
+     "[is the] description"
+    ],
+    [
+     "sthita-prajñasya",
+     "of one whose intellect is fixed"
+    ],
+    [
+     "samādhi-sthasya",
+     "[and] who is seated in transcendence"
+    ],
+    [
+     "kim",
+     "how"
+    ],
+    [
+     "prabhāṣeta",
+     "does he speak"
+    ],
+    [
+     "sthita-dhīḥ",
+     "one of steady intellect"
+    ],
+    [
+     "kim",
+     "how"
+    ],
+    [
+     "āsīta",
+     "does he sit"
+    ],
+    [
+     "kim",
+     "[and] how"
+    ],
+    [
+     "vrajeta",
+     "does he move"
+    ]
+   ],
+   "translation": "Arjuna said: O Keśava, what is the description of one whose intellect is fixed and who is seated in transcendence? How does such a person speak? How does he sit and how does he move?",
+   "keywords": [
+    {
+     "word": "arjuna",
+     "sanskrit": "arjuna uvāca",
+     "context": "Arjuna said: O Keśava, what is the…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "description",
+     "sanskrit": "bhāṣā",
+     "context": "…said: O Keśava, what is the description of one whose intellect is f…",
+     "new": false,
+     "rhymes": [
+      "subscription",
+      "prescription",
+      "encryption",
+      "transcription",
+      "egyptian"
+     ]
+    },
+    {
+     "word": "intellect",
+     "sanskrit": "sthita-prajñasya",
+     "context": "…he description of one whose intellect is fixed and who is seated…",
+     "new": true,
+     "rhymes": [
+      "aspect",
+      "architect"
+     ]
+    },
+    {
+     "word": "fixed",
+     "sanskrit": "sthita-prajñasya",
+     "context": "…n of one whose intellect is fixed and who is seated in transc…",
+     "new": false,
+     "rhymes": [
+      "mixed"
+     ]
+    },
+    {
+     "word": "seated",
+     "sanskrit": "samādhi-sthasya",
+     "context": "…tellect is fixed and who is seated in transcendence? How does…",
+     "new": true,
+     "rhymes": [
+      "treated",
+      "repeated"
+     ]
+    },
+    {
+     "word": "transcendence",
+     "sanskrit": "samādhi-sthasya",
+     "context": "…fixed and who is seated in transcendence? How does such a person spe…",
+     "new": true,
+     "rhymes": [
+      "independence",
+      "attendance",
+      "dependence"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.55",
+   "chapter": 2,
+   "verse": "55",
+   "padas": [
+    "śrī-bhagavān uvāca",
+    "prajahāti yadā kāmān",
+    "sarvān pārtha mano-gatān",
+    "ātmany evātmanā tuṣṭaḥ",
+    "sthita-prajñas tadocyate"
+   ],
+   "meanings": [
+    [
+     "śrī-bhagavān uvāca",
+     "Bhagavān Kṛṣṇa said"
+    ],
+    [
+     "yadā",
+     "when"
+    ],
+    [
+     "prajahāti",
+     "one gives up"
+    ],
+    [
+     "sarvān",
+     "all"
+    ],
+    [
+     "kāmān",
+     "desires"
+    ],
+    [
+     "manaḥ-gatān",
+     "arising in the mind"
+    ],
+    [
+     "pārtha",
+     "O Pārtha"
+    ],
+    [
+     "tuṣṭaḥ",
+     "[is] satisfied"
+    ],
+    [
+     "ātmani",
+     "within oneself"
+    ],
+    [
+     "ātmanā",
+     "by the Self"
+    ],
+    [
+     "eva",
+     "alone"
+    ],
+    [
+     "sthita\u0002prajñaḥ",
+     "of steady wisdom"
+    ],
+    [
+     "tadā",
+     "then"
+    ],
+    [
+     "ucyate",
+     "[one] is said"
+    ]
+   ],
+   "translation": "The Lord said: When one gives up all desires arising in the mind, O Pārtha, and is satisfied within oneself by the Self alone, then one is said to be of steady wisdom.",
+   "keywords": [
+    {
+     "word": "said",
+     "sanskrit": "śrī-bhagavān uvāca",
+     "context": "The Lord said: When one gives up all desi…",
+     "new": false,
+     "rhymes": [
+      "read",
+      "thread",
+      "red",
+      "head",
+      "lead"
+     ]
+    },
+    {
+     "word": "gives",
+     "sanskrit": "prajahāti",
+     "context": "The Lord said: When one gives up all desires arising in t…",
+     "new": false,
+     "rhymes": [
+      "lives"
+     ]
+    },
+    {
+     "word": "desires",
+     "sanskrit": "kāmān",
+     "context": "…said: When one gives up all desires arising in the mind, O Pārt…",
+     "new": true,
+     "rhymes": [
+      "requires",
+      "suppliers",
+      "buyers",
+      "myers",
+      "tires"
+     ]
+    },
+    {
+     "word": "arising",
+     "sanskrit": "manaḥ-gatān",
+     "context": "…en one gives up all desires arising in the mind, O Pārtha, and…",
+     "new": true,
+     "rhymes": [
+      "rising",
+      "surprising"
+     ]
+    },
+    {
+     "word": "oneself",
+     "sanskrit": "ātmani",
+     "context": "…ha, and is satisfied within oneself by the Self alone, then one…",
+     "new": true,
+     "rhymes": [
+      "self",
+      "yourself",
+      "itself",
+      "himself",
+      "myself"
+     ]
+    },
+    {
+     "word": "alone",
+     "sanskrit": "eva",
+     "context": "…within oneself by the Self alone, then one is said to be of…",
+     "new": false,
+     "rhymes": [
+      "phone",
+      "own",
+      "loan",
+      "known",
+      "mon"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.56",
+   "chapter": 2,
+   "verse": "56",
+   "padas": [
+    "duḥkheṣv anudvigna-manāḥ",
+    "sukheṣu vigata-spṛhaḥ",
+    "vīta-rāga-bhaya-krodhaḥ",
+    "sthita-dhīr munir ucyate"
+   ],
+   "meanings": [
+    [
+     "anudvigna-manāḥ",
+     "one who is unperturbed in mind"
+    ],
+    [
+     "duḥkheṣu",
+     "by suffering"
+    ],
+    [
+     "vigata\u0002spṛhaḥ",
+     "one who is free from craving"
+    ],
+    [
+     "sukheṣu",
+     "after happiness"
+    ],
+    [
+     "vīta-rāga-bhaya\u0002krodhaḥ",
+     "one who is free from attachment, fear, and anger"
+    ],
+    [
+     "ucyate",
+     "is called"
+    ],
+    [
+     "muniḥ",
+     "a sage"
+    ],
+    [
+     "sthita-dhīḥ",
+     "of steady intellect"
+    ]
+   ],
+   "translation": "One whose mind is not perturbed by suffering, who does not crave after happiness, who is free from desire, fear and anger—such a per\u0002son is called a sage of steady intellect.",
+   "keywords": [
+    {
+     "word": "suffering",
+     "sanskrit": "duḥkheṣu",
+     "context": "…se mind is not perturbed by suffering, who does not crave after h…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "happiness",
+     "sanskrit": "sukheṣu",
+     "context": "…g, who does not crave after happiness, who is free from desire, f…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "fear",
+     "sanskrit": "vīta-rāga-bhaya\u0002krodhaḥ",
+     "context": "…s, who is free from desire, fear and anger—such a per\u0002son is…",
+     "new": true,
+     "rhymes": [
+      "year",
+      "clear",
+      "near",
+      "career",
+      "gear"
+     ]
+    },
+    {
+     "word": "anger",
+     "sanskrit": "vīta-rāga-bhaya\u0002krodhaḥ",
+     "context": "…free from desire, fear and anger—such a per\u0002son is called a…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "sage",
+     "sanskrit": "muniḥ",
+     "context": "…—such a per\u0002son is called a sage of steady intellect.",
+     "new": true,
+     "rhymes": [
+      "page",
+      "age",
+      "stage",
+      "wage",
+      "gauge"
+     ]
+    },
+    {
+     "word": "intellect",
+     "sanskrit": "sthita-dhīḥ",
+     "context": "…is called a sage of steady intellect.",
+     "new": true,
+     "rhymes": [
+      "aspect",
+      "architect"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.57",
+   "chapter": 2,
+   "verse": "57",
+   "padas": [
+    "yaḥ sarvatrānabhisnehas",
+    "tat tat prāpya śubhāśubham",
+    "nābhinandati na dveṣṭi",
+    "tasya prajñā pratiṣṭhitā"
+   ],
+   "meanings": [
+    [
+     "yaḥ",
+     "he who"
+    ],
+    [
+     "anabhisnehaḥ",
+     "has no attachment"
+    ],
+    [
+     "sarvatra",
+     "anywhere"
+    ],
+    [
+     "prāpya",
+     "when encountering"
+    ],
+    [
+     "tat tat",
+     "that"
+    ],
+    [
+     "śubha-aśubham",
+     "the agreeable and the disagreeable"
+    ],
+    [
+     "na abhinandati",
+     "does not feel attraction"
+    ],
+    [
+     "na dveṣṭi",
+     "does not feel aversion"
+    ],
+    [
+     "tasya",
+     "his"
+    ],
+    [
+     "prajñā",
+     "wisdom"
+    ],
+    [
+     "pratiṣṭhitā",
+     "is steady"
+    ]
+   ],
+   "translation": "He who has no attachment anywhere, who feels neither attraction nor aversion when encountering the agreeable or the disagreeable— his wisdom is steady.",
+   "keywords": [
+    {
+     "word": "attachment",
+     "sanskrit": "anabhisnehaḥ",
+     "context": "He who has no attachment anywhere, who feels neither…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "anywhere",
+     "sanskrit": "sarvatra",
+     "context": "He who has no attachment anywhere, who feels neither attracti…",
+     "new": true,
+     "rhymes": [
+      "software",
+      "hardware",
+      "healthcare",
+      "spyware",
+      "delaware"
+     ]
+    },
+    {
+     "word": "attraction",
+     "sanskrit": "na abhinandati",
+     "context": "…anywhere, who feels neither attraction nor aversion when encounter…",
+     "new": true,
+     "rhymes": [
+      "action",
+      "transaction",
+      "satisfaction",
+      "interaction",
+      "reaction"
+     ]
+    },
+    {
+     "word": "aversion",
+     "sanskrit": "na dveṣṭi",
+     "context": "…eels neither attraction nor aversion when encountering the agree…",
+     "new": true,
+     "rhymes": [
+      "version",
+      "conversion",
+      "persian"
+     ]
+    },
+    {
+     "word": "encountering",
+     "sanskrit": "prāpya",
+     "context": "…ttraction nor aversion when encountering the agreeable or the disagr…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "agreeable",
+     "sanskrit": "śubha-aśubham",
+     "context": "…rsion when encountering the agreeable or the disagreeable— his wi…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.58",
+   "chapter": 2,
+   "verse": "58",
+   "padas": [
+    "yadā saṁharate cāyaṁ",
+    "kūrmo ’ṅgānīva sarvaśaḥ",
+    "indriyāṇīndriyārthebhyas",
+    "tasya prajñā pratiṣṭhitā"
+   ],
+   "meanings": [
+    [
+     "yadā ca",
+     "and when"
+    ],
+    [
+     "ayam",
+     "this (one)"
+    ],
+    [
+     "sarvaśaḥ",
+     "completely"
+    ],
+    [
+     "saṁharate",
+     "withdraws"
+    ],
+    [
+     "indriyāṇi",
+     "the senses"
+    ],
+    [
+     "indriya-arthebhyaḥ",
+     "from the sense objects"
+    ],
+    [
+     "iva",
+     "just as"
+    ],
+    [
+     "kūr\u0002maḥ",
+     "a tortoise"
+    ],
+    [
+     "aṅgāni",
+     "[retracts its] limbs"
+    ],
+    [
+     "tasya",
+     "[then] his"
+    ],
+    [
+     "prajñā",
+     "wisdom"
+    ],
+    [
+     "pratiṣṭhitā",
+     "is firmly established"
+    ]
+   ],
+   "translation": "When one completely withdraws the senses from the sense objects, just as a tortoise retracts its limbs, then one’s wisdom is firmly estab\u0002lished.",
+   "keywords": [
+    {
+     "word": "completely",
+     "sanskrit": "sarvaśaḥ",
+     "context": "When one completely withdraws the senses from t…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "withdraws",
+     "sanskrit": "saṁharate",
+     "context": "When one completely withdraws the senses from the sense o…",
+     "new": true,
+     "rhymes": [
+      "because",
+      "laws",
+      "clause",
+      "draws"
+     ]
+    },
+    {
+     "word": "senses",
+     "sanskrit": "indriyāṇi",
+     "context": "…ne completely withdraws the senses from the sense objects, jus…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "sense",
+     "sanskrit": "indriyāṇi",
+     "context": "…ne completely withdraws the senses from the sense objects, ju…",
+     "new": false,
+     "rhymes": [
+      "defense",
+      "expense",
+      "hence",
+      "defence",
+      "offense"
+     ]
+    },
+    {
+     "word": "objects",
+     "sanskrit": "indriya-arthebhyaḥ",
+     "context": "…s the senses from the sense objects, just as a tortoise retract…",
+     "new": false,
+     "rhymes": [
+      "effects",
+      "reflects",
+      "affects",
+      "expects"
+     ]
+    },
+    {
+     "word": "tortoise",
+     "sanskrit": "kūr\u0002maḥ",
+     "context": "…he sense objects, just as a tortoise retracts its limbs, then on…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.59",
+   "chapter": 2,
+   "verse": "59",
+   "padas": [
+    "viṣayā vinivartante",
+    "nirāhārasya dehinaḥ",
+    "rasa-varjaṁ raso ’py asya",
+    "paraṁ dṛṣṭvā nivartate"
+   ],
+   "meanings": [
+    [
+     "viṣayāḥ",
+     "the sense objects"
+    ],
+    [
+     "vinivartante",
+     "slacken their pull"
+    ],
+    [
+     "dehinaḥ",
+     "for someone (the embodied person)"
+    ],
+    [
+     "nirāhārasya",
+     "who abstains [from them]"
+    ],
+    [
+     "rasa-varjam",
+     "except the taste"
+    ],
+    [
+     "dṛṣṭvā",
+     "having seen"
+    ],
+    [
+     "param",
+     "the Supreme"
+    ],
+    [
+     "rasaḥ",
+     "taste"
+    ],
+    [
+     "api",
+     "even"
+    ],
+    [
+     "asya",
+     "of this (person)"
+    ],
+    [
+     "nivartate",
+     "ceases"
+    ]
+   ],
+   "translation": "The sense objects slacken their pull for someone who abstains from them, but their taste remains. Once having seen the Supreme, even that taste vanishes.",
+   "keywords": [
+    {
+     "word": "sense",
+     "sanskrit": "viṣayāḥ",
+     "context": "The sense objects slacken their pull…",
+     "new": false,
+     "rhymes": [
+      "defense",
+      "expense",
+      "hence",
+      "defence",
+      "offense"
+     ]
+    },
+    {
+     "word": "objects",
+     "sanskrit": "viṣayāḥ",
+     "context": "The sense objects slacken their pull for some…",
+     "new": false,
+     "rhymes": [
+      "effects",
+      "reflects",
+      "affects",
+      "expects"
+     ]
+    },
+    {
+     "word": "slacken",
+     "sanskrit": "vinivartante",
+     "context": "The sense objects slacken their pull for someone who…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "abstains",
+     "sanskrit": "nirāhārasya",
+     "context": "…their pull for someone who abstains from them, but their taste…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "taste",
+     "sanskrit": "rasa-varjam",
+     "context": "…stains from them, but their taste remains. Once having seen t…",
+     "new": true,
+     "rhymes": [
+      "based",
+      "waste",
+      "placed",
+      "replaced",
+      "faced"
+     ]
+    },
+    {
+     "word": "supreme",
+     "sanskrit": "param",
+     "context": "…mains. Once having seen the Supreme, even that taste vanishes.",
+     "new": true,
+     "rhymes": [
+      "team",
+      "stream",
+      "theme",
+      "seem",
+      "dream"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.60",
+   "chapter": 2,
+   "verse": "60",
+   "padas": [
+    "yatato hy api kaunteya",
+    "puruṣasya vipaścitaḥ",
+    "indriyāṇi pramāthīni",
+    "haranti prasabhaṁ manaḥ"
+   ],
+   "meanings": [
+    [
+     "kaunteya",
+     "O son of Kunti (Arjuna)"
+    ],
+    [
+     "pramāthīni",
+     "[the] turbulent"
+    ],
+    [
+     "indriyāṇi",
+     "senses"
+    ],
+    [
+     "hi",
+     "indeed"
+    ],
+    [
+     "prasabham",
+     "forcibly"
+    ],
+    [
+     "haranti",
+     "carry away"
+    ],
+    [
+     "manaḥ",
+     "the mind"
+    ],
+    [
+     "api",
+     "[of] even"
+    ],
+    [
+     "vipaścitaḥ",
+     "[a] wise"
+    ],
+    [
+     "puruṣasya",
+     "person"
+    ],
+    [
+     "yatataḥ",
+     "who is striving [to control"
+    ]
+   ],
+   "translation": "them] O Kaunteya! The turbulent senses forcefully carry away the mind of even a wise person who is striving to control them.",
+   "keywords": [
+    {
+     "word": "turbulent",
+     "sanskrit": "pramāthīni",
+     "context": "them] O Kaunteya! The turbulent senses forcefully carry awa…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "senses",
+     "sanskrit": "indriyāṇi",
+     "context": "…] O Kaunteya! The turbulent senses forcefully carry away the m…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "carry",
+     "sanskrit": "haranti",
+     "context": "…turbulent senses forcefully carry away the mind of even a wis…",
+     "new": false,
+     "rhymes": [
+      "barry",
+      "very",
+      "mary",
+      "harry",
+      "gary"
+     ]
+    },
+    {
+     "word": "wise",
+     "sanskrit": "vipaścitaḥ",
+     "context": "…rry away the mind of even a wise person who is striving to c…",
+     "new": false,
+     "rhymes": [
+      "size",
+      "supplies",
+      "eyes",
+      "replies",
+      "guys"
+     ]
+    },
+    {
+     "word": "striving",
+     "sanskrit": "yatataḥ",
+     "context": "…f even a wise person who is striving to control them.",
+     "new": true,
+     "rhymes": [
+      "driving",
+      "diving"
+     ]
+    },
+    {
+     "word": "control",
+     "sanskrit": "yatataḥ",
+     "context": "…e person who is striving to control them.",
+     "new": false,
+     "rhymes": [
+      "whole",
+      "role",
+      "goal",
+      "soul",
+      "roll"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.61",
+   "chapter": 2,
+   "verse": "61",
+   "padas": [
+    "tāni sarvāṇi saṁyamya",
+    "yukta āsīta mat-paraḥ",
+    "vaśe hi yasyendriyāṇi",
+    "tasya prajñā pratiṣṭhitā"
+   ],
+   "meanings": [
+    [
+     "saṁyamya",
+     "having controlled"
+    ],
+    [
+     "sarvāṇi",
+     "all"
+    ],
+    [
+     "tāni",
+     "those [senses]"
+    ],
+    [
+     "āsīta",
+     "one should sit (remain)"
+    ],
+    [
+     "yuktaḥ",
+     "in the state of meditation"
+    ],
+    [
+     "mat-paraḥ",
+     "focused on Me"
+    ],
+    [
+     "hi",
+     "indeed"
+    ],
+    [
+     "yasya",
+     "of one whose"
+    ],
+    [
+     "indriyāṇi",
+     "senses"
+    ],
+    [
+     "vaśe",
+     "are under control"
+    ],
+    [
+     "tasya",
+     "his"
+    ],
+    [
+     "prajñā",
+     "wisdom"
+    ],
+    [
+     "pratiṣṭhitā",
+     "is firmly established"
+    ]
+   ],
+   "translation": "Having controlled all the senses, one should abide in the state of meditation, focusing on Me; for one who has controlled his senses, wisdom is firmly established.",
+   "keywords": [
+    {
+     "word": "controlled",
+     "sanskrit": "saṁyamya",
+     "context": "Having controlled all the senses, one should…",
+     "new": true,
+     "rhymes": [
+      "old",
+      "gold",
+      "hold",
+      "told",
+      "sold"
+     ]
+    },
+    {
+     "word": "senses",
+     "sanskrit": "tāni",
+     "context": "Having controlled all the senses, one should abide in the st…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "meditation",
+     "sanskrit": "yuktaḥ",
+     "context": "…hould abide in the state of meditation, focusing on Me; for one wh…",
+     "new": true,
+     "rhymes": [
+      "information",
+      "education",
+      "location",
+      "application",
+      "association"
+     ]
+    },
+    {
+     "word": "focusing",
+     "sanskrit": "mat-paraḥ",
+     "context": "…in the state of meditation, focusing on Me; for one who has cont…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "wisdom",
+     "sanskrit": "prajñā",
+     "context": "…has controlled his senses, wisdom is firmly established.",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "established",
+     "sanskrit": "pratiṣṭhitā",
+     "context": "…is senses, wisdom is firmly established.",
+     "new": false,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.62",
+   "chapter": 2,
+   "verse": "62",
+   "padas": [
+    "dhyāyato viṣayān puṁsaḥ",
+    "saṅgas teṣūpajāyate",
+    "saṅgāt sañjāyate kāmaḥ",
+    "kāmāt krodho ’bhijāyate"
+   ],
+   "meanings": [
+    [
+     "dhyāyataḥ",
+     "[when] deliberating upon"
+    ],
+    [
+     "viṣayān",
+     "sense-objects"
+    ],
+    [
+     "saṅgaḥ",
+     "attachment"
+    ],
+    [
+     "puṁsaḥ",
+     "of a person"
+    ],
+    [
+     "teṣu",
+     "to them"
+    ],
+    [
+     "upajāyate",
+     "arises"
+    ],
+    [
+     "saṅgāt",
+     "from attachment"
+    ],
+    [
+     "sañjāyate",
+     "arises"
+    ],
+    [
+     "kāmaḥ",
+     "desire"
+    ],
+    [
+     "kāmāt",
+     "from desire"
+    ],
+    [
+     "krodhaḥ",
+     "anger"
+    ],
+    [
+     "abhijāyate",
+     ""
+    ]
+   ],
+   "translation": "arises When deliberating upon sense-objects, a person develops an attach\u0002ment to them; from attachment ensues desire, from desire arises anger.",
+   "keywords": [
+    {
+     "word": "arises",
+     "sanskrit": "upajāyate",
+     "context": "arises When deliberating upon sens…",
+     "new": true,
+     "rhymes": [
+      "sizes",
+      "prizes"
+     ]
+    },
+    {
+     "word": "deliberating",
+     "sanskrit": "dhyāyataḥ",
+     "context": "arises When deliberating upon sense-objects, a perso…",
+     "new": true,
+     "rhymes": [
+      "operating",
+      "participating",
+      "generating",
+      "indicating",
+      "decorating"
+     ]
+    },
+    {
+     "word": "sense-objects",
+     "sanskrit": "viṣayān",
+     "context": "…ises When deliberating upon sense-objects, a person develops an attac…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "attach",
+     "sanskrit": "saṅgaḥ",
+     "context": "…jects, a person develops an attach\u0002ment to them; from attachme…",
+     "new": true,
+     "rhymes": [
+      "match",
+      "patch",
+      "catch",
+      "batch",
+      "scratch"
+     ]
+    },
+    {
+     "word": "desire",
+     "sanskrit": "kāmaḥ",
+     "context": "…hem; from attachment ensues desire, from desire arises anger.",
+     "new": true,
+     "rhymes": [
+      "fire",
+      "higher",
+      "prior",
+      "entire",
+      "require"
+     ]
+    },
+    {
+     "word": "anger",
+     "sanskrit": "krodhaḥ",
+     "context": "…desire, from desire arises anger.",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.63",
+   "chapter": 2,
+   "verse": "63",
+   "padas": [
+    "krodhād bhavati sammohaḥ",
+    "sammohāt smṛti-vibhramaḥ",
+    "smṛti-bhraṁśād buddhi-nāśo",
+    "buddhi-nāśāt praṇaśyati"
+   ],
+   "meanings": [
+    [
+     "krodhāt",
+     "from anger"
+    ],
+    [
+     "bhavati",
+     "arises"
+    ],
+    [
+     "sammohaḥ",
+     "delusion"
+    ],
+    [
+     "sammohāt",
+     "from delu\u0002sion"
+    ],
+    [
+     "smṛti-vibhramaḥ",
+     "loss of memory"
+    ],
+    [
+     "smṛti-bhraṁśāt",
+     "from loss of memory"
+    ],
+    [
+     "buddhi\u0002nāśaḥ",
+     "destruction of discrimination"
+    ],
+    [
+     "buddhi-nāśāt",
+     "from the destruction of discrimi\u0002nation"
+    ],
+    [
+     "praṇaśyati",
+     "one is lost"
+    ]
+   ],
+   "translation": "From anger arises delusion; from delusion, there is loss of memory; from loss of memory the destruction of discrimination occurs; and with the destruction of discrimination, one is lost.",
+   "keywords": [
+    {
+     "word": "anger",
+     "sanskrit": "krodhāt",
+     "context": "From anger arises delusion; from delus…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "delusion",
+     "sanskrit": "sammohaḥ",
+     "context": "From anger arises delusion; from delusion, there is lo…",
+     "new": true,
+     "rhymes": [
+      "conclusion",
+      "fusion",
+      "inclusion",
+      "confusion",
+      "exclusion"
+     ]
+    },
+    {
+     "word": "loss",
+     "sanskrit": "smṛti-vibhramaḥ",
+     "context": "…on; from delusion, there is loss of memory; from loss of mem…",
+     "new": false,
+     "rhymes": [
+      "across",
+      "cross",
+      "sauce",
+      "dos",
+      "cos"
+     ]
+    },
+    {
+     "word": "memory",
+     "sanskrit": "smṛti-vibhramaḥ",
+     "context": "…delusion, there is loss of memory; from loss of memory the de…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "destruction",
+     "sanskrit": "buddhi\u0002nāśaḥ",
+     "context": "…ry; from loss of memory the destruction of discrimination occurs; a…",
+     "new": true,
+     "rhymes": [
+      "production",
+      "construction",
+      "introduction",
+      "reduction",
+      "instruction"
+     ]
+    },
+    {
+     "word": "discrimination",
+     "sanskrit": "buddhi\u0002nāśaḥ",
+     "context": "…f memory the destruction of discrimination occurs; and with the destru…",
+     "new": true,
+     "rhymes": [
+      "information",
+      "education",
+      "location",
+      "application",
+      "association"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.64",
+   "chapter": 2,
+   "verse": "64",
+   "padas": [
+    "rāga-dveṣa-vimuktais tu",
+    "viṣayān indriyaiś caran",
+    "ātma-vaśyair vidheyātmā",
+    "prasādam adhigacchati"
+   ],
+   "meanings": [
+    [
+     "tu",
+     "but"
+    ],
+    [
+     "vidheya-ātmā",
+     "one who is self-controlled"
+    ],
+    [
+     "caran",
+     "interacting"
+    ],
+    [
+     "viṣayān",
+     "sense objects"
+    ],
+    [
+     "indriyaiḥ",
+     "with senses"
+    ],
+    [
+     "rāga-dveṣa-vimuktaiḥ",
+     "[that are] free from attraction and aversion"
+    ],
+    [
+     "ātma-vaśyaiḥ",
+     "[and] under the control of the Self"
+    ],
+    [
+     "adhigacchati",
+     "attains"
+    ],
+    [
+     "prasādam",
+     "tranquility"
+    ]
+   ],
+   "translation": "But one who is self-controlled, who interacts with sense objects with senses that are free from attraction and aversion and under the con\u0002trol of the Self, attains tranquility.",
+   "keywords": [
+    {
+     "word": "self-controlled",
+     "sanskrit": "vidheya-ātmā",
+     "context": "But one who is self-controlled, who interacts with sense o…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "interacts",
+     "sanskrit": "caran",
+     "context": "…who is self-controlled, who interacts with sense objects with sen…",
+     "new": true,
+     "rhymes": [
+      "facts",
+      "acts",
+      "impacts"
+     ]
+    },
+    {
+     "word": "sense",
+     "sanskrit": "viṣayān",
+     "context": "…trolled, who interacts with sense objects with senses that ar…",
+     "new": false,
+     "rhymes": [
+      "defense",
+      "expense",
+      "hence",
+      "defence",
+      "offense"
+     ]
+    },
+    {
+     "word": "objects",
+     "sanskrit": "viṣayān",
+     "context": "…d, who interacts with sense objects with senses that are free f…",
+     "new": false,
+     "rhymes": [
+      "effects",
+      "reflects",
+      "affects",
+      "expects"
+     ]
+    },
+    {
+     "word": "senses",
+     "sanskrit": "viṣayān",
+     "context": "…cts with sense objects with senses that are free from attracti…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "con",
+     "sanskrit": "vidheya-ātmā",
+     "context": "But one who is self-controlled, who interacts with…",
+     "new": true,
+     "rhymes": [
+      "on",
+      "john",
+      "non",
+      "upon",
+      "don"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.65",
+   "chapter": 2,
+   "verse": "65",
+   "padas": [
+    "prasāde sarva-duḥkhānāṁ",
+    "hānir asyopajāyate",
+    "prasanna-cetaso hy āśu",
+    "buddhiḥ paryavatiṣṭhate"
+   ],
+   "meanings": [
+    [
+     "prasāde",
+     "in [this state of] tranquility"
+    ],
+    [
+     "upajāyate",
+     "[there] arises"
+    ],
+    [
+     "hāniḥ",
+     "the destruction"
+    ],
+    [
+     "sarva-duḥkhānām",
+     "of all sorrows"
+    ],
+    [
+     "asya",
+     "for him"
+    ],
+    [
+     "hi",
+     "certainly"
+    ],
+    [
+     "buddhiḥ",
+     "[the] intel\u0002lect"
+    ],
+    [
+     "prasanna-cetasaḥ",
+     "of a person with a serene mind"
+    ],
+    [
+     "āśu",
+     "soon"
+    ],
+    [
+     "paryavatiṣṭhate",
+     ""
+    ]
+   ],
+   "translation": "becomes firmly established In this state of tranquility, all his sorrows are overcome. Certainly, the intellect of a person with a serene mind soon becomes firmly established in Me.",
+   "keywords": [
+    {
+     "word": "becomes",
+     "sanskrit": null,
+     "context": "becomes firmly established In this…",
+     "new": true,
+     "rhymes": [
+      "comes",
+      "thumbs",
+      "drums"
+     ]
+    },
+    {
+     "word": "firmly",
+     "sanskrit": null,
+     "context": "becomes firmly established In this state o…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "established",
+     "sanskrit": null,
+     "context": "becomes firmly established In this state of tranquilit…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "tranquility",
+     "sanskrit": "prasāde",
+     "context": "…stablished In this state of tranquility, all his sorrows are overco…",
+     "new": true,
+     "rhymes": [
+      "facility",
+      "liability",
+      "disability",
+      "accessibility",
+      "eligibility"
+     ]
+    },
+    {
+     "word": "sorrows",
+     "sanskrit": "sarva-duḥkhānām",
+     "context": "…ate of tranquility, all his sorrows are overcome. Certainly, th…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "certainly",
+     "sanskrit": "hi",
+     "context": "…l his sorrows are overcome. Certainly, the intellect of a person…",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.66",
+   "chapter": 2,
+   "verse": "66",
+   "padas": [
+    "nāsti buddhir ayuktasya",
+    "na cāyuktasya bhāvanā",
+    "na cābhāvayataḥ śāntir",
+    "aśāntasya kutaḥ sukham"
+   ],
+   "meanings": [
+    [
+     "na asti",
+     "there is no"
+    ],
+    [
+     "buddhiḥ",
+     "discernment"
+    ],
+    [
+     "ayuktasya",
+     "for one who is not self\u0002controlled"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "na",
+     "[there is] no"
+    ],
+    [
+     "bhāvanā",
+     "[proper] awareness"
+    ],
+    [
+     "ayuktasya",
+     "of one without self-control"
+    ],
+    [
+     "ca",
+     "and"
+    ],
+    [
+     "abhāvayataḥ",
+     "for one devoid of meditation"
+    ],
+    [
+     "na",
+     "[there is] no"
+    ],
+    [
+     "śāntiḥ",
+     "peace"
+    ],
+    [
+     "aśāntasya",
+     "for the unpeaceful"
+    ],
+    [
+     "kutaḥ",
+     "how"
+    ],
+    [
+     "sukham",
+     ""
+    ]
+   ],
+   "translation": "happiness For one who is not self-controlled, there is no discernment nor proper awareness. For one devoid of such practice, there can be no peace, and without peace, how can there be happiness?",
+   "keywords": [
+    {
+     "word": "happiness",
+     "sanskrit": null,
+     "context": "happiness For one who is not self-con…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "discernment",
+     "sanskrit": "buddhiḥ",
+     "context": "…elf-controlled, there is no discernment nor proper awareness. For o…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "proper",
+     "sanskrit": "bhāvanā",
+     "context": "…there is no discernment nor proper awareness. For one devoid o…",
+     "new": true,
+     "rhymes": [
+      "copper",
+      "shopper"
+     ]
+    },
+    {
+     "word": "awareness",
+     "sanskrit": "bhāvanā",
+     "context": "…s no discernment nor proper awareness. For one devoid of such pra…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "devoid",
+     "sanskrit": "abhāvayataḥ",
+     "context": "…r proper awareness. For one devoid of such practice, there can…",
+     "new": true,
+     "rhymes": [
+      "avoid",
+      "void",
+      "employed",
+      "enjoyed",
+      "destroyed"
+     ]
+    },
+    {
+     "word": "peace",
+     "sanskrit": "śāntiḥ",
+     "context": "…h practice, there can be no peace, and without peace, how can…",
+     "new": false,
+     "rhymes": [
+      "release",
+      "increase",
+      "police",
+      "piece",
+      "greece"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.67",
+   "chapter": 2,
+   "verse": "67",
+   "padas": [
+    "indriyāṇāṁ hi caratāṁ",
+    "yan mano ’nuvidhīyate",
+    "tad asya harati prajñāṁ",
+    "vāyur nāvam ivāmbhasi"
+   ],
+   "meanings": [
+    [
+     "hi",
+     "indeed"
+    ],
+    [
+     "manaḥ",
+     "[when] the mind"
+    ],
+    [
+     "yat",
+     "which"
+    ],
+    [
+     "anuvidhīyate",
+     "conforms to"
+    ],
+    [
+     "caratām indriyāṇām",
+     "(of) the wandering senses"
+    ],
+    [
+     "tat",
+     "that (mind)"
+    ],
+    [
+     "harati",
+     "carries away"
+    ],
+    [
+     "asya",
+     "his"
+    ],
+    [
+     "prajñām",
+     "intelligence"
+    ],
+    [
+     "iva",
+     "just as"
+    ],
+    [
+     "vāyuḥ",
+     "the wind"
+    ],
+    [
+     "nāvam",
+     "[drives] a ship"
+    ],
+    [
+     "ambhasi",
+     "[across] the water"
+    ]
+   ],
+   "translation": "Indeed, when the mind follows the wandering senses, it carries away one’s intelligence, just as the wind drives a ship across the water.",
+   "keywords": [
+    {
+     "word": "wandering",
+     "sanskrit": "caratām indriyāṇām",
+     "context": "…, when the mind follows the wandering senses, it carries away one…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "senses",
+     "sanskrit": "caratām indriyāṇām",
+     "context": "…mind follows the wandering senses, it carries away one’s inte…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "intelligence",
+     "sanskrit": "prajñām",
+     "context": "…nses, it carries away one’s intelligence, just as the wind drives a…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "wind",
+     "sanskrit": "vāyuḥ",
+     "context": "…s intelligence, just as the wind drives a ship across the wa…",
+     "new": false,
+     "rhymes": [
+      "find",
+      "designed",
+      "mind",
+      "kind",
+      "behind"
+     ]
+    },
+    {
+     "word": "drives",
+     "sanskrit": "nāvam",
+     "context": "…elligence, just as the wind drives a ship across the water.",
+     "new": true,
+     "rhymes": [
+      "knives",
+      "wives",
+      "arrives"
+     ]
+    },
+    {
+     "word": "ship",
+     "sanskrit": "nāvam",
+     "context": "…, just as the wind drives a ship across the water.",
+     "new": false,
+     "rhymes": [
+      "zip",
+      "trip",
+      "skip",
+      "clip",
+      "tip"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.68",
+   "chapter": 2,
+   "verse": "68",
+   "padas": [
+    "tasmād yasya mahā-bāho",
+    "nigṛhītāni sarvaśaḥ",
+    "indriyāṇīndriyārthebhyas",
+    "tasya prajñā pratiṣṭhitā"
+   ],
+   "meanings": [
+    [
+     "tasmāt",
+     "therefore"
+    ],
+    [
+     "mahā-bāho",
+     "O mighty-armed Arjuna"
+    ],
+    [
+     "yasya",
+     "whose"
+    ],
+    [
+     "indriyāṇi",
+     "senses"
+    ],
+    [
+     "sarvaśaḥ",
+     "[are] completely"
+    ],
+    [
+     "nigṛhītāni",
+     "restrained"
+    ],
+    [
+     "indriya-arthebhyaḥ",
+     "from sense objects"
+    ],
+    [
+     "tasya",
+     "his"
+    ],
+    [
+     "prajñā",
+     "wisdom"
+    ],
+    [
+     "pratiṣṭhitā",
+     "is firmly established"
+    ]
+   ],
+   "translation": "Therefore, O mighty-armed Arjuna, one whose senses are entirely restrained from their objects, his wisdom is firmly established.",
+   "keywords": [
+    {
+     "word": "mighty-armed",
+     "sanskrit": "mahā-bāho",
+     "context": "Therefore, O mighty-armed Arjuna, one whose senses ar…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "arjuna",
+     "sanskrit": "mahā-bāho",
+     "context": "Therefore, O mighty-armed Arjuna, one whose senses are entir…",
+     "new": false,
+     "rhymes": []
+    },
+    {
+     "word": "senses",
+     "sanskrit": "indriyāṇi",
+     "context": "…hty-armed Arjuna, one whose senses are entirely restrained fro…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "restrained",
+     "sanskrit": "nigṛhītāni",
+     "context": "…e whose senses are entirely restrained from their objects, his wis…",
+     "new": true,
+     "rhymes": [
+      "obtained",
+      "contained",
+      "maintained",
+      "explained",
+      "trained"
+     ]
+    },
+    {
+     "word": "objects",
+     "sanskrit": "indriya-arthebhyaḥ",
+     "context": "…irely restrained from their objects, his wisdom is firmly estab…",
+     "new": false,
+     "rhymes": [
+      "effects",
+      "reflects",
+      "affects",
+      "expects"
+     ]
+    },
+    {
+     "word": "established",
+     "sanskrit": "pratiṣṭhitā",
+     "context": "…jects, his wisdom is firmly established.",
+     "new": false,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.69",
+   "chapter": 2,
+   "verse": "69",
+   "padas": [
+    "yā niśā sarva-bhūtānāṁ",
+    "tasyāṁ jāgarti saṁyamī",
+    "yasyāṁ jāgrati bhūtāni",
+    "sā niśā paśyato muneḥ"
+   ],
+   "meanings": [
+    [
+     "yā",
+     "[that] which"
+    ],
+    [
+     "niśā",
+     "[is] night"
+    ],
+    [
+     "sarva-bhūtānām",
+     "for all beings"
+    ],
+    [
+     "tasyām",
+     "in that"
+    ],
+    [
+     "saṁyamī",
+     "the self-controlled"
+    ],
+    [
+     "jāgarti",
+     "is awake"
+    ],
+    [
+     "yasyām",
+     "that to which"
+    ],
+    [
+     "bhūtāni",
+     "beings"
+    ],
+    [
+     "jāgrati",
+     "are awake"
+    ],
+    [
+     "sā",
+     "that"
+    ],
+    [
+     "niśā",
+     "[that is] night"
+    ],
+    [
+     "paśyataḥ",
+     "for the seeing"
+    ],
+    [
+     "muneḥ",
+     "sage"
+    ]
+   ],
+   "translation": "What is night to all beings, to that the self-controlled is awake, and that to which all beings are awake, is night for the enlightened one.",
+   "keywords": [
+    {
+     "word": "night",
+     "sanskrit": "niśā",
+     "context": "What is night to all beings, to that the…",
+     "new": false,
+     "rhymes": [
+      "site",
+      "right",
+      "white",
+      "light",
+      "write"
+     ]
+    },
+    {
+     "word": "beings",
+     "sanskrit": "sarva-bhūtānām",
+     "context": "What is night to all beings, to that the self-controlle…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "self-controlled",
+     "sanskrit": "saṁyamī",
+     "context": "…to all beings, to that the self-controlled is awake, and that to which…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "awake",
+     "sanskrit": "jāgarti",
+     "context": "…that the self-controlled is awake, and that to which all bein…",
+     "new": true,
+     "rhymes": [
+      "make",
+      "take",
+      "lake",
+      "break",
+      "cake"
+     ]
+    },
+    {
+     "word": "enlightened",
+     "sanskrit": null,
+     "context": "…are awake, is night for the enlightened one.",
+     "new": true,
+     "rhymes": []
+    }
+   ]
+  },
+  {
+   "id": "2.70",
+   "chapter": 2,
+   "verse": "70",
+   "padas": [
+    "āpūryamāṇam acala-pratiṣṭhaṁ",
+    "samudram āpaḥ praviśanti yadvat",
+    "tadvat kāmā yaṁ praviśanti sarve",
+    "sa śāntim āpnoti na kāma-kāmī"
+   ],
+   "meanings": [
+    [
+     "yadvat",
+     "just as"
+    ],
+    [
+     "āpaḥ",
+     "rivers"
+    ],
+    [
+     "praviśanti",
+     "enter into"
+    ],
+    [
+     "samudram",
+     "the ocean"
+    ],
+    [
+     "āpūryamāṇam",
+     "filled"
+    ],
+    [
+     "acala-pratiṣṭham",
+     "steady and immovable"
+    ],
+    [
+     "tadvat",
+     "so"
+    ],
+    [
+     "saḥ",
+     "the one"
+    ],
+    [
+     "yam",
+     "into whom"
+    ],
+    [
+     "sarve",
+     "all"
+    ],
+    [
+     "kāmāḥ",
+     "desires"
+    ],
+    [
+     "praviśanti",
+     "enter"
+    ],
+    [
+     "āpnoti",
+     "attains"
+    ],
+    [
+     "śāntim",
+     "peace"
+    ],
+    [
+     "na",
+     "not"
+    ],
+    [
+     "kāma-kāmī",
+     "one who desires pleasures"
+    ]
+   ],
+   "translation": "Just as rivers enter into the sea, which remains full, steady and im\u0002movable, so the person into whom all desires flow attains peace, not the one who craves for pleasures.",
+   "keywords": [
+    {
+     "word": "rivers",
+     "sanskrit": "āpaḥ",
+     "context": "Just as rivers enter into the sea, which r…",
+     "new": true,
+     "rhymes": [
+      "delivers"
+     ]
+    },
+    {
+     "word": "steady",
+     "sanskrit": "acala-pratiṣṭham",
+     "context": "…he sea, which remains full, steady and im\u0002movable, so the pers…",
+     "new": true,
+     "rhymes": [
+      "already",
+      "ready",
+      "eddie",
+      "teddy"
+     ]
+    },
+    {
+     "word": "desires",
+     "sanskrit": "kāmāḥ",
+     "context": "…so the person into whom all desires flow attains peace, not the…",
+     "new": true,
+     "rhymes": [
+      "requires",
+      "suppliers",
+      "buyers",
+      "myers",
+      "tires"
+     ]
+    },
+    {
+     "word": "attains",
+     "sanskrit": "āpnoti",
+     "context": "…into whom all desires flow attains peace, not the one who crav…",
+     "new": true,
+     "rhymes": [
+      "contains",
+      "remains",
+      "domains",
+      "explains",
+      "gains"
+     ]
+    },
+    {
+     "word": "peace",
+     "sanskrit": "śāntim",
+     "context": "…om all desires flow attains peace, not the one who craves for…",
+     "new": false,
+     "rhymes": [
+      "release",
+      "increase",
+      "police",
+      "piece",
+      "greece"
+     ]
+    },
+    {
+     "word": "pleasures",
+     "sanskrit": "kāma-kāmī",
+     "context": "…not the one who craves for pleasures.",
+     "new": true,
+     "rhymes": [
+      "measures",
+      "treasures"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.71",
+   "chapter": 2,
+   "verse": "71",
+   "padas": [
+    "vihāya kāmān yaḥ sarvān",
+    "pumāṁś carati niḥspṛhaḥ",
+    "nirmamo nirahaṅkāraḥ",
+    "sa śāntim adhigacchati"
+   ],
+   "meanings": [
+    [
+     "vihāya",
+     "having abandoned"
+    ],
+    [
+     "sarvān",
+     "all"
+    ],
+    [
+     "kāmān",
+     "desires"
+    ],
+    [
+     "pumān",
+     "the person"
+    ],
+    [
+     "yaḥ",
+     "who"
+    ],
+    [
+     "carati",
+     "lives"
+    ],
+    [
+     "niḥspṛhaḥ",
+     "without craving"
+    ],
+    [
+     "nirmamaḥ",
+     "who is devoid of the sense of “mine”"
+    ],
+    [
+     "nirahaṅkāraḥ",
+     "who is devoid of ego"
+    ],
+    [
+     "saḥ",
+     "he"
+    ],
+    [
+     "adhigacchati",
+     "attains"
+    ],
+    [
+     "śāntim",
+     ""
+    ]
+   ],
+   "translation": "[real] peace Having abandoned all desires, the person who lives without any crav\u0002ing, and does not have any notion of “I” and “mine”, attains real peace.",
+   "keywords": [
+    {
+     "word": "peace",
+     "sanskrit": null,
+     "context": "[real] peace Having abandoned all desire…",
+     "new": false,
+     "rhymes": [
+      "release",
+      "increase",
+      "police",
+      "piece",
+      "greece"
+     ]
+    },
+    {
+     "word": "abandoned",
+     "sanskrit": "vihāya",
+     "context": "[real] peace Having abandoned all desires, the person who…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "desires",
+     "sanskrit": "kāmān",
+     "context": "…peace Having abandoned all desires, the person who lives witho…",
+     "new": true,
+     "rhymes": [
+      "requires",
+      "suppliers",
+      "buyers",
+      "myers",
+      "tires"
+     ]
+    },
+    {
+     "word": "lives",
+     "sanskrit": "carati",
+     "context": "…all desires, the person who lives without any crav\u0002ing, and d…",
+     "new": false,
+     "rhymes": [
+      "gives",
+      "drives",
+      "knives",
+      "wives",
+      "arrives"
+     ]
+    },
+    {
+     "word": "crav",
+     "sanskrit": "niḥspṛhaḥ",
+     "context": "…erson who lives without any crav\u0002ing, and does not have any…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "attains",
+     "sanskrit": "adhigacchati",
+     "context": "…y notion of “I” and “mine”, attains real peace.",
+     "new": true,
+     "rhymes": [
+      "contains",
+      "remains",
+      "domains",
+      "explains",
+      "gains"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2.72",
+   "chapter": 2,
+   "verse": "72",
+   "padas": [
+    "eṣā brāhmī sthitiḥ pārtha",
+    "naināṁ prāpya vimuhyati",
+    "sthitvāsyām anta-kāle ’pi",
+    "brahma-nirvāṇam ṛcchati"
+   ],
+   "meanings": [
+    [
+     "eṣā",
+     "this [is the]"
+    ],
+    [
+     "brāhmī",
+     "Brahman"
+    ],
+    [
+     "sthitiḥ",
+     "state"
+    ],
+    [
+     "pārtha",
+     "O Pārtha (Arjuna)"
+    ],
+    [
+     "prāpya",
+     "having attained"
+    ],
+    [
+     "enām",
+     "which"
+    ],
+    [
+     "na vimuhyati",
+     "one is not deluded"
+    ],
+    [
+     "sthitvā",
+     "by abiding"
+    ],
+    [
+     "asyām",
+     "in this [state]"
+    ],
+    [
+     "api",
+     "even"
+    ],
+    [
+     "anta-kāle",
+     "at the time of death"
+    ],
+    [
+     "ṛcchati",
+     "[one] attains"
+    ],
+    [
+     "brahma-nirvāṇam",
+     "the bliss of Brahman"
+    ]
+   ],
+   "translation": "This is the realized state, O Pārtha, having attained which one is no longer deluded. By abiding in this state even at the hour of death, one attains the bliss of Brahman.",
+   "keywords": [
+    {
+     "word": "state",
+     "sanskrit": "sthitiḥ",
+     "context": "This is the realized state, O Pārtha, having attained…",
+     "new": false,
+     "rhymes": [
+      "date",
+      "great",
+      "rate",
+      "estate",
+      "create"
+     ]
+    },
+    {
+     "word": "attained",
+     "sanskrit": "prāpya",
+     "context": "…zed state, O Pārtha, having attained which one is no longer delu…",
+     "new": true,
+     "rhymes": [
+      "obtained",
+      "contained",
+      "maintained",
+      "explained",
+      "trained"
+     ]
+    },
+    {
+     "word": "deluded",
+     "sanskrit": "na vimuhyati",
+     "context": "…ined which one is no longer deluded. By abiding in this state e…",
+     "new": true,
+     "rhymes": []
+    },
+    {
+     "word": "abiding",
+     "sanskrit": "sthitvā",
+     "context": "…ne is no longer deluded. By abiding in this state even at the h…",
+     "new": true,
+     "rhymes": [
+      "providing",
+      "riding"
+     ]
+    },
+    {
+     "word": "bliss",
+     "sanskrit": "brahma-nirvāṇam",
+     "context": "…r of death, one attains the bliss of Brahman.",
+     "new": true,
+     "rhymes": [
+      "this",
+      "chris",
+      "miss",
+      "swiss",
+      "kiss"
+     ]
+    },
+    {
+     "word": "brahman",
+     "sanskrit": "brāhmī",
+     "context": "…h, one attains the bliss of Brahman.",
+     "new": true,
+     "rhymes": [
+      "common"
+     ]
+    }
+   ]
+  }
+ ]
+}
